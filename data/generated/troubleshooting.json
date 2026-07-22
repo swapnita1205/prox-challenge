@@ -1,0 +1,2810 @@
+[
+  {
+    "id": "owner-manual-p02-trouble-001",
+    "problem": "",
+    "possibleCauses": "This is the Safety alert symbol. It is used to alert you to potential personal injury hazards. Obey all Safety messages that follow this symbol to avoid possible injury or death.",
+    "likelySolutions": "This is the Safety alert symbol. It is used to alert you to potential personal injury hazards. Obey all Safety messages that follow this symbol to avoid possible injury or death.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 2,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "General Safety",
+      "bbox": [
+        45.63,
+        137.34,
+        558.56,
+        350.8
+      ],
+      "neighboringText": " | This is the Safety alert symbol. It is used to alert you to potential personal injury hazards. Obey all Safety messages that follow this symbol to avoid possible injury or death."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p02-trouble-002",
+    "problem": "",
+    "possibleCauses": "Indicates a hazardous situation which, if not avoided, will result in death or serious injury.",
+    "likelySolutions": "Indicates a hazardous situation which, if not avoided, will result in death or serious injury.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 2,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "General Safety",
+      "bbox": [
+        45.63,
+        137.34,
+        558.56,
+        350.8
+      ],
+      "neighboringText": " | Indicates a hazardous situation which, if not avoided, will result in death or serious injury."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p02-trouble-003",
+    "problem": "",
+    "possibleCauses": "Indicates a hazardous situation which, if not avoided, could result in death or serious injury.",
+    "likelySolutions": "Indicates a hazardous situation which, if not avoided, could result in death or serious injury.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 2,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "General Safety",
+      "bbox": [
+        45.63,
+        137.34,
+        558.56,
+        350.8
+      ],
+      "neighboringText": " | Indicates a hazardous situation which, if not avoided, could result in death or serious injury."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p02-trouble-004",
+    "problem": "",
+    "possibleCauses": "Indicates a hazardous situation which, if not avoided, could result in minor or moderate injury.",
+    "likelySolutions": "Indicates a hazardous situation which, if not avoided, could result in minor or moderate injury.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 2,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "General Safety",
+      "bbox": [
+        45.63,
+        137.34,
+        558.56,
+        350.8
+      ],
+      "neighboringText": " | Indicates a hazardous situation which, if not avoided, could result in minor or moderate injury."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p02-trouble-005",
+    "problem": "",
+    "possibleCauses": "Addresses practices not related to personal injury.",
+    "likelySolutions": "Addresses practices not related to personal injury.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 2,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "General Safety",
+      "bbox": [
+        45.63,
+        137.34,
+        558.56,
+        350.8
+      ],
+      "neighboringText": " | Addresses practices not related to personal injury."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p06-trouble-001",
+    "problem": "",
+    "possibleCauses": "Workpiece Ground Cable",
+    "likelySolutions": "Workpiece Ground Cable",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "Replacement Cords",
+      "bbox": [
+        48.39,
+        435.88,
+        292.75,
+        762.38
+      ],
+      "neighboringText": " | Workpiece Ground Cable"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p06-trouble-002",
+    "problem": "",
+    "possibleCauses": "Torch Cable",
+    "likelySolutions": "Torch Cable",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "Replacement Cords",
+      "bbox": [
+        48.39,
+        435.88,
+        292.75,
+        762.38
+      ],
+      "neighboringText": " | Torch Cable"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p06-trouble-003",
+    "problem": "",
+    "possibleCauses": "Overheat Shutdown Indicator",
+    "likelySolutions": "Overheat Shutdown Indicator",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "Replacement Cords",
+      "bbox": [
+        48.39,
+        435.88,
+        292.75,
+        762.38
+      ],
+      "neighboringText": " | Overheat Shutdown Indicator"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p06-trouble-004",
+    "problem": "",
+    "possibleCauses": "Cooling Fan",
+    "likelySolutions": "Cooling Fan",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "Replacement Cords",
+      "bbox": [
+        48.39,
+        435.88,
+        292.75,
+        762.38
+      ],
+      "neighboringText": " | Cooling Fan"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p06-trouble-005",
+    "problem": "",
+    "possibleCauses": "Housing Ground Point",
+    "likelySolutions": "Housing Ground Point",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "Replacement Cords",
+      "bbox": [
+        48.39,
+        435.88,
+        292.75,
+        762.38
+      ],
+      "neighboringText": " | Housing Ground Point"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p06-trouble-006",
+    "problem": "Vac",
+    "possibleCauses": "Volts Alternating Current",
+    "likelySolutions": "Volts Alternating Current",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Replacement Cords",
+      "bbox": [
+        48.39,
+        435.88,
+        292.75,
+        762.38
+      ],
+      "neighboringText": "Vac | Volts Alternating Current"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p06-trouble-007",
+    "problem": "a",
+    "possibleCauses": "Amperes",
+    "likelySolutions": "Amperes",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Replacement Cords",
+      "bbox": [
+        48.39,
+        435.88,
+        292.75,
+        762.38
+      ],
+      "neighboringText": "a | Amperes"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p06-trouble-008",
+    "problem": "OcV",
+    "possibleCauses": "Open Circuit Voltage",
+    "likelySolutions": "Open Circuit Voltage",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Replacement Cords",
+      "bbox": [
+        48.39,
+        435.88,
+        292.75,
+        762.38
+      ],
+      "neighboringText": "OcV | Open Circuit Voltage"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p06-trouble-009",
+    "problem": "kVa",
+    "possibleCauses": "Kilovolt Amperes (Volts / 1000 * Amperes)",
+    "likelySolutions": "Kilovolt Amperes (Volts / 1000 * Amperes)",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Replacement Cords",
+      "bbox": [
+        48.39,
+        435.88,
+        292.75,
+        762.38
+      ],
+      "neighboringText": "kVa | Kilovolt Amperes (Volts / 1000 * Amperes)"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p06-trouble-101",
+    "problem": "aWg",
+    "possibleCauses": "American Wire Gauge",
+    "likelySolutions": "American Wire Gauge",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Replacement Cords",
+      "bbox": [
+        311.52,
+        435.88,
+        555.89,
+        788.72
+      ],
+      "neighboringText": "aWg | American Wire Gauge"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p06-trouble-102",
+    "problem": "",
+    "possibleCauses": "Electric Shock Hazard. Do not touch energized parts.",
+    "likelySolutions": "Electric Shock Hazard. Do not touch energized parts.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "Replacement Cords",
+      "bbox": [
+        311.52,
+        435.88,
+        555.89,
+        788.72
+      ],
+      "neighboringText": " | Electric Shock Hazard. Do not touch energized parts."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p06-trouble-103",
+    "problem": "",
+    "possibleCauses": "Inhalation Hazard. Keep head out of fumes and use proper ventilation.",
+    "likelySolutions": "Inhalation Hazard. Keep head out of fumes and use proper ventilation.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "Replacement Cords",
+      "bbox": [
+        311.52,
+        435.88,
+        555.89,
+        788.72
+      ],
+      "neighboringText": " | Inhalation Hazard. Keep head out of fumes and use proper ventilation."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p06-trouble-104",
+    "problem": "",
+    "possibleCauses": "Read manual before setup and/or use.",
+    "likelySolutions": "Read manual before setup and/or use.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "Replacement Cords",
+      "bbox": [
+        311.52,
+        435.88,
+        555.89,
+        788.72
+      ],
+      "neighboringText": " | Read manual before setup and/or use."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p06-trouble-105",
+    "problem": "",
+    "possibleCauses": "Fire Hazard. Keep flammable materials away during welding. Spatter can cause accidental fires.",
+    "likelySolutions": "Fire Hazard. Keep flammable materials away during welding. Spatter can cause accidental fires.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "Replacement Cords",
+      "bbox": [
+        311.52,
+        435.88,
+        555.89,
+        788.72
+      ],
+      "neighboringText": " | Fire Hazard. Keep flammable materials away during welding. Spatter can cause accidental fires."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p06-trouble-106",
+    "problem": "",
+    "possibleCauses": "Arc Ray Hazard. Wear welding helmet with properly rated filter lens.",
+    "likelySolutions": "Arc Ray Hazard. Wear welding helmet with properly rated filter lens.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "Replacement Cords",
+      "bbox": [
+        311.52,
+        435.88,
+        555.89,
+        788.72
+      ],
+      "neighboringText": " | Arc Ray Hazard. Wear welding helmet with properly rated filter lens."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p06-trouble-107",
+    "problem": "",
+    "possibleCauses": "Pacemaker Hazard. Welding processes may interfere with pacemakers. Consult doctor before use.",
+    "likelySolutions": "Pacemaker Hazard. Welding processes may interfere with pacemakers. Consult doctor before use.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "Replacement Cords",
+      "bbox": [
+        311.52,
+        435.88,
+        555.89,
+        788.72
+      ],
+      "neighboringText": " | Pacemaker Hazard. Welding processes may interfere with pacemakers. Consult doctor before use."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-trouble-001",
+    "problem": "Power Input",
+    "possibleCauses": "120 VAC / 60 Hz",
+    "likelySolutions": "240 VAC / 60 Hz",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        77.7,
+        541.46,
+        270.98
+      ],
+      "neighboringText": "Power Input | 120 VAC / 60 Hz"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-002",
+    "problem": "Current Input at Output",
+    "possibleCauses": "20.8 A at 100 A",
+    "likelySolutions": "25.5 A at 200 A",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        77.7,
+        541.46,
+        270.98
+      ],
+      "neighboringText": "Current Input at Output | 20.8 A at 100 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-003",
+    "problem": "Welding Current Range",
+    "possibleCauses": "30 –140 A",
+    "likelySolutions": "30 –220 A",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        77.7,
+        541.46,
+        270.98
+      ],
+      "neighboringText": "Welding Current Range | 30 –140 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-004",
+    "problem": "Rated Duty Cycles",
+    "possibleCauses": "40% @ 100 A 100% @ 75 A",
+    "likelySolutions": "25% @ 200 A 100% @ 115 A",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        77.7,
+        541.46,
+        270.98
+      ],
+      "neighboringText": "Rated Duty Cycles | 40% @ 100 A 100% @ 75 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-005",
+    "problem": "Maximum OCV",
+    "possibleCauses": "86 VDC",
+    "likelySolutions": "",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        77.7,
+        541.46,
+        270.98
+      ],
+      "neighboringText": "Maximum OCV | 86 VDC"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-006",
+    "problem": "Weldable Materials",
+    "possibleCauses": "Mild Steel, Stainless Steel Aluminum (with optional Spool Gun)",
+    "likelySolutions": "",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        77.7,
+        541.46,
+        270.98
+      ],
+      "neighboringText": "Weldable Materials | Mild Steel, Stainless Steel Aluminum (with optional Spool Gun)"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-007",
+    "problem": "Welding Wire Capacity",
+    "possibleCauses": "Solid Core: 0.025\" / 0.030\" / 0.035\" Flux Cored: 0.030\" / 0.035\" / 0.045\"",
+    "likelySolutions": "",
+    "processes": [
+      "flux",
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        77.7,
+        541.46,
+        270.98
+      ],
+      "neighboringText": "Welding Wire Capacity | Solid Core: 0.025\" / 0.030\" / 0.035\" Flux Cored: 0.030\" / 0.035\" / 0.045\""
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-008",
+    "problem": "Wire Speed",
+    "possibleCauses": "50 – 500 IPM",
+    "likelySolutions": "",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        77.7,
+        541.46,
+        270.98
+      ],
+      "neighboringText": "Wire Speed | 50 – 500 IPM"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-009",
+    "problem": "Wire Spool Capacity",
+    "possibleCauses": "Up to 12 lb spool",
+    "likelySolutions": "",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        77.7,
+        541.46,
+        270.98
+      ],
+      "neighboringText": "Wire Spool Capacity | Up to 12 lb spool"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-101",
+    "problem": "Power Input",
+    "possibleCauses": "120 VAC / 60 Hz",
+    "likelySolutions": "240 VAC / 60 Hz",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        302.98,
+        541.46,
+        425.2
+      ],
+      "neighboringText": "Power Input | 120 VAC / 60 Hz"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-102",
+    "problem": "Current Input at Output",
+    "possibleCauses": "20.6 A at 125 A",
+    "likelySolutions": "15.6 A at 175 A",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        302.98,
+        541.46,
+        425.2
+      ],
+      "neighboringText": "Current Input at Output | 20.6 A at 125 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-103",
+    "problem": "Welding Current Range",
+    "possibleCauses": "10 A –125 A",
+    "likelySolutions": "10 A –175 A",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        302.98,
+        541.46,
+        425.2
+      ],
+      "neighboringText": "Welding Current Range | 10 A –125 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-104",
+    "problem": "Rated Duty Cycles",
+    "possibleCauses": "40% @ 125 A 100% @ 90 A",
+    "likelySolutions": "30% @ 175 A 100% @ 105 A",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        302.98,
+        541.46,
+        425.2
+      ],
+      "neighboringText": "Rated Duty Cycles | 40% @ 125 A 100% @ 90 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-105",
+    "problem": "Maximum OCV",
+    "possibleCauses": "86 VDC",
+    "likelySolutions": "",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        302.98,
+        541.46,
+        425.2
+      ],
+      "neighboringText": "Maximum OCV | 86 VDC"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-106",
+    "problem": "Weldable Materials",
+    "possibleCauses": "Mild Steel, Stainless Steel, Chrome Moly",
+    "likelySolutions": "",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        302.98,
+        541.46,
+        425.2
+      ],
+      "neighboringText": "Weldable Materials | Mild Steel, Stainless Steel, Chrome Moly"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-201",
+    "problem": "Power Input",
+    "possibleCauses": "120 VAC / 60 Hz",
+    "likelySolutions": "240 VAC / 60 Hz",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        457.2,
+        541.46,
+        577.16
+      ],
+      "neighboringText": "Power Input | 120 VAC / 60 Hz"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-202",
+    "problem": "Current Input at Output",
+    "possibleCauses": "19.5 A at 80 A",
+    "likelySolutions": "23.7 A at 175 A",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        457.2,
+        541.46,
+        577.16
+      ],
+      "neighboringText": "Current Input at Output | 19.5 A at 80 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-203",
+    "problem": "Welding Current Range",
+    "possibleCauses": "10 A – 80 A",
+    "likelySolutions": "10 A –175 A",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        457.2,
+        541.46,
+        577.16
+      ],
+      "neighboringText": "Welding Current Range | 10 A – 80 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-204",
+    "problem": "Rated Duty Cycles",
+    "possibleCauses": "40% @ 80 A 100% @ 60 A",
+    "likelySolutions": "25% @ 175 A 100% @ 100 A",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        457.2,
+        541.46,
+        577.16
+      ],
+      "neighboringText": "Rated Duty Cycles | 40% @ 80 A 100% @ 60 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-205",
+    "problem": "Maximum OCV",
+    "possibleCauses": "86 VDC",
+    "likelySolutions": "",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        457.2,
+        541.46,
+        577.16
+      ],
+      "neighboringText": "Maximum OCV | 86 VDC"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-trouble-206",
+    "problem": "Weldable Materials",
+    "possibleCauses": "Mild Steel, Stainless Steel",
+    "likelySolutions": "",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "100% @ 100 A",
+      "bbox": [
+        44.82,
+        457.2,
+        541.46,
+        577.16
+      ],
+      "neighboringText": "Weldable Materials | Mild Steel, Stainless Steel"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p16-trouble-001",
+    "problem": "",
+    "possibleCauses": "paRtS May Be at Welding VOltage tO pReVent electRic SHOck and deatH: 1. keep hands away from Wire Feed mechanism. 2. close door before plugging in, unless using cold Wire Feed to feed wire through to gun. 3. do not touch trigger while feeding wire through to gun.",
+    "likelySolutions": "paRtS May Be at Welding VOltage tO pReVent electRic SHOck and deatH: 1. keep hands away from Wire Feed mechanism. 2. close door before plugging in, unless using cold Wire Feed to feed wire through to gun. 3. do not touch trigger while feeding wire through to gun.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 16,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "Feed Switch",
+      "bbox": [
+        46.0,
+        36.93,
+        558.28,
+        172.62
+      ],
+      "neighboringText": " | paRtS May Be at Welding VOltage tO pReVent electRic SHOck and deatH: 1. keep hands away from Wire Feed mechanism. 2. close door before plugging in, unless using cold Wire Feed to feed wire through to gun. 3. do not touch trigger while feeding wire through to gun."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p29-trouble-001",
+    "problem": "240 VAC 30% Use at 175 A For 10 continuous Minutes 33 77 MMiinnuutteess MMiinnuutteess WWeellddiinngg RReessttiinngg 100% Continuous Use at 105 A",
+    "possibleCauses": "120 VAC 40% Use at 125 A For 10 continuous Minutes 44 66 MMiinnuutteess MMiinnuutteess WWeellddiinngg RReessttiinngg 100% Continuous Use at 90 A",
+    "likelySolutions": "120 VAC 40% Use at 125 A For 10 continuous Minutes 44 66 MMiinnuutteess MMiinnuutteess WWeellddiinngg RReessttiinngg 100% Continuous Use at 90 A",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "3. Clamp Ground Cable to bare metal on the",
+      "bbox": [
+        45.33,
+        237.6,
+        278.02,
+        345.1
+      ],
+      "neighboringText": "240 VAC 30% Use at 175 A For 10 continuous Minutes 33 77 MMiinnuutteess MMiinnuutteess WWeellddiinngg RReessttiinngg 100% Continuous Use at 105 A | 120 VAC 40% Use at 125 A For 10 continuous Minutes 44 66 MMiinnuutteess MMiinnuutteess WWeellddiinngg RReessttiinngg 100% Continuous Use at 90 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p29-trouble-101",
+    "problem": "240 VAC Use at 175 A ntinuous Minutes 77--11//22 MMiinnuutteess RReessttiinngg inuous Use at 100 A",
+    "possibleCauses": "120 VAC 40% Use at 80 A For 10 continuous Minutes 44 66 MMiinnuutteess MMiinnuutteess WWeellddiinngg RReessttiinngg 100% Continuous Use at 60 A",
+    "likelySolutions": "120 VAC 40% Use at 80 A For 10 continuous Minutes 44 66 MMiinnuutteess MMiinnuutteess WWeellddiinngg RReessttiinngg 100% Continuous Use at 60 A",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "3. Clamp Ground Cable to bare metal on the",
+      "bbox": [
+        350.29,
+        237.6,
+        541.08,
+        345.1
+      ],
+      "neighboringText": "240 VAC Use at 175 A ntinuous Minutes 77--11//22 MMiinnuutteess RReessttiinngg inuous Use at 100 A | 120 VAC 40% Use at 80 A For 10 continuous Minutes 44 66 MMiinnuutteess MMiinnuutteess WWeellddiinngg RReessttiinngg 100% Continuous Use at 60 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p42-trouble-001",
+    "problem": "Wire Feed Motor Runs but Wire Does Not Feed Properly",
+    "possibleCauses": "1. Insufficient wire feed pressure. 2. Incorrect wire feed roller size. 3. Damaged MIG Gun, cable, or liner assembly. 4. Feed Tensioner is too tight.",
+    "likelySolutions": "1. Increase wire feed pressure properly. Follow step 27 on page 17. 2. Flip roll to correct size. Follow the Feed Roller instructions on page 12. 3. Have a qualified technician inspect these parts and replace as necessary. 4. Loosen Feed Tensioner so it applies only enough pressure to prevent continued spinning after the Gun Trigger is released.",
+    "processes": [
+      "mig",
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Likely Solutions",
+      "bbox": [
+        45.57,
+        110.25,
+        558.7,
+        771.31
+      ],
+      "neighboringText": "Wire Feed Motor Runs but Wire Does Not Feed Properly | 1. Insufficient wire feed pressure. 2. Incorrect wire feed roller size. 3. Damaged MIG Gun, cable, or liner assembly. 4. Feed Tensioner is too tight."
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p42-trouble-002",
+    "problem": "Wire Creates a Bird’s Nest During Operation",
+    "possibleCauses": "1. Excess wire feed pressure. 2. Incorrect Contact Tip size. 3. MIG Gun Cable Connector not fully inserted into Wire Feed mechanism. 4. Damaged liner.",
+    "likelySolutions": "1. Adjust wire feed pressure properly. Follow step 27 on page 17. 2. Replace with the proper tip for wire used. 3. Insert Gun Cable Connector properly. Follow steps 13 and 14 on page 13. 4. Have a qualified technician inspect and repair/replace as necessary.",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Likely Solutions",
+      "bbox": [
+        45.57,
+        110.25,
+        558.7,
+        771.31
+      ],
+      "neighboringText": "Wire Creates a Bird’s Nest During Operation | 1. Excess wire feed pressure. 2. Incorrect Contact Tip size. 3. MIG Gun Cable Connector not fully inserted into Wire Feed mechanism. 4. Damaged liner."
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p42-trouble-003",
+    "problem": "Wire Stops During Welding",
+    "possibleCauses": "1. Gun cable is severely bent and Wire Feed mechanism cannot feed wire. 2. Gun liner is clogged or worn. 3. Gun liner is too small for welding wire being used. 4. Wire is tangled on the spool. 5. Wire is not making contact with Feed Rollers. 6. Feed Roller is not making enough contact with wire or is crushing flux-cored wire.",
+    "likelySolutions": "1. Straighten Gun cable. 2. Check gun liner for obstruction. Replace if necessary. 3. Check that gun liner is correct size for wire. 4. Check wire for cross winding or tangled spool. 5. Check Feed Rollers and ensure correct groove for wire diameter is being used. 6. Check Feed Tensioner and ensure it is set properly.",
+    "processes": [
+      "flux"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Likely Solutions",
+      "bbox": [
+        45.57,
+        110.25,
+        558.7,
+        771.31
+      ],
+      "neighboringText": "Wire Stops During Welding | 1. Gun cable is severely bent and Wire Feed mechanism cannot feed wire. 2. Gun liner is clogged or worn. 3. Gun liner is too small for welding wire being used. 4. Wire is tangled on the spool. 5. Wire is not making contact with Feed Rollers. 6. Feed Roller is not making enough contact with wire or is crushing flux-cored wire."
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p42-trouble-004",
+    "problem": "Welding Arc Not Stable",
+    "possibleCauses": "1. Wire not feeding properly. 2. Incorrect Contact Tip or liner size or excessive wear. 3. Incorrect wire feed speed. 4. Loose MIG Gun cable or ground cable. 5. Damaged MIG Gun or loose connection within Gun. 6. Incorrect polarity for process being run. 7. Gas coverage may be insufficient or too high. 8. Poor connection with workpiece.",
+    "likelySolutions": "1. See first Troubleshooting section above. 2. Replace with the proper tip or liner size for wire used. 3. Adjust wire feed speed to achieve a more stable arc. 4. Check to ensure that all connections are tight. 5. Have a qualified technician inspect and repair/replace as necessary. 6. Ensure polarity is correct for operation: DCEP for MIG welding and DCEN for Flux-Cored self-shielded welding. 7. Ensure gas flow rate is set according to Settings Chart. Make sure MIG Gun Cable Connector is fully inserted into Wire Feed mechanism with no O-Rings exposed. 8. Check the ground clamp connection to the workpiece and machine. Ensure the MIG Gun is properly secured.",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Likely Solutions",
+      "bbox": [
+        45.57,
+        110.25,
+        558.7,
+        771.31
+      ],
+      "neighboringText": "Welding Arc Not Stable | 1. Wire not feeding properly. 2. Incorrect Contact Tip or liner size or excessive wear. 3. Incorrect wire feed speed. 4. Loose MIG Gun cable or ground cable. 5. Damaged MIG Gun or loose connection within Gun. 6. Incorrect polarity for process being run. 7. Gas coverage may be insufficient or too high. 8. Poor connection with workpiece."
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p42-trouble-005",
+    "problem": "Weak Arc Strength",
+    "possibleCauses": "1. Incorrect line voltage. 2. Improper gauge or length of cord. 3. Not enough current.",
+    "likelySolutions": "1. Check the line voltage and, if insufficient, have a licensed electrician remedy the situation. 2. Do not use an extension cord on this Welder. Use only one of the supplied power cords for this Welder or an identical replacement cord. 3. Switch current to proper setting for metal thickness.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Likely Solutions",
+      "bbox": [
+        45.57,
+        110.25,
+        558.7,
+        771.31
+      ],
+      "neighboringText": "Weak Arc Strength | 1. Incorrect line voltage. 2. Improper gauge or length of cord. 3. Not enough current."
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p42-trouble-006",
+    "problem": "Follow all safety precautions whenever diagnosing or servicing the equipment.",
+    "possibleCauses": "",
+    "likelySolutions": "",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "Likely Solutions",
+      "bbox": [
+        45.57,
+        110.25,
+        558.7,
+        771.31
+      ],
+      "neighboringText": "Follow all safety precautions whenever diagnosing or servicing the equipment. | "
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p43-trouble-001",
+    "problem": "Welder Does Not Function When Switched On",
+    "possibleCauses": "1. Tripped thermal protection device. 2. Circuit supplies insufficient input voltage or amperage. 3. Faulty or improperly connected Trigger. 4. Machine is in low- or over-voltage protection. 5. Machine is in the incorrect mode.",
+    "likelySolutions": "1. If a warning screen appears in the LCD Display window, Welder may have overheated and shut down. Stop and wait with the Power Switch ON for the Welder to cool. The Welder automatically returns to service after cooling off. Reduce duration or frequency of welding periods to help reduce wear on the Welder. Refer to Duty Cycle (Duration of Use) on page 19. 2. Verify that the circuit is designed to supply the required input voltage and amperage as detailed on the Specifications table. If a warning screen appears in the LCD Display window, check the input voltage to ensure it is within specified range. 3. Ensure the gun connection is properly seated on machine. Qualified technician must check and secure/replace Trigger. 4. Check input voltage and ensure it falls within the specified range. If input voltage is correct, press Reset Button on back of machine. 5. Ensure the correct process has been selected.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Likely Solutions",
+      "bbox": [
+        36.57,
+        36.38,
+        549.7,
+        718.45
+      ],
+      "neighboringText": "Welder Does Not Function When Switched On | 1. Tripped thermal protection device. 2. Circuit supplies insufficient input voltage or amperage. 3. Faulty or improperly connected Trigger. 4. Machine is in low- or over-voltage protection. 5. Machine is in the incorrect mode."
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p43-trouble-002",
+    "problem": "LCD Display Does Not Light When Welder is Switched On",
+    "possibleCauses": "1. Unit is not connected to outlet properly. 2. Outlet is unpowered. 3. Plug does not have correct rating. 4. Circuit breaker has tripped due to high input amperage. 5. Input Power Cord is not seated properly.",
+    "likelySolutions": "1. Verify the voltage at the outlet and the connection to the outlet. 2. Check circuit breaker/GFCI devices; if any are tripped, determine and remedy cause before resetting. 3. Make sure installed plug is correct rating. See Specifications on page 7. 4. Press Reset Button on back of machine to reset circuit breaker. 5. Ensure the twist lock input Power Cord is fully secured.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Likely Solutions",
+      "bbox": [
+        36.57,
+        36.38,
+        549.7,
+        718.45
+      ],
+      "neighboringText": "LCD Display Does Not Light When Welder is Switched On | 1. Unit is not connected to outlet properly. 2. Outlet is unpowered. 3. Plug does not have correct rating. 4. Circuit breaker has tripped due to high input amperage. 5. Input Power Cord is not seated properly."
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p43-trouble-003",
+    "problem": "Wire Feeds, but Arc Does Not Ignite",
+    "possibleCauses": "1. Improper ground connection. 2. Improperly sized Contact Tip. 3. Excessively worn Contact Tip. 4. Dirty Contact Tip.",
+    "likelySolutions": "1. Make certain that the workpiece is contacted properly by the Ground Clamp and that the workpiece is properly cleaned near the ground clamp and the welding location. 2. Verify that Contact Tip is the proper size for welding wire. If needed, replace Contact Tip with proper size and type. 3. Check that the hole in the tip is not deformed or enlarged. If needed, replace Contact Tip with proper size and type. 4. Properly clean Contact Tip.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Likely Solutions",
+      "bbox": [
+        36.57,
+        36.38,
+        549.7,
+        718.45
+      ],
+      "neighboringText": "Wire Feeds, but Arc Does Not Ignite | 1. Improper ground connection. 2. Improperly sized Contact Tip. 3. Excessively worn Contact Tip. 4. Dirty Contact Tip."
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p43-trouble-004",
+    "problem": "Porosity in the Weld Metal",
+    "possibleCauses": "1. Shielding gas bottle is empty. 2. Not enough or too much shielding gas. 3. Dirty workpiece. 4. Gun is being used too far away from workpiece. 5. Polarity is incorrect for the application. 6. Dirty welding wire is introducing contamination into the weld.",
+    "likelySolutions": "1. Check gas bottle and replenish as necessary. 2. Check gas regulator to ensure proper flow. 3. Clean workpiece down to bare metal. 4. Check CTWD (contact tip to work distance) for the proper procedure. 5. Check the polarity and ensure it is DCEP for MIG and DCEN for Flux-Cored. 6. Make certain that welding wire is clean and free of rust and residues.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Likely Solutions",
+      "bbox": [
+        36.57,
+        36.38,
+        549.7,
+        718.45
+      ],
+      "neighboringText": "Porosity in the Weld Metal | 1. Shielding gas bottle is empty. 2. Not enough or too much shielding gas. 3. Dirty workpiece. 4. Gun is being used too far away from workpiece. 5. Polarity is incorrect for the application. 6. Dirty welding wire is introducing contamination into the weld."
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p43-trouble-005",
+    "problem": "Follow all safety precautions whenever diagnosing or servicing the equipment.",
+    "possibleCauses": "",
+    "likelySolutions": "",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "Likely Solutions",
+      "bbox": [
+        36.57,
+        36.38,
+        549.7,
+        718.45
+      ],
+      "neighboringText": "Follow all safety precautions whenever diagnosing or servicing the equipment. | "
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p44-trouble-001",
+    "problem": "Welder Does Not Function When Switched On",
+    "possibleCauses": "1. Tripped thermal protection device. 2. Faulty or improperly connected Trigger. 3. Ground Clamp not attached to workpiece. 4. Shielding Gas not connected.",
+    "likelySolutions": "1. Reduce duration or frequency of welding periods to help reduce wear on the welder. Refer to Duty Cycle (Duration of Use) on page 29. 2. Qualified technician must check and secure/replace Trigger. 3. Attach Ground Clamp to workpiece. 4. Connect shielding gas to Welder.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 44,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Likely Solutions",
+      "bbox": [
+        45.5,
+        117.55,
+        559.03,
+        493.85
+      ],
+      "neighboringText": "Welder Does Not Function When Switched On | 1. Tripped thermal protection device. 2. Faulty or improperly connected Trigger. 3. Ground Clamp not attached to workpiece. 4. Shielding Gas not connected."
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p44-trouble-002",
+    "problem": "LCD Display Does Not Light When Welder is Switched On",
+    "possibleCauses": "1. Unit is not connected to outlet properly. 2. Outlet is unpowered.",
+    "likelySolutions": "1. Verify the voltage at the outlet and the connection to the outlet. 2. Check circuit breaker/GFCI devices; if any are tripped, determine and remedy cause before resetting. Verify that the circuit is designed to supply the required input amperage as detailed in Specifications on page 7.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 44,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Likely Solutions",
+      "bbox": [
+        45.5,
+        117.55,
+        559.03,
+        493.85
+      ],
+      "neighboringText": "LCD Display Does Not Light When Welder is Switched On | 1. Unit is not connected to outlet properly. 2. Outlet is unpowered."
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p44-trouble-003",
+    "problem": "Weak Arc Strength",
+    "possibleCauses": "1. Incorrect line voltage. 2. Improper gauge or length of cord.",
+    "likelySolutions": "1. Check the line voltage and, if insufficient, have a licensed electrician remedy the situation. 2. Do not use an extension cord on this Welder. Use only one of the supplied power cords for this Welder or an identical replacement cord.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 44,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Likely Solutions",
+      "bbox": [
+        45.5,
+        117.55,
+        559.03,
+        493.85
+      ],
+      "neighboringText": "Weak Arc Strength | 1. Incorrect line voltage. 2. Improper gauge or length of cord."
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p44-trouble-004",
+    "problem": "Welding Arc Not Stable.",
+    "possibleCauses": "1. Loose electrode cable or ground cable. 2. Damaged electrode holder or loose connection within electrode holder. 3. Adjust current setting. 4. Shielding gas getting low.",
+    "likelySolutions": "1. Check to ensure that all connections are tight. 2. Have a qualified technician inspect and repair/replace as necessary. 3. Make sure setting matches recommended setting on chart. 4. Replace shielding gas cylinder.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 44,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Likely Solutions",
+      "bbox": [
+        45.5,
+        117.55,
+        559.03,
+        493.85
+      ],
+      "neighboringText": "Welding Arc Not Stable. | 1. Loose electrode cable or ground cable. 2. Damaged electrode holder or loose connection within electrode holder. 3. Adjust current setting. 4. Shielding gas getting low."
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p44-trouble-005",
+    "problem": "Follow all safety precautions whenever diagnosing or servicing the equipment.",
+    "possibleCauses": "",
+    "likelySolutions": "",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 44,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "Likely Solutions",
+      "bbox": [
+        45.5,
+        117.55,
+        559.03,
+        493.85
+      ],
+      "neighboringText": "Follow all safety precautions whenever diagnosing or servicing the equipment. | "
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p45-trouble-501",
+    "problem": "43 33 23 13 03 92 82 72 62 52 42 32 22 12 02 91 81 71 61 51 41 31 21 11 01 9 8 7 6 5 4 3 2",
+    "possibleCauses": "",
+    "likelySolutions": "43 33 23 13 03 92 82 72 62 52 42 32 22 12 02 91 81 71 61 51 41 31 21 11 01 9 8 7 6 5 4 3 2",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 45,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "BOARD",
+      "bbox": [
+        310.62,
+        318.66,
+        435.28,
+        482.97
+      ],
+      "neighboringText": "43 33 23 13 03 92 82 72 62 52 42 32 22 12 02 91 81 71 61 51 41 31 21 11 01 9 8 7 6 5 4 3 2 | "
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p45-trouble-601",
+    "problem": "",
+    "possibleCauses": "FP",
+    "likelySolutions": "FP",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 45,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "BOARD",
+      "bbox": [
+        180.02,
+        428.37,
+        270.0,
+        509.96
+      ],
+      "neighboringText": " | FP"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-001",
+    "problem": "1",
+    "possibleCauses": "Right Cover",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "1 | Right Cover"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-002",
+    "problem": "2",
+    "possibleCauses": "Handle Base",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "2 | Handle Base"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-003",
+    "problem": "3",
+    "possibleCauses": "Handle Cover",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "3 | Handle Cover"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-004",
+    "problem": "4",
+    "possibleCauses": "Hinge-Right",
+    "likelySolutions": "2",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "4 | Hinge-Right"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-005",
+    "problem": "5",
+    "possibleCauses": "Hinge-left",
+    "likelySolutions": "2",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "5 | Hinge-left"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-006",
+    "problem": "6",
+    "possibleCauses": "Left Cover",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "6 | Left Cover"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-007",
+    "problem": "7",
+    "possibleCauses": "Latch",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "7 | Latch"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-008",
+    "problem": "8",
+    "possibleCauses": "Middle Bracket",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "8 | Middle Bracket"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-009",
+    "problem": "9",
+    "possibleCauses": "PFC Inductance",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "9 | PFC Inductance"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-010",
+    "problem": "10",
+    "possibleCauses": "Spool",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "10 | Spool"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-011",
+    "problem": "11",
+    "possibleCauses": "Remote Control PCB",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "11 | Remote Control PCB"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-012",
+    "problem": "12",
+    "possibleCauses": "Wire Feeder",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "12 | Wire Feeder"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-013",
+    "problem": "13",
+    "possibleCauses": "Aviation Plug Wire",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "13 | Aviation Plug Wire"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-014",
+    "problem": "14",
+    "possibleCauses": "Miller Plug Connector",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "14 | Miller Plug Connector"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-015",
+    "problem": "15",
+    "possibleCauses": "Protective Cover",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "15 | Protective Cover"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-016",
+    "problem": "16",
+    "possibleCauses": "Display PCB",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "16 | Display PCB"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-017",
+    "problem": "17",
+    "possibleCauses": "Screen Cover",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "17 | Screen Cover"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-018",
+    "problem": "18",
+    "possibleCauses": "Screen Frame",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "18 | Screen Frame"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-019",
+    "problem": "19",
+    "possibleCauses": "MIG Welding Torch",
+    "likelySolutions": "1",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "19 | MIG Welding Torch"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-020",
+    "problem": "20",
+    "possibleCauses": "Front Handle Cover",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "20 | Front Handle Cover"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-021",
+    "problem": "21",
+    "possibleCauses": "Front Panel",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "21 | Front Panel"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-022",
+    "problem": "22",
+    "possibleCauses": "Display",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "22 | Display"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-023",
+    "problem": "23",
+    "possibleCauses": "Knob",
+    "likelySolutions": "2",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "23 | Knob"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-024",
+    "problem": "24",
+    "possibleCauses": "Knob",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "24 | Knob"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-025",
+    "problem": "25",
+    "possibleCauses": "Storage Door",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "25 | Storage Door"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-026",
+    "problem": "26",
+    "possibleCauses": "Switch",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "26 | Switch"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-027",
+    "problem": "27",
+    "possibleCauses": "American Air Fitting",
+    "likelySolutions": "2",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "27 | American Air Fitting"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-028",
+    "problem": "28",
+    "possibleCauses": "Air Connector",
+    "likelySolutions": "3",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "28 | Air Connector"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-029",
+    "problem": "29",
+    "possibleCauses": "Quick Connector",
+    "likelySolutions": "2",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "29 | Quick Connector"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-030",
+    "problem": "30",
+    "possibleCauses": "Grounding Clamp Assembly",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "30 | Grounding Clamp Assembly"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-031",
+    "problem": "31",
+    "possibleCauses": "Welding Clamp Assembly",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ],
+      "neighboringText": "31 | Welding Clamp Assembly"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-101",
+    "problem": "32",
+    "possibleCauses": "Polarity Cable",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "32 | Polarity Cable"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-102",
+    "problem": "33",
+    "possibleCauses": "Output Inductor",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "33 | Output Inductor"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-103",
+    "problem": "34",
+    "possibleCauses": "Air Connector",
+    "likelySolutions": "2",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "34 | Air Connector"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-104",
+    "problem": "35",
+    "possibleCauses": "Solenoid Valve",
+    "likelySolutions": "2",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "35 | Solenoid Valve"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-105",
+    "problem": "36",
+    "possibleCauses": "Bottom Housing",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "36 | Bottom Housing"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-106",
+    "problem": "37",
+    "possibleCauses": "Board Insulation Paper",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "37 | Board Insulation Paper"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-107",
+    "problem": "38",
+    "possibleCauses": "Main PCB",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "38 | Main PCB"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-108",
+    "problem": "39",
+    "possibleCauses": "Control PCB",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "39 | Control PCB"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-109",
+    "problem": "40",
+    "possibleCauses": "Fast Recovery Diode",
+    "likelySolutions": "6",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "40 | Fast Recovery Diode"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-110",
+    "problem": "41",
+    "possibleCauses": "Metal Case Air Way",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "41 | Metal Case Air Way"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-111",
+    "problem": "42",
+    "possibleCauses": "Rectifier Radiator Support Bar",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "42 | Rectifier Radiator Support Bar"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-112",
+    "problem": "43",
+    "possibleCauses": "Rectifier Radiator",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "43 | Rectifier Radiator"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-113",
+    "problem": "44",
+    "possibleCauses": "Fan",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "44 | Fan"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-114",
+    "problem": "45",
+    "possibleCauses": "Transformer",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "45 | Transformer"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-115",
+    "problem": "46",
+    "possibleCauses": "IGBT",
+    "likelySolutions": "6",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "46 | IGBT"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-116",
+    "problem": "47",
+    "possibleCauses": "Bridge Rectifier Heatsink",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "47 | Bridge Rectifier Heatsink"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-117",
+    "problem": "48",
+    "possibleCauses": "Fast Recovery Diode",
+    "likelySolutions": "2",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "48 | Fast Recovery Diode"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-118",
+    "problem": "49",
+    "possibleCauses": "IGBT Heat Sink Support Bar",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "49 | IGBT Heat Sink Support Bar"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-119",
+    "problem": "50",
+    "possibleCauses": "IGBT Radiator",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "50 | IGBT Radiator"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-120",
+    "problem": "51",
+    "possibleCauses": "Bridge Rectifiers",
+    "likelySolutions": "2",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "51 | Bridge Rectifiers"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-121",
+    "problem": "52",
+    "possibleCauses": "IGBT Radiator",
+    "likelySolutions": "2",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "52 | IGBT Radiator"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-122",
+    "problem": "53",
+    "possibleCauses": "Fan",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "53 | Fan"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-123",
+    "problem": "54",
+    "possibleCauses": "Y-Type Threaded Tee",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "54 | Y-Type Threaded Tee"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-124",
+    "problem": "55",
+    "possibleCauses": "120 VAC Power Cord",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "55 | 120 VAC Power Cord"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-125",
+    "problem": "56",
+    "possibleCauses": "Rear Panel",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "56 | Rear Panel"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-126",
+    "problem": "57",
+    "possibleCauses": "Rear Handle Cover",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "57 | Rear Handle Cover"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-127",
+    "problem": "58",
+    "possibleCauses": "American Power Socket",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "58 | American Power Socket"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-128",
+    "problem": "59",
+    "possibleCauses": "Overload Protector",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "59 | Overload Protector"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-129",
+    "problem": "60",
+    "possibleCauses": "Rear Panel",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "60 | Rear Panel"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-trouble-130",
+    "problem": "61",
+    "possibleCauses": "240 VAC Power Cord",
+    "likelySolutions": "1",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.8,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ],
+      "neighboringText": "61 | 240 VAC Power Cord"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "quick-start-guide-p01-trouble-001",
+    "problem": "",
+    "possibleCauses": "wire Wire Spool 2",
+    "likelySolutions": "wire Wire Spool 2",
+    "processes": [],
+    "provenance": {
+      "source": "quick-start-guide.pdf",
+      "page": 1,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "WARNING",
+      "bbox": [
+        0.0,
+        0.0,
+        419.53,
+        596.85
+      ],
+      "neighboringText": " | wire Wire Spool 2"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "quick-start-guide-p01-trouble-002",
+    "problem": "",
+    "possibleCauses": "″ - 3 ″ wood block TIPS ARE IN MANUAL.",
+    "likelySolutions": "″ - 3 ″ wood block TIPS ARE IN MANUAL.",
+    "processes": [],
+    "provenance": {
+      "source": "quick-start-guide.pdf",
+      "page": 1,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "WARNING",
+      "bbox": [
+        0.0,
+        0.0,
+        419.53,
+        596.85
+      ],
+      "neighboringText": " | ″ - 3 ″ wood block TIPS ARE IN MANUAL."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "quick-start-guide-p01-trouble-102",
+    "problem": "",
+    "possibleCauses": "WARNING 2″ To prevent serious Contact injury, read Tip manual warnings and instructions Nozzle before use. WARNING clockwise To prevent fire and serious injury, keep torch and wire clear of grounded objects while welder plugged in.",
+    "likelySolutions": "WARNING 2″ To prevent serious Contact injury, read Tip manual warnings and instructions Nozzle before use. WARNING clockwise To prevent fire and serious injury, keep torch and wire clear of grounded objects while welder plugged in.",
+    "processes": [],
+    "provenance": {
+      "source": "quick-start-guide.pdf",
+      "page": 1,
+      "extractionMethod": "pdfplumber_table",
+      "confidence": 0.6,
+      "section": "WARNING",
+      "bbox": [
+        11.87,
+        61.92,
+        268.63,
+        447.32
+      ],
+      "neighboringText": " | WARNING 2″ To prevent serious Contact injury, read Tip manual warnings and instructions Nozzle before use. WARNING clockwise To prevent fire and serious injury, keep torch and wire clear of grounded objects while welder plugged in."
+    },
+    "needsReview": true
+  }
+]

@@ -1,0 +1,422 @@
+{
+  "generatedAt": "2026-07-10T07:52:52.585Z",
+  "corpusStats": {
+    "total": 1540,
+    "byType": {
+      "text_section": 681,
+      "table": 50,
+      "figure": 21,
+      "warning": 37,
+      "troubleshooting": 40,
+      "polarity": 56,
+      "settings": 1,
+      "duty_cycle": 72,
+      "graph_relationship": 582
+    }
+  },
+  "summary": {
+    "totalCases": 7,
+    "passed": 7,
+    "failed": 0,
+    "passRate": 1,
+    "averageScore": 0.5476190476190476
+  },
+  "cases": [
+    {
+      "id": "mig-duty-200a-240v",
+      "query": "What is the MIG duty cycle at 200 amps on 240V?",
+      "passed": true,
+      "score": 0.6666666666666666,
+      "itemCount": 15,
+      "corpusTypesFound": [
+        "duty_cycle",
+        "polarity",
+        "text_section",
+        "table",
+        "graph_relationship"
+      ],
+      "pagesFound": [
+        7,
+        8,
+        14,
+        19,
+        21,
+        23
+      ],
+      "ambiguityCount": 0,
+      "failures": [],
+      "topItems": [
+        {
+          "id": "owner-manual-p07-duty-2f6d5a479400",
+          "corpusType": "duty_cycle",
+          "score": 1.5008185620739112,
+          "page": 7
+        },
+        {
+          "id": "owner-manual-p14-polarity-5d0f42faaf52",
+          "corpusType": "polarity",
+          "score": 0.9385514363611208,
+          "page": 14
+        },
+        {
+          "id": "owner-manual-p23-page",
+          "corpusType": "text_section",
+          "score": 1.0438942837914806,
+          "page": 23
+        },
+        {
+          "id": "owner-manual-p19-page",
+          "corpusType": "text_section",
+          "score": 1.0361093219528017,
+          "page": 19
+        },
+        {
+          "id": "owner-manual-p14-section-5841ef24c5d3",
+          "corpusType": "text_section",
+          "score": 1.0176805083565679,
+          "page": 14
+        }
+      ]
+    },
+    {
+      "id": "tig-polarity-ground-clamp",
+      "query": "What polarity setup do I need for TIG, and where does the ground clamp go?",
+      "passed": true,
+      "score": 0.5,
+      "itemCount": 17,
+      "corpusTypesFound": [
+        "text_section",
+        "polarity",
+        "graph_relationship"
+      ],
+      "pagesFound": [
+        8,
+        13,
+        14,
+        17,
+        24,
+        25,
+        27,
+        31,
+        44
+      ],
+      "ambiguityCount": 0,
+      "failures": [],
+      "topItems": [
+        {
+          "id": "owner-manual-p24-page",
+          "corpusType": "text_section",
+          "score": 1.589912612623908,
+          "page": 24
+        },
+        {
+          "id": "owner-manual-p13-page",
+          "corpusType": "text_section",
+          "score": 1.5108810994702704,
+          "page": 13
+        },
+        {
+          "id": "owner-manual-p24-polarity-e20be9e1a4a5",
+          "corpusType": "polarity",
+          "score": 1.3919670599864349,
+          "page": 24
+        },
+        {
+          "id": "owner-manual-p27-polarity-9dada93abf6f",
+          "corpusType": "polarity",
+          "score": 1.2878971376490524,
+          "page": 27
+        },
+        {
+          "id": "owner-manual-p31-page",
+          "corpusType": "text_section",
+          "score": 1.0972768609961363,
+          "page": 31
+        }
+      ]
+    },
+    {
+      "id": "flux-porosity",
+      "query": "I'm getting porosity with flux-core wire — what should I check?",
+      "passed": true,
+      "score": 0.6666666666666666,
+      "itemCount": 12,
+      "corpusTypesFound": [
+        "troubleshooting",
+        "polarity",
+        "text_section",
+        "graph_relationship"
+      ],
+      "pagesFound": [
+        8,
+        10,
+        12,
+        13,
+        22,
+        42,
+        43
+      ],
+      "ambiguityCount": 0,
+      "failures": [],
+      "topItems": [
+        {
+          "id": "owner-manual-p43-trouble-004",
+          "corpusType": "troubleshooting",
+          "score": 1.1369559643806781,
+          "page": 43
+        },
+        {
+          "id": "owner-manual-p13-polarity-f571458e470b",
+          "corpusType": "polarity",
+          "score": 1.0307570623105102,
+          "page": 13
+        },
+        {
+          "id": "owner-manual-p13-polarity-097e8ac0ec63",
+          "corpusType": "polarity",
+          "score": 1.02998128915861,
+          "page": 13
+        },
+        {
+          "id": "owner-manual-p13-page",
+          "corpusType": "text_section",
+          "score": 1.071748776108695,
+          "page": 13
+        },
+        {
+          "id": "owner-manual-p42-page",
+          "corpusType": "text_section",
+          "score": 0.9577926936129928,
+          "page": 42
+        }
+      ]
+    },
+    {
+      "id": "wire-feed-tension",
+      "query": "How do I adjust wire feed tension on the OmniPro 220?",
+      "passed": true,
+      "score": 0.5,
+      "itemCount": 11,
+      "corpusTypesFound": [
+        "troubleshooting",
+        "text_section",
+        "polarity",
+        "graph_relationship"
+      ],
+      "pagesFound": [
+        9,
+        15,
+        23,
+        42
+      ],
+      "ambiguityCount": 1,
+      "failures": [],
+      "topItems": [
+        {
+          "id": "owner-manual-p42-trouble-001",
+          "corpusType": "troubleshooting",
+          "score": 0.9421852866562938,
+          "page": 42
+        },
+        {
+          "id": "owner-manual-p09-page",
+          "corpusType": "text_section",
+          "score": 1.1614093996443446,
+          "page": 9
+        },
+        {
+          "id": "owner-manual-p09-polarity-91a842771b8f",
+          "corpusType": "polarity",
+          "score": 1.009921217082039,
+          "page": 9
+        },
+        {
+          "id": "owner-manual-p23-section-49367d5ad470",
+          "corpusType": "text_section",
+          "score": 0.9665041714007186,
+          "page": 23
+        },
+        {
+          "id": "owner-manual-p15-page",
+          "corpusType": "text_section",
+          "score": 0.8675385058823317,
+          "page": 15
+        }
+      ]
+    },
+    {
+      "id": "front-panel-controls",
+      "query": "What are the front panel controls on the Vulcan OmniPro 220?",
+      "passed": true,
+      "score": 0.5,
+      "itemCount": 11,
+      "corpusTypesFound": [
+        "text_section",
+        "polarity",
+        "table",
+        "figure"
+      ],
+      "pagesFound": [
+        8,
+        13,
+        20,
+        23,
+        30,
+        32,
+        46
+      ],
+      "ambiguityCount": 0,
+      "failures": [],
+      "topItems": [
+        {
+          "id": "owner-manual-p08-page",
+          "corpusType": "text_section",
+          "score": 1.224741006261613,
+          "page": 8
+        },
+        {
+          "id": "owner-manual-p08-polarity-71fdcf473f02",
+          "corpusType": "polarity",
+          "score": 1.0649921793579245,
+          "page": 8
+        },
+        {
+          "id": "owner-manual-p08-section-36f873c1fb14",
+          "corpusType": "text_section",
+          "score": 1.0016843004001021,
+          "page": 8
+        },
+        {
+          "id": "owner-manual-p46-page",
+          "corpusType": "text_section",
+          "score": 0.9997076666603129,
+          "page": 46
+        },
+        {
+          "id": "owner-manual-p20-page",
+          "corpusType": "text_section",
+          "score": 0.8827297054254444,
+          "page": 20
+        }
+      ]
+    },
+    {
+      "id": "settings-recommendation",
+      "query": "What voltage and wire speed settings should I use for 1/8 inch mild steel MIG?",
+      "passed": true,
+      "score": 0.6666666666666666,
+      "itemCount": 19,
+      "corpusTypesFound": [
+        "polarity",
+        "settings",
+        "text_section",
+        "table",
+        "figure",
+        "graph_relationship"
+      ],
+      "pagesFound": [
+        1,
+        6,
+        7,
+        8,
+        14,
+        20,
+        21,
+        23,
+        30,
+        37,
+        42,
+        43
+      ],
+      "ambiguityCount": 1,
+      "failures": [],
+      "topItems": [
+        {
+          "id": "owner-manual-p14-polarity-5d0f42faaf52",
+          "corpusType": "polarity",
+          "score": 1.044720864319708,
+          "page": 14
+        },
+        {
+          "id": "selection-chart-p01-settings-img",
+          "corpusType": "settings",
+          "score": 0.7971841171190324,
+          "page": 1
+        },
+        {
+          "id": "owner-manual-p14-section-5841ef24c5d3",
+          "corpusType": "text_section",
+          "score": 1.0515662593574397,
+          "page": 14
+        },
+        {
+          "id": "owner-manual-p20-page",
+          "corpusType": "text_section",
+          "score": 1.0464865976975544,
+          "page": 20
+        },
+        {
+          "id": "owner-manual-p37-page",
+          "corpusType": "text_section",
+          "score": 0.9914792072039591,
+          "page": 37
+        }
+      ]
+    },
+    {
+      "id": "ambiguous-weld-problem",
+      "query": "Something is wrong with my weld.",
+      "passed": true,
+      "score": 0.3333333333333333,
+      "itemCount": 15,
+      "corpusTypesFound": [
+        "text_section",
+        "polarity"
+      ],
+      "pagesFound": [
+        34,
+        35,
+        38,
+        39,
+        40,
+        42,
+        43,
+        44
+      ],
+      "ambiguityCount": 2,
+      "failures": [],
+      "topItems": [
+        {
+          "id": "owner-manual-p35-page",
+          "corpusType": "text_section",
+          "score": 0.7490387701623438,
+          "page": 35
+        },
+        {
+          "id": "owner-manual-p44-section-a1c5ae7bcb34",
+          "corpusType": "text_section",
+          "score": 0.7421716363588025,
+          "page": 44
+        },
+        {
+          "id": "owner-manual-p42-section-a1c5ae7bcb34",
+          "corpusType": "text_section",
+          "score": 0.7020165160217067,
+          "page": 42
+        },
+        {
+          "id": "owner-manual-p43-section-a1c5ae7bcb34",
+          "corpusType": "text_section",
+          "score": 0.7020165160217067,
+          "page": 43
+        },
+        {
+          "id": "owner-manual-p44-section-9d6a78aa7580",
+          "corpusType": "text_section",
+          "score": 0.6967558811620094,
+          "page": 44
+        }
+      ]
+    }
+  ]
+}

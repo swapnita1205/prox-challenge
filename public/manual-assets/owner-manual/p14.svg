@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="DCEP polarity setup placeholder">
+  <rect width="400" height="300" fill="#1a1a1c"/>
+  <text x="200" y="40" text-anchor="middle" fill="#e85d04" font-family="monospace" font-size="14">DCEP Solid Core MIG  Page 14</text>
+  <circle cx="100" cy="120" r="20" fill="#c9a227" stroke="#8b7355" stroke-width="2"/>
+  <text x="100" y="125" text-anchor="middle" fill="#1a1a1c" font-size="16" font-weight="bold"></text>
+  <text x="100" y="160" text-anchor="middle" fill="#e85d04" font-size="10">Ground</text>
+  <circle cx="300" cy="120" r="20" fill="#c9a227" stroke="#8b7355" stroke-width="2"/>
+  <text x="300" y="125" text-anchor="middle" fill="#1a1a1c" font-size="16" font-weight="bold">+</text>
+  <text x="300" y="160" text-anchor="middle" fill="#4a9eff" font-size="10">Wire Feed</text>
+  <text x="200" y="250" text-anchor="middle" fill="#666" font-size="10">Placeholder  full diagram after ingest</text>
+</svg>

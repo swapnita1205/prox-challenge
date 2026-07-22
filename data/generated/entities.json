@@ -1,0 +1,2708 @@
+[
+  {
+    "id": "owner-manual-p04-entity-5c0c033c503c",
+    "type": "part_or_control",
+    "label": "Electrode Holder",
+    "text": "1. Turn off, disconnect power, and discharge electrode to ground before setting down torch/electrode holder and before service.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 4,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Electrical Safety"
+    }
+  },
+  {
+    "id": "owner-manual-p04-entity-defect-edf5e73441f8",
+    "type": "weld_defect",
+    "label": "Slag",
+    "text": "ARC AND SLAG can cause fire.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 4,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Fire Safety"
+    }
+  },
+  {
+    "id": "owner-manual-p05-entity-5c0c033c503c",
+    "type": "part_or_control",
+    "label": "Electrode Holder",
+    "text": "2. Do not allow an electrode holder, electrode, welding torch, or welding wire to touch the cylinder.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 5,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Gas Shielded Welding - Cylinder Safety"
+    }
+  },
+  {
+    "id": "owner-manual-p05-entity-defect-edf5e73441f8",
+    "type": "weld_defect",
+    "label": "Slag",
+    "text": "6. Protect gas cylinders from heat, being struck, physical damage, slag, flames, sparks, and arcs.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 5,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Gas Shielded Welding - Cylinder Safety"
+    }
+  },
+  {
+    "id": "owner-manual-p06-wire-feed-6bbad5837a51",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "Wire Feed (Speed)",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "Symbology",
+      "neighboringText": "Wire Feed (Speed)"
+    }
+  },
+  {
+    "id": "owner-manual-p06-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "Wire Feed (Speed)",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Symbology"
+    }
+  },
+  {
+    "id": "owner-manual-p06-entity-defect-67682c4133bf",
+    "type": "weld_defect",
+    "label": "Spatter",
+    "text": "Fire Hazard. Keep flammable materials away during welding. Spatter can cause accidental fires.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "AWG"
+    }
+  },
+  {
+    "id": "owner-manual-p07-entity-627c012b20c4",
+    "type": "part_or_control",
+    "label": "Spool",
+    "text": "Weldable Materials Mild Steel, Stainless Steel Aluminum (with optional Spool Gun)",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "100% @ 115 A"
+    }
+  },
+  {
+    "id": "owner-manual-p08-wire-feed-3be211894238",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "Wire Feed Power Cable",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 8,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "Front Panel Controls",
+      "neighboringText": "Wire Feed Power Cable"
+    }
+  },
+  {
+    "id": "owner-manual-p08-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "Wire Feed Power Cable",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 8,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Front Panel Controls"
+    }
+  },
+  {
+    "id": "owner-manual-p08-entity-050dd0ca2bce",
+    "type": "part_or_control",
+    "label": "Power Switch",
+    "text": "Power Switch",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 8,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Front Panel Controls"
+    }
+  },
+  {
+    "id": "owner-manual-p08-entity-2e6c9c90ab6c",
+    "type": "part_or_control",
+    "label": "Lcd Display",
+    "text": "LCD Display",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 8,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Front Panel Controls"
+    }
+  },
+  {
+    "id": "owner-manual-p08-entity-627c012b20c4",
+    "type": "part_or_control",
+    "label": "Spool",
+    "text": "Spool Gun Gas Outlet",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 8,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Front Panel Controls"
+    }
+  },
+  {
+    "id": "owner-manual-p08-entity-6d8aa3645eaf",
+    "type": "part_or_control",
+    "label": "Mig Gun",
+    "text": "MIG Gun / Spool Gun Cable Socket",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 8,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Front Panel Controls"
+    }
+  },
+  {
+    "id": "owner-manual-p09-wire-feed-36ef4c927a66",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "Cold Wire Feed Switch",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 9,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "Interior Controls",
+      "neighboringText": "Cold Wire Feed Switch"
+    }
+  },
+  {
+    "id": "owner-manual-p09-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "Cold Wire Feed Switch",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 9,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Interior Controls"
+    }
+  },
+  {
+    "id": "owner-manual-p09-entity-627c012b20c4",
+    "type": "part_or_control",
+    "label": "Spool",
+    "text": "Wire Spool",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 9,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Interior Controls"
+    }
+  },
+  {
+    "id": "owner-manual-p09-entity-edb5c0f72552",
+    "type": "part_or_control",
+    "label": "Tensioner",
+    "text": "Feed Tensioner",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 9,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Interior Controls"
+    }
+  },
+  {
+    "id": "owner-manual-p09-entity-058dba2fdd49",
+    "type": "part_or_control",
+    "label": "Foot Pedal",
+    "text": "Wire Feed Control Socket Foot Pedal",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 9,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Interior Controls"
+    }
+  },
+  {
+    "id": "owner-manual-p10-entity-050dd0ca2bce",
+    "type": "part_or_control",
+    "label": "Power Switch",
+    "text": "1. Turn the Power Switch OFF and unplug the Welder before proceeding.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 10,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "MAINTENANCE"
+    }
+  },
+  {
+    "id": "owner-manual-p10-entity-627c012b20c4",
+    "type": "part_or_control",
+    "label": "Spool",
+    "text": "3. 1-2 Pound Wire Spool Installation: Remove the Wingnut and Spacer. If replacing a Spool, remove the old Spool and all remaining wire from the liners.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 10,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "MAINTENANCE"
+    }
+  },
+  {
+    "id": "owner-manual-p10-wire-feed-a8aad76cd4fd",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "4. Place the new Wire Spool over the Spool Spindle and against the Spool Brake Pad as illustrated. To prevent wire feed problems, set the Spool so that it will unwind clockwise.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 10,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "MAINTENANCE",
+      "neighboringText": "4. Place the new Wire Spool over the Spool Spindle and against the Spool Brake Pad as illustrated. To prevent wire feed problems, set the Spool so that it will unwind clockwise."
+    }
+  },
+  {
+    "id": "owner-manual-p10-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "4. Place the new Wire Spool over the Spool Spindle and against the Spool Brake Pad as illustrated. To prevent wire feed problems, set the Spool so that it will unwind clockwise.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 10,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "MAINTENANCE"
+    }
+  },
+  {
+    "id": "owner-manual-p11-entity-627c012b20c4",
+    "type": "part_or_control",
+    "label": "Spool",
+    "text": "6. 10-12 Pound Wire Spool Installation: Remove the Wingnut and Spacer. If replacing a Spool, remove the old Spool and all remaining wire from the liners.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 11,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Wire"
+    }
+  },
+  {
+    "id": "owner-manual-p11-wire-feed-448541aa3207",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "8. Place the new Wire Spool over the Adapter and line up pin on Adapter with hole in Spool. To prevent wire feed problems, set the Spool so that it will unwind clockwise.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 11,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "Wire",
+      "neighboringText": "8. Place the new Wire Spool over the Adapter and line up pin on Adapter with hole in Spool. To prevent wire feed problems, set the Spool so that it will unwind clockwise."
+    }
+  },
+  {
+    "id": "owner-manual-p11-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "8. Place the new Wire Spool over the Adapter and line up pin on Adapter with hole in Spool. To prevent wire feed problems, set the Spool so that it will unwind clockwise.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 11,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Wire"
+    }
+  },
+  {
+    "id": "owner-manual-p11-entity-edb5c0f72552",
+    "type": "part_or_control",
+    "label": "Tensioner",
+    "text": "11. Turn the Feed Tensioner knob counterclockwise to loosen it enough to pull it down to remove tension. The spring-loaded Idler Arm will move up as shown.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 11,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "11.\t Turn the Feed Tensioner knob counterclockwise to"
+    }
+  },
+  {
+    "id": "owner-manual-p11-entity-79975cc0b616",
+    "type": "part_or_control",
+    "label": "Idler Arm",
+    "text": "11. Turn the Feed Tensioner knob counterclockwise to loosen it enough to pull it down to remove tension. The spring-loaded Idler Arm will move up as shown.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 11,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "11.\t Turn the Feed Tensioner knob counterclockwise to"
+    }
+  },
+  {
+    "id": "owner-manual-p12-entity-627c012b20c4",
+    "type": "part_or_control",
+    "label": "Spool",
+    "text": "12. Feed Roller Instructions: Check that the Feed Roller is correct for the type of wire being used (solid core or flux- cored) and that it is turned to properly match the wire size marked on the Wire Spool:",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 12,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "MAINTENANCE"
+    }
+  },
+  {
+    "id": "owner-manual-p13-wire-feed-c89a314ed065",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "13. Loosen the Knob on the Wire Feed mechanism, then insert the Gun Cable Connector through the hole on the Welder front and into the socket on the Wire Feed.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "13.\tLoosen the Knob on the Wire Feed",
+      "neighboringText": "13. Loosen the Knob on the Wire Feed mechanism, then insert the Gun Cable Connector through the hole on the Welder front and into the socket on the Wire Feed."
+    }
+  },
+  {
+    "id": "owner-manual-p13-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "13. Loosen the Knob on the Wire Feed mechanism, then insert the Gun Cable Connector through the hole on the Welder front and into the socket on the Wire Feed.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "13.\tLoosen the Knob on the Wire Feed"
+    }
+  },
+  {
+    "id": "owner-manual-p13-entity-cc64e02b144c",
+    "type": "part_or_control",
+    "label": "Ground Clamp",
+    "text": "16. DCEN Direct Current Electrode Negative Wire Setup for Flux-Cored (gasless) welding: Plug Ground Clamp Cable into Positive ( + ) Socket. Plug Wire Feed Power Cable into Negative ( – ) Socket. Twist cables clockwise all the way to lock in place.",
+    "processes": [
+      "flux"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "15.\tInsert the Wire Feed Control Cable through"
+    }
+  },
+  {
+    "id": "owner-manual-p14-entity-cc64e02b144c",
+    "type": "part_or_control",
+    "label": "Ground Clamp",
+    "text": "a. Plug Ground Clamp Cable into Negative ( – )",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": ")"
+    }
+  },
+  {
+    "id": "owner-manual-p14-wire-feed-853e752a4e97",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "Socket. Plug Wire Feed Power Cable into Positive ( + ) Socket. Twist cables clockwise all the way to lock in place.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "clockwise all the way to lock in place.",
+      "neighboringText": "Socket. Plug Wire Feed Power Cable into Positive ( + ) Socket. Twist cables clockwise all the way to lock in place."
+    }
+  },
+  {
+    "id": "owner-manual-p14-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "Socket. Plug Wire Feed Power Cable into Positive ( + ) Socket. Twist cables clockwise all the way to lock in place.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "clockwise all the way to lock in place."
+    }
+  },
+  {
+    "id": "owner-manual-p14-entity-fe98a4b07a9f",
+    "type": "part_or_control",
+    "label": "Regulator",
+    "text": "e. Locate the Regulator (included) and close its",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "e.\t Locate the Regulator (included) and close its"
+    }
+  },
+  {
+    "id": "owner-manual-p15-entity-627c012b20c4",
+    "type": "part_or_control",
+    "label": "Spool",
+    "text": "If this is not done, the welding wire will unravel and unspool",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 15,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "tension on it during the following steps."
+    }
+  },
+  {
+    "id": "owner-manual-p15-wire-feed-9dde57a9783f",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "20. Make sure the welding wire is resting in the groove of the Feed Roller, then push the wire Idler Arm down, and swing the Feed Tensioner up to latch it across the tip of the arm. After the wire is held by the Tensioner, you may release it.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 15,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "20.\tMake sure the welding wire is resting in the groove",
+      "neighboringText": "20. Make sure the welding wire is resting in the groove of the Feed Roller, then push the wire Idler Arm down, and swing the Feed Tensioner up to latch it across the tip of the arm. After the wire is held by the Tensioner, you may release it."
+    }
+  },
+  {
+    "id": "owner-manual-p15-entity-edb5c0f72552",
+    "type": "part_or_control",
+    "label": "Tensioner",
+    "text": "20. Make sure the welding wire is resting in the groove of the Feed Roller, then push the wire Idler Arm down, and swing the Feed Tensioner up to latch it across the tip of the arm. After the wire is held by the Tensioner, you may release it.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 15,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "20.\tMake sure the welding wire is resting in the groove"
+    }
+  },
+  {
+    "id": "owner-manual-p15-entity-79975cc0b616",
+    "type": "part_or_control",
+    "label": "Idler Arm",
+    "text": "20. Make sure the welding wire is resting in the groove of the Feed Roller, then push the wire Idler Arm down, and swing the Feed Tensioner up to latch it across the tip of the arm. After the wire is held by the Tensioner, you may release it.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 15,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "20.\tMake sure the welding wire is resting in the groove"
+    }
+  },
+  {
+    "id": "owner-manual-p15-entity-e8c269206ea7",
+    "type": "part_or_control",
+    "label": "Nozzle",
+    "text": "21. Pull the Nozzle to remove it.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 15,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "21.\tPull the Nozzle to remove it."
+    }
+  },
+  {
+    "id": "owner-manual-p15-entity-d8f0d3a368a2",
+    "type": "part_or_control",
+    "label": "Contact Tip",
+    "text": "22. Unscrew the Contact Tip counterclockwise and remove.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 15,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "22.\tUnscrew the Contact Tip"
+    }
+  },
+  {
+    "id": "owner-manual-p15-entity-6d8aa3645eaf",
+    "type": "part_or_control",
+    "label": "Mig Gun",
+    "text": "23. Lay the MIG Gun Cable out in a straight line so that the welding wire moves through it easily. Leave the cover open, so that the feed mechanism can be observed.",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 15,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "23.\tLay the MIG Gun Cable out in a straight line"
+    }
+  },
+  {
+    "id": "owner-manual-p16-wire-feed-9cc130a696b3",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "1. Keep hands away from Wire Feed mechanism.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 16,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "Keep hands away from Wire Feed mechanism.",
+      "neighboringText": "1. Keep hands away from Wire Feed mechanism."
+    }
+  },
+  {
+    "id": "owner-manual-p16-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "1. Keep hands away from Wire Feed mechanism.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 16,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Keep hands away from Wire Feed mechanism."
+    }
+  },
+  {
+    "id": "owner-manual-p16-entity-050dd0ca2bce",
+    "type": "part_or_control",
+    "label": "Power Switch",
+    "text": "25. Do not touch the Gun’s Trigger. Plug the Power Cord into a properly grounded, GFCI protected 120 VAC (20 amp rated) or 240 VAC receptacle that matches the plug and turn the Power Switch ON. The circuit must be equipped with delayed action-type circuit breaker or fuses.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 16,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "action-type circuit breaker or fuses."
+    }
+  },
+  {
+    "id": "owner-manual-p16-entity-edb5c0f72552",
+    "type": "part_or_control",
+    "label": "Tensioner",
+    "text": "If the wire does not feed properly and the Spool is stationary, turn OFF and unplug the Welder and slightly tighten the Feed Tensioner clockwise before retrying.",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 16,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "before retrying."
+    }
+  },
+  {
+    "id": "owner-manual-p16-entity-627c012b20c4",
+    "type": "part_or_control",
+    "label": "Spool",
+    "text": "If the wire does not feed properly and the Spool is stationary, turn OFF and unplug the Welder and slightly tighten the Feed Tensioner clockwise before retrying.",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 16,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "before retrying."
+    }
+  },
+  {
+    "id": "owner-manual-p16-entity-6d8aa3645eaf",
+    "type": "part_or_control",
+    "label": "Mig Gun",
+    "text": "MIG Gun",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 16,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "MIG Gun"
+    }
+  },
+  {
+    "id": "owner-manual-p17-wire-feed-0ba3ffb9696a",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "27. To check the wire’s drive tension, press and hold Trigger to feed the wire against a piece of wood from 2 to 3 inches away. Note: After pressing Trigger, wire will stop feeding after 3 seconds if there is no arc. Check tension for less than 3 seconds. If the wire stops instead of bending, unplug the Welder, slightly tighten the Feed Tensioner clockwise, and try again. If the wire bends from the feed pressure, then the tension is set properly. Before proceeding, turn OFF the Power Switch and unplug the Power Cord from its electrical outlet.",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "27.\tTo check the wire’s drive tension, press and hold",
+      "neighboringText": "27. To check the wire’s drive tension, press and hold Trigger to feed the wire against a piece of wood from 2 to 3 inches away. Note: After pressing Trigger, wire will stop feeding after 3 seconds if there is no arc. Check tension for less than 3 seconds. If the wire stops instead of bending, unplug"
+    }
+  },
+  {
+    "id": "owner-manual-p17-entity-edb5c0f72552",
+    "type": "part_or_control",
+    "label": "Tensioner",
+    "text": "27. To check the wire’s drive tension, press and hold Trigger to feed the wire against a piece of wood from 2 to 3 inches away. Note: After pressing Trigger, wire will stop feeding after 3 seconds if there is no arc. Check tension for less than 3 seconds. If the wire stops instead of bending, unplug the Welder, slightly tighten the Feed Tensioner clockwise, and try again. If the wire bends from th",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "27.\tTo check the wire’s drive tension, press and hold"
+    }
+  },
+  {
+    "id": "owner-manual-p17-entity-050dd0ca2bce",
+    "type": "part_or_control",
+    "label": "Power Switch",
+    "text": "27. To check the wire’s drive tension, press and hold Trigger to feed the wire against a piece of wood from 2 to 3 inches away. Note: After pressing Trigger, wire will stop feeding after 3 seconds if there is no arc. Check tension for less than 3 seconds. If the wire stops instead of bending, unplug the Welder, slightly tighten the Feed Tensioner clockwise, and try again. If the wire bends from th",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "27.\tTo check the wire’s drive tension, press and hold"
+    }
+  },
+  {
+    "id": "owner-manual-p17-entity-6d8aa3645eaf",
+    "type": "part_or_control",
+    "label": "Mig Gun",
+    "text": "30. Select a Contact Tip that is compatible with the welding wire used. Slide the Contact Tip over the wire and thread it clockwise into the MIG Gun. Tighten the Contact Tip.",
+    "processes": [
+      "mig",
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "30.\tSelect a Contact Tip that is compatible with"
+    }
+  },
+  {
+    "id": "owner-manual-p17-entity-d8f0d3a368a2",
+    "type": "part_or_control",
+    "label": "Contact Tip",
+    "text": "30. Select a Contact Tip that is compatible with the welding wire used. Slide the Contact Tip over the wire and thread it clockwise into the MIG Gun. Tighten the Contact Tip.",
+    "processes": [
+      "mig",
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "30.\tSelect a Contact Tip that is compatible with"
+    }
+  },
+  {
+    "id": "owner-manual-p17-entity-e8c269206ea7",
+    "type": "part_or_control",
+    "label": "Nozzle",
+    "text": "31. Replace the Nozzle and cut the wire off at 1/2\" from tip (1/2\" stickout).",
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "31.\tReplace the Nozzle and cut the wire"
+    }
+  },
+  {
+    "id": "owner-manual-p17-entity-627c012b20c4",
+    "type": "part_or_control",
+    "label": "Spool",
+    "text": "Optional Spool Gun Setup",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Optional Spool Gun Setup"
+    }
+  },
+  {
+    "id": "owner-manual-p17-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "1. To set up optional Spool Gun (sold separately), plug Ground Clamp Cable into Negative ( – ) Socket. Plug Wire Feed Power Cable into Positive ( + ) Socket. Twist cables clockwise all the way to lock in place.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Optional Spool Gun Setup"
+    }
+  },
+  {
+    "id": "owner-manual-p17-entity-cc64e02b144c",
+    "type": "part_or_control",
+    "label": "Ground Clamp",
+    "text": "1. To set up optional Spool Gun (sold separately), plug Ground Clamp Cable into Negative ( – ) Socket. Plug Wire Feed Power Cable into Positive ( + ) Socket. Twist cables clockwise all the way to lock in place.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Optional Spool Gun Setup"
+    }
+  },
+  {
+    "id": "owner-manual-p18-entity-627c012b20c4",
+    "type": "part_or_control",
+    "label": "Spool",
+    "text": "Aluminum welding can be performed with an optional Spool Gun (sold separately) using aluminum wire and shielding gas.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 18,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "TO PREVENT SERIOUS INJURY:"
+    }
+  },
+  {
+    "id": "owner-manual-p18-entity-050dd0ca2bce",
+    "type": "part_or_control",
+    "label": "Power Switch",
+    "text": "Power Switch =",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 18,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "="
+    }
+  },
+  {
+    "id": "owner-manual-p19-entity-defect-6c7dd80b5bd4",
+    "type": "weld_defect",
+    "label": "Penetration",
+    "text": "2. Use clamps (not included) to hold the workpieces in position so that you can concentrate on proper welding technique. The distance (if any) between the two workpieces must be controlled properly to allow the weld to hold both sides securely while allowing the weld to penetrate fully into the joint. The edges of thicker workpieces may need to be chamfered (or beveled) to allow proper weld penetr",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Setting Up The Weld"
+    }
+  },
+  {
+    "id": "owner-manual-p19-entity-cc64e02b144c",
+    "type": "part_or_control",
+    "label": "Ground Clamp",
+    "text": "This Welder has an internal thermal protection system to help prevent this sort of over-stress. When the Welder overheats, it automatically shuts down and a warning screen appears in the LCD Display window. The Welder automatically returns to service after cooling off. Should this occur, rest the MIG Gun on an electrically non-conductive, heat‑proof surface, such as a concrete slab, well clear of ",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Duty Cycle (Duration of Use)"
+    }
+  },
+  {
+    "id": "owner-manual-p19-entity-6d8aa3645eaf",
+    "type": "part_or_control",
+    "label": "Mig Gun",
+    "text": "This Welder has an internal thermal protection system to help prevent this sort of over-stress. When the Welder overheats, it automatically shuts down and a warning screen appears in the LCD Display window. The Welder automatically returns to service after cooling off. Should this occur, rest the MIG Gun on an electrically non-conductive, heat‑proof surface, such as a concrete slab, well clear of ",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Duty Cycle (Duration of Use)"
+    }
+  },
+  {
+    "id": "owner-manual-p19-entity-2e6c9c90ab6c",
+    "type": "part_or_control",
+    "label": "Lcd Display",
+    "text": "This Welder has an internal thermal protection system to help prevent this sort of over-stress. When the Welder overheats, it automatically shuts down and a warning screen appears in the LCD Display window. The Welder automatically returns to service after cooling off. Should this occur, rest the MIG Gun on an electrically non-conductive, heat‑proof surface, such as a concrete slab, well clear of ",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Duty Cycle (Duration of Use)"
+    }
+  },
+  {
+    "id": "owner-manual-p19-entity-050dd0ca2bce",
+    "type": "part_or_control",
+    "label": "Power Switch",
+    "text": "Allow the Welder to cool with the Power Switch on, so that the internal Fan will help cool the Welder.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Duty Cycle (Duration of Use)"
+    }
+  },
+  {
+    "id": "owner-manual-p20-entity-050dd0ca2bce",
+    "type": "part_or_control",
+    "label": "Power Switch",
+    "text": "4. Turn the Power Switch to the OFF position, then plug the Power Cord into a properly grounded, GFCI protected 120 VAC (20 amp rated) or 240 VAC receptacle that matches the plug. The circuit must be equipped with delayed action-type circuit breaker or fuses.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 20,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "MAINTENANCE"
+    }
+  },
+  {
+    "id": "owner-manual-p20-entity-6d8aa3645eaf",
+    "type": "part_or_control",
+    "label": "Mig Gun",
+    "text": "5. Set MIG Gun down on nonconductive, nonflammable surface away from any grounded objects.",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 20,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "MAINTENANCE"
+    }
+  },
+  {
+    "id": "owner-manual-p20-entity-2e6c9c90ab6c",
+    "type": "part_or_control",
+    "label": "Lcd Display",
+    "text": "2. Turn Main Control Knob until desired process appears on LCD display screen.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 20,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Settings"
+    }
+  },
+  {
+    "id": "owner-manual-p20-entity-dd828761d8c6",
+    "type": "part_or_control",
+    "label": "Main Control Knob",
+    "text": "2. Turn Main Control Knob until desired process appears on LCD display screen.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 20,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Settings"
+    }
+  },
+  {
+    "id": "owner-manual-p20-wire-feed-081acb093701",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "• Turn Left Knob to adjust Wire Feed Speed (Amperage).",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 20,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "24Ga",
+      "neighboringText": "• Turn Left Knob to adjust Wire Feed Speed (Amperage)."
+    }
+  },
+  {
+    "id": "owner-manual-p20-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "• Turn Left Knob to adjust Wire Feed Speed (Amperage).",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 20,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "24Ga"
+    }
+  },
+  {
+    "id": "owner-manual-p21-entity-dd828761d8c6",
+    "type": "part_or_control",
+    "label": "Main Control Knob",
+    "text": "• Press Main Control Knob to enter Optional Settings.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 21,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Wire"
+    }
+  },
+  {
+    "id": "owner-manual-p21-wire-feed-ee38f5adb7bc",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "• Run-In WFS – Adjust wire speed before it contacts workpiece. This setting represents a % of the pre-set wire feed speed (WFS).",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 21,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "Wire",
+      "neighboringText": "• Run-In WFS – Adjust wire speed before it contacts workpiece. This setting represents a % of the pre-set wire feed speed (WFS)."
+    }
+  },
+  {
+    "id": "owner-manual-p21-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "• Run-In WFS – Adjust wire speed before it contacts workpiece. This setting represents a % of the pre-set wire feed speed (WFS).",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 21,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Wire"
+    }
+  },
+  {
+    "id": "owner-manual-p22-entity-6d8aa3645eaf",
+    "type": "part_or_control",
+    "label": "Mig Gun",
+    "text": "4. For MIG welding using solid wire and shielding gas, the end of the MIG Gun should be tilted so that wire is angled anywhere in-between straight on and 15° away from the direction you are welding. The amount of tilt is called the push angle .",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 22,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Basic Wire Welding Technique"
+    }
+  },
+  {
+    "id": "owner-manual-p22-wire-feed-dbaa2ca439f0",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "6. The Contact Tip should remain within 1/2″ of the work surface. This distance is called CTWD - Contact Tip to Work Distance.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 22,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "Basic Wire Welding Technique",
+      "neighboringText": "6. The Contact Tip should remain within 1/2″ of the work surface. This distance is called CTWD - Contact Tip to Work Distance."
+    }
+  },
+  {
+    "id": "owner-manual-p22-entity-d8f0d3a368a2",
+    "type": "part_or_control",
+    "label": "Contact Tip",
+    "text": "6. The Contact Tip should remain within 1/2″ of the work surface. This distance is called CTWD - Contact Tip to Work Distance.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 22,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Basic Wire Welding Technique"
+    }
+  },
+  {
+    "id": "owner-manual-p23-entity-cc64e02b144c",
+    "type": "part_or_control",
+    "label": "Ground Clamp",
+    "text": "Note: If Welder is used too long, a warning screen appears in the LCD Display window and the unit automatically shuts down. The Welder automatically returns to service after cooling off. Should this occur, rest the MIG Gun on an electrically non-conductive, heat‑proof surface, such as a concrete slab, away from the ground clamp.",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Wire"
+    }
+  },
+  {
+    "id": "owner-manual-p23-entity-6d8aa3645eaf",
+    "type": "part_or_control",
+    "label": "Mig Gun",
+    "text": "Note: If Welder is used too long, a warning screen appears in the LCD Display window and the unit automatically shuts down. The Welder automatically returns to service after cooling off. Should this occur, rest the MIG Gun on an electrically non-conductive, heat‑proof surface, such as a concrete slab, away from the ground clamp.",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Wire"
+    }
+  },
+  {
+    "id": "owner-manual-p23-entity-2e6c9c90ab6c",
+    "type": "part_or_control",
+    "label": "Lcd Display",
+    "text": "Note: If Welder is used too long, a warning screen appears in the LCD Display window and the unit automatically shuts down. The Welder automatically returns to service after cooling off. Should this occur, rest the MIG Gun on an electrically non-conductive, heat‑proof surface, such as a concrete slab, away from the ground clamp.",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Wire"
+    }
+  },
+  {
+    "id": "owner-manual-p23-entity-050dd0ca2bce",
+    "type": "part_or_control",
+    "label": "Power Switch",
+    "text": "Allow the Welder to cool with the Power Switch on, so that the internal Fan will help cool the Welder.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Wire"
+    }
+  },
+  {
+    "id": "owner-manual-p23-wire-feed-db559f306c0c",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "11. Respool wire by clipping wire, removing gas nozzle/contact tip on MIG gun, releasing Idler Arm on Wire Feed mechanism, and rotating the Wire Spool counterclockwise. Be sure to securely hold wire as it is being respooled because the end of wire has a tendency to quickly unravel once it clears the wire feeder.",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "11.\t Respool wire by clipping wire, removing gas",
+      "neighboringText": "11. Respool wire by clipping wire, removing gas nozzle/contact tip on MIG gun, releasing Idler Arm on Wire Feed mechanism, and rotating the Wire Spool counterclockwise. Be sure to securely hold wire as it is being respooled because the end of wire has a tendency to quickly unravel once it clears the"
+    }
+  },
+  {
+    "id": "owner-manual-p23-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "11. Respool wire by clipping wire, removing gas nozzle/contact tip on MIG gun, releasing Idler Arm on Wire Feed mechanism, and rotating the Wire Spool counterclockwise. Be sure to securely hold wire as it is being respooled because the end of wire has a tendency to quickly unravel once it clears the wire feeder.",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "11.\t Respool wire by clipping wire, removing gas"
+    }
+  },
+  {
+    "id": "owner-manual-p23-entity-79975cc0b616",
+    "type": "part_or_control",
+    "label": "Idler Arm",
+    "text": "11. Respool wire by clipping wire, removing gas nozzle/contact tip on MIG gun, releasing Idler Arm on Wire Feed mechanism, and rotating the Wire Spool counterclockwise. Be sure to securely hold wire as it is being respooled because the end of wire has a tendency to quickly unravel once it clears the wire feeder.",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "11.\t Respool wire by clipping wire, removing gas"
+    }
+  },
+  {
+    "id": "owner-manual-p23-entity-d8f0d3a368a2",
+    "type": "part_or_control",
+    "label": "Contact Tip",
+    "text": "11. Respool wire by clipping wire, removing gas nozzle/contact tip on MIG gun, releasing Idler Arm on Wire Feed mechanism, and rotating the Wire Spool counterclockwise. Be sure to securely hold wire as it is being respooled because the end of wire has a tendency to quickly unravel once it clears the wire feeder.",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "11.\t Respool wire by clipping wire, removing gas"
+    }
+  },
+  {
+    "id": "owner-manual-p23-entity-e8c269206ea7",
+    "type": "part_or_control",
+    "label": "Nozzle",
+    "text": "11. Respool wire by clipping wire, removing gas nozzle/contact tip on MIG gun, releasing Idler Arm on Wire Feed mechanism, and rotating the Wire Spool counterclockwise. Be sure to securely hold wire as it is being respooled because the end of wire has a tendency to quickly unravel once it clears the wire feeder.",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "11.\t Respool wire by clipping wire, removing gas"
+    }
+  },
+  {
+    "id": "owner-manual-p23-entity-627c012b20c4",
+    "type": "part_or_control",
+    "label": "Spool",
+    "text": "11. Respool wire by clipping wire, removing gas nozzle/contact tip on MIG gun, releasing Idler Arm on Wire Feed mechanism, and rotating the Wire Spool counterclockwise. Be sure to securely hold wire as it is being respooled because the end of wire has a tendency to quickly unravel once it clears the wire feeder.",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "11.\t Respool wire by clipping wire, removing gas"
+    }
+  },
+  {
+    "id": "owner-manual-p23-entity-fe98a4b07a9f",
+    "type": "part_or_control",
+    "label": "Regulator",
+    "text": "12. MIG ONLY: Close shielding gas cylinder valve securely. Remove Regulator and replace cap. Disconnect Gas Hose from Welder. Store and secure gas cylinder.",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "MIG ONLY:"
+    }
+  },
+  {
+    "id": "owner-manual-p24-entity-050dd0ca2bce",
+    "type": "part_or_control",
+    "label": "Power Switch",
+    "text": "TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Turn the Power Switch off and unplug the Welder before setup.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION:"
+    }
+  },
+  {
+    "id": "owner-manual-p24-entity-cc64e02b144c",
+    "type": "part_or_control",
+    "label": "Ground Clamp",
+    "text": "Ground Clamp Cable",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Connect Cables"
+    }
+  },
+  {
+    "id": "owner-manual-p24-entity-8ab3a55620c5",
+    "type": "part_or_control",
+    "label": "Tig Torch",
+    "text": "TIG Torch TIG Torch",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Connect Cables"
+    }
+  },
+  {
+    "id": "owner-manual-p24-entity-058dba2fdd49",
+    "type": "part_or_control",
+    "label": "Foot Pedal",
+    "text": "Foot Pedal Socket",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Connect Cables"
+    }
+  },
+  {
+    "id": "owner-manual-p25-entity-fe98a4b07a9f",
+    "type": "part_or_control",
+    "label": "Regulator",
+    "text": "3. Locate the Regulator (included) and close its valve until it is loose, then thread Regulator onto cylinder and wrench-tighten connection.",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 25,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "onto cylinder and wrench-tighten connection."
+    }
+  },
+  {
+    "id": "owner-manual-p25-entity-8ab3a55620c5",
+    "type": "part_or_control",
+    "label": "Tig Torch",
+    "text": "4. Connect Shielding Gas Hose on TIG Torch Cable Connector to the Regulator’s Outlet and wrench-tighten connection.",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 25,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Outlet and wrench-tighten connection."
+    }
+  },
+  {
+    "id": "owner-manual-p26-entity-e8c269206ea7",
+    "type": "part_or_control",
+    "label": "Nozzle",
+    "text": "6. Re-insert Electrode into Collet with tip protruding 1/8\"-1/4\" beyond the Ceramic Nozzle, then re-tighten the Back Cap.",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 26,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "WARNING!  TO PREVENT SERIOUS INJURY:"
+    }
+  },
+  {
+    "id": "owner-manual-p26-entity-8ab3a55620c5",
+    "type": "part_or_control",
+    "label": "Tig Torch",
+    "text": "Assemble TIG Torch (sold separately)",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 26,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Assemble TIG Torch (sold separately)"
+    }
+  },
+  {
+    "id": "owner-manual-p27-entity-5c0c033c503c",
+    "type": "part_or_control",
+    "label": "Electrode Holder",
+    "text": "Electrode Holder Cable in Positive Socket",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Cable in Positive Socket"
+    }
+  },
+  {
+    "id": "owner-manual-p27-entity-cc64e02b144c",
+    "type": "part_or_control",
+    "label": "Ground Clamp",
+    "text": "Ground Clamp Cable",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Ground Clamp Cable"
+    }
+  },
+  {
+    "id": "owner-manual-p29-entity-cc64e02b144c",
+    "type": "part_or_control",
+    "label": "Ground Clamp",
+    "text": "This Welder has an internal thermal protection system to help prevent this sort of over-stress. When the Welder overheats, it automatically shuts down and a warning screen appears in the LCD Display window. The Welder automatically returns to service after cooling off. Should this occur, rest the Tig Torch or Electrode Holder on an electrically non-conductive, heat-proof surface, such as a concret",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Duty Cycle (Duration of Use)"
+    }
+  },
+  {
+    "id": "owner-manual-p29-entity-5c0c033c503c",
+    "type": "part_or_control",
+    "label": "Electrode Holder",
+    "text": "This Welder has an internal thermal protection system to help prevent this sort of over-stress. When the Welder overheats, it automatically shuts down and a warning screen appears in the LCD Display window. The Welder automatically returns to service after cooling off. Should this occur, rest the Tig Torch or Electrode Holder on an electrically non-conductive, heat-proof surface, such as a concret",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Duty Cycle (Duration of Use)"
+    }
+  },
+  {
+    "id": "owner-manual-p29-entity-8ab3a55620c5",
+    "type": "part_or_control",
+    "label": "Tig Torch",
+    "text": "This Welder has an internal thermal protection system to help prevent this sort of over-stress. When the Welder overheats, it automatically shuts down and a warning screen appears in the LCD Display window. The Welder automatically returns to service after cooling off. Should this occur, rest the Tig Torch or Electrode Holder on an electrically non-conductive, heat-proof surface, such as a concret",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Duty Cycle (Duration of Use)"
+    }
+  },
+  {
+    "id": "owner-manual-p29-entity-2e6c9c90ab6c",
+    "type": "part_or_control",
+    "label": "Lcd Display",
+    "text": "This Welder has an internal thermal protection system to help prevent this sort of over-stress. When the Welder overheats, it automatically shuts down and a warning screen appears in the LCD Display window. The Welder automatically returns to service after cooling off. Should this occur, rest the Tig Torch or Electrode Holder on an electrically non-conductive, heat-proof surface, such as a concret",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Duty Cycle (Duration of Use)"
+    }
+  },
+  {
+    "id": "owner-manual-p29-entity-050dd0ca2bce",
+    "type": "part_or_control",
+    "label": "Power Switch",
+    "text": "allow the Welder to cool with the power Switch on, so that the internal Fan will help cool the Welder.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Duty Cycle (Duration of Use)"
+    }
+  },
+  {
+    "id": "owner-manual-p29-entity-defect-6c7dd80b5bd4",
+    "type": "weld_defect",
+    "label": "Penetration",
+    "text": "2. Use clamps (not included) to hold the workpieces in position so that you can concentrate on proper welding technique. The distance (if any) between the two workpieces must be controlled properly to allow the weld to hold both sides securely while allowing the weld to penetrate fully into the joint. The edges of thicker workpieces may need to be chamfered (or beveled) to allow proper weld penetr",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "2. Use clamps (not included) to hold the workpieces"
+    }
+  },
+  {
+    "id": "owner-manual-p30-entity-050dd0ca2bce",
+    "type": "part_or_control",
+    "label": "Power Switch",
+    "text": "3. Turn the Power Switch to the OFF position, then plug the Welder into a properly grounded, GFCI protected, 120 VAC (20 amp rated) outlet or 240 V outlet. The circuit must be equipped with delayed action-type circuit breaker or fuses.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "TO PREVENT DEATH FROM ASPHYXIATION:"
+    }
+  },
+  {
+    "id": "owner-manual-p30-entity-8ab3a55620c5",
+    "type": "part_or_control",
+    "label": "Tig Torch",
+    "text": "4. Set TIG Torch down on nonconductive, nonflammable surface away from any grounded objects.",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "TO PREVENT DEATH FROM ASPHYXIATION:"
+    }
+  },
+  {
+    "id": "owner-manual-p30-entity-2e6c9c90ab6c",
+    "type": "part_or_control",
+    "label": "Lcd Display",
+    "text": "7. Turn Main Control Knob until TIG process appears on LCD display screen.",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "TO PREVENT DEATH FROM ASPHYXIATION:"
+    }
+  },
+  {
+    "id": "owner-manual-p30-entity-dd828761d8c6",
+    "type": "part_or_control",
+    "label": "Main Control Knob",
+    "text": "7. Turn Main Control Knob until TIG process appears on LCD display screen.",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "TO PREVENT DEATH FROM ASPHYXIATION:"
+    }
+  },
+  {
+    "id": "owner-manual-p31-entity-dd828761d8c6",
+    "type": "part_or_control",
+    "label": "Main Control Knob",
+    "text": "• Press Main Control Knob to enter Optional Settings.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 31,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Wire"
+    }
+  },
+  {
+    "id": "owner-manual-p31-entity-8ab3a55620c5",
+    "type": "part_or_control",
+    "label": "Tig Torch",
+    "text": "10. Hold TIG Torch in one gloved hand and the TIG Rod (sold separately) in other gloved hand.",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 31,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "10.\tHold TIG Torch in one gloved hand and the TIG"
+    }
+  },
+  {
+    "id": "owner-manual-p31-entity-058dba2fdd49",
+    "type": "part_or_control",
+    "label": "Foot Pedal",
+    "text": "12. To initiate welding arc, push Foot Pedal and touch Electrode to work piece and lift. If not using Foot Pedal, touch Electrode to work piece and lift.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 31,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "12.\tTo initiate welding arc, push Foot Pedal and touch"
+    }
+  },
+  {
+    "id": "owner-manual-p31-entity-050dd0ca2bce",
+    "type": "part_or_control",
+    "label": "Power Switch",
+    "text": "18. Turn the Power Switch OFF.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 31,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "18.\tTurn the Power Switch OFF."
+    }
+  },
+  {
+    "id": "owner-manual-p31-entity-cc64e02b144c",
+    "type": "part_or_control",
+    "label": "Ground Clamp",
+    "text": "• Remove Ground Clamp from workpiece or table.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 31,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "19.\tTo prevent accidents, after use:"
+    }
+  },
+  {
+    "id": "owner-manual-p31-entity-fe98a4b07a9f",
+    "type": "part_or_control",
+    "label": "Regulator",
+    "text": "• Close gas cylinder’s valve securely, remove regulator and replace cap.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 31,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "19.\tTo prevent accidents, after use:"
+    }
+  },
+  {
+    "id": "owner-manual-p32-entity-5c0c033c503c",
+    "type": "part_or_control",
+    "label": "Electrode Holder",
+    "text": "TO PREVENT SERIOUS INJURY AND DEATH: Do not weld without Grounding Clamp. When the operator is not holding the Electrode Holder, it must be sitting on a nonconductive, nonflammable surface.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "TO PREVENT SERIOUS INJURY AND DEATH:"
+    }
+  },
+  {
+    "id": "owner-manual-p32-entity-050dd0ca2bce",
+    "type": "part_or_control",
+    "label": "Power Switch",
+    "text": "1. Turn the Power Switch to the OFF position, then plug the Welder into a properly grounded, GFCI protected, 120 VAC (20 amp rated) outlet or 240 V outlet. The circuit must be equipped with delayed action-type circuit breaker or fuses.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "TO PREVENT SERIOUS INJURY AND DEATH:"
+    }
+  },
+  {
+    "id": "owner-manual-p32-entity-2e6c9c90ab6c",
+    "type": "part_or_control",
+    "label": "Lcd Display",
+    "text": "5. Turn Main Control Knob until Stick process appears on LCD display screen.",
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "TO PREVENT SERIOUS INJURY AND DEATH:"
+    }
+  },
+  {
+    "id": "owner-manual-p32-entity-dd828761d8c6",
+    "type": "part_or_control",
+    "label": "Main Control Knob",
+    "text": "5. Turn Main Control Knob until Stick process appears on LCD display screen.",
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "TO PREVENT SERIOUS INJURY AND DEATH:"
+    }
+  },
+  {
+    "id": "owner-manual-p33-entity-dd828761d8c6",
+    "type": "part_or_control",
+    "label": "Main Control Knob",
+    "text": "• Press Main Control Knob to enter Optional Settings.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Wire"
+    }
+  },
+  {
+    "id": "owner-manual-p33-entity-defect-6c7dd80b5bd4",
+    "type": "weld_defect",
+    "label": "Penetration",
+    "text": "• Arc Force – Adjust weld penetration and smoothness.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Wire"
+    }
+  },
+  {
+    "id": "owner-manual-p33-entity-5c0c033c503c",
+    "type": "part_or_control",
+    "label": "Electrode Holder",
+    "text": "8. Place the bare metal end of the Stick Electrode (sold separately) inside the jaws of the Electrode Holder.",
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "WARNING!  TO PREVENT SERIOUS INJURY:"
+    }
+  },
+  {
+    "id": "owner-manual-p33-entity-050dd0ca2bce",
+    "type": "part_or_control",
+    "label": "Power Switch",
+    "text": "12. Turn the Power Switch OFF.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "12.\tTurn the Power Switch OFF."
+    }
+  },
+  {
+    "id": "owner-manual-p33-entity-cc64e02b144c",
+    "type": "part_or_control",
+    "label": "Ground Clamp",
+    "text": "• Remove Ground Clamp.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "13.\tTo prevent accidents, after use:"
+    }
+  },
+  {
+    "id": "owner-manual-p34-entity-defect-edf5e73441f8",
+    "type": "weld_defect",
+    "label": "Slag",
+    "text": "A good way to test welding technique is to examine a weld’s appearance after it has cooled and the slag has been removed. Then, better welding can be learned by adjusting your weld technique to remedy any problems found.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 34,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "MAINTENANCE"
+    }
+  },
+  {
+    "id": "owner-manual-p35-entity-defect-6c7dd80b5bd4",
+    "type": "weld_defect",
+    "label": "Penetration",
+    "text": "Wire Weld Diagnosis – Workpiece Heat Control / Weld Penetration",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Wire Weld Diagnosis – Workpiece Heat Control / Weld Penetration"
+    }
+  },
+  {
+    "id": "owner-manual-p35-entity-defect-d1d69485a4d9",
+    "type": "weld_defect",
+    "label": "Burn-Through",
+    "text": "BURN-THROUGH PROPER PENETRATION INADEQUATE PENETRATION",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "INADEQUATE PENETRATION"
+    }
+  },
+  {
+    "id": "owner-manual-p35-wire-feed-81aeb2bfc1ac",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "c. Use faster wire feed",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "and limit penetration:",
+      "neighboringText": "c. Use faster wire feed"
+    }
+  },
+  {
+    "id": "owner-manual-p35-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "c. Use faster wire feed",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "and limit penetration:"
+    }
+  },
+  {
+    "id": "owner-manual-p36-entity-defect-6c7dd80b5bd4",
+    "type": "weld_defect",
+    "label": "Penetration",
+    "text": "Wire Weld Penetration (Workpiece Heat Control)",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 36,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Wire Weld Penetration (Workpiece Heat Control)"
+    }
+  },
+  {
+    "id": "owner-manual-p36-entity-defect-d1d69485a4d9",
+    "type": "weld_defect",
+    "label": "Burn-Through",
+    "text": "BURN-THROUGH Weld droops on top and underneath, or falls through",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 36,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "BURN-THROUGH"
+    }
+  },
+  {
+    "id": "owner-manual-p36-wire-feed-e29d3e8e66f7",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "POSSIBLE CAUSES AND SOLUTIONS 1. Workpiece overheating: Reduce wire feed speed. Decrease weld current. 2. Travel speed too slow: Increase travel speed and ensure that travel speed is kept steady. 3. Excessive material at weld: Reduce wire feed speed.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 36,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "POSSIBLE CAUSES AND SOLUTIONS",
+      "neighboringText": "POSSIBLE CAUSES AND SOLUTIONS 1. Workpiece overheating: Reduce wire feed speed. Decrease weld current. 2. Travel speed too slow: Increase travel speed and ensure that travel speed is kept steady. 3. Excessive material at weld: Reduce wire feed speed."
+    }
+  },
+  {
+    "id": "owner-manual-p36-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "POSSIBLE CAUSES AND SOLUTIONS 1. Workpiece overheating: Reduce wire feed speed. Decrease weld current. 2. Travel speed too slow: Increase travel speed and ensure that travel speed is kept steady. 3. Excessive material at weld: Reduce wire feed speed.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 36,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "POSSIBLE CAUSES AND SOLUTIONS"
+    }
+  },
+  {
+    "id": "owner-manual-p36-entity-6d8aa3645eaf",
+    "type": "part_or_control",
+    "label": "Mig Gun",
+    "text": "POSSIBLE CAUSES AND SOLUTIONS 4. Incorrect welding technique: Maintain 1/2\" or less CTWD. Keep arc on leading edge of weld puddle. Hold MIG Gun at proper angles. 5. Insufficient weld heat: Reduce travel speed. Increase weld current. 6. Workpieces too thick/close: Bevel thick workpieces, allow slight gap, and weld in several passes. 7. Insufficient weld material: Increase wire feed speed.",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 36,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "POSSIBLE CAUSES AND SOLUTIONS"
+    }
+  },
+  {
+    "id": "owner-manual-p36-entity-defect-edf5e73441f8",
+    "type": "weld_defect",
+    "label": "Slag",
+    "text": "Coat of Slag Over Weld",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 36,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Coat of Slag Over Weld"
+    }
+  },
+  {
+    "id": "owner-manual-p37-entity-defect-d1d69485a4d9",
+    "type": "weld_defect",
+    "label": "Burn-Through",
+    "text": "Wire Weld – Burn-Through",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Wire Weld – Burn-Through"
+    }
+  },
+  {
+    "id": "owner-manual-p37-wire-feed-e29d3e8e66f7",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "POSSIBLE CAUSES AND SOLUTIONS 1. Workpiece overheating: Reduce current and/or wire feed speed. 2. Travel speed too slow: Increase travel speed and ensure that travel speed is kept steady. 3. Excessive material at weld: Reduce wire feed speed.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "POSSIBLE CAUSES AND SOLUTIONS",
+      "neighboringText": "POSSIBLE CAUSES AND SOLUTIONS 1. Workpiece overheating: Reduce current and/or wire feed speed. 2. Travel speed too slow: Increase travel speed and ensure that travel speed is kept steady. 3. Excessive material at weld: Reduce wire feed speed."
+    }
+  },
+  {
+    "id": "owner-manual-p37-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "POSSIBLE CAUSES AND SOLUTIONS 1. Workpiece overheating: Reduce current and/or wire feed speed. 2. Travel speed too slow: Increase travel speed and ensure that travel speed is kept steady. 3. Excessive material at weld: Reduce wire feed speed.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "POSSIBLE CAUSES AND SOLUTIONS"
+    }
+  },
+  {
+    "id": "owner-manual-p37-entity-defect-893fae55f9c2",
+    "type": "weld_defect",
+    "label": "Crooked",
+    "text": "Wire Weld – Crooked/Wavy Bead",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Wire Weld – Crooked/Wavy Bead"
+    }
+  },
+  {
+    "id": "owner-manual-p37-entity-defect-0c8beff031c7",
+    "type": "weld_defect",
+    "label": "Wavy Bead",
+    "text": "Wire Weld – Crooked/Wavy Bead",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Wire Weld – Crooked/Wavy Bead"
+    }
+  },
+  {
+    "id": "owner-manual-p37-entity-defect-93aa6444c27c",
+    "type": "weld_defect",
+    "label": "Porosity",
+    "text": "Wire Weld – Porosity",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Wire Weld – Porosity"
+    }
+  },
+  {
+    "id": "owner-manual-p37-entity-e8c269206ea7",
+    "type": "part_or_control",
+    "label": "Nozzle",
+    "text": "POSSIBLE CAUSES AND SOLUTIONS 1. Incorrect polarity: Check that polarity is set correctly for type of welding. 2. Insufficient shielding gas (MIG only): Increase flow of gas. Clean nozzle. Maintain proper CTWD. 3. Incorrect shielding gas (MIG only): Use shielding gas recommended by wire supplier. 4. Dirty workpiece or welding wire: Clean workpiece down to bare metal. Make certain that wire is clea",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Wire Weld – Porosity"
+    }
+  },
+  {
+    "id": "owner-manual-p37-entity-defect-67682c4133bf",
+    "type": "weld_defect",
+    "label": "Spatter",
+    "text": "Wire Weld – Excessive Spatter",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Wire Weld – Excessive Spatter"
+    }
+  },
+  {
+    "id": "owner-manual-p38-entity-defect-6c7dd80b5bd4",
+    "type": "weld_defect",
+    "label": "Penetration",
+    "text": "Stick Weld Diagnosis – Workpiece Heat Control / Weld Penetration",
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 38,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Stick Weld Diagnosis – Workpiece Heat Control / Weld Penetration"
+    }
+  },
+  {
+    "id": "owner-manual-p38-entity-defect-d1d69485a4d9",
+    "type": "weld_defect",
+    "label": "Burn-Through",
+    "text": "BURN-THROUGH PROPER PENETRATION INADEQUATE PENETRATION",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 38,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "INADEQUATE PENETRATION"
+    }
+  },
+  {
+    "id": "owner-manual-p38-entity-defect-edf5e73441f8",
+    "type": "weld_defect",
+    "label": "Slag",
+    "text": "Stick welds will have a coat of slag over them until cleaned.",
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 38,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "CLEAN WELDS FIRST!"
+    }
+  },
+  {
+    "id": "owner-manual-p39-entity-defect-6c7dd80b5bd4",
+    "type": "weld_defect",
+    "label": "Penetration",
+    "text": "Stick Weld Penetration (Workpiece Heat Control)",
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 39,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Stick Weld Penetration (Workpiece Heat Control)"
+    }
+  },
+  {
+    "id": "owner-manual-p39-entity-defect-d1d69485a4d9",
+    "type": "weld_defect",
+    "label": "Burn-Through",
+    "text": "BURN-THROUGH Weld droops on top and underneath or falls through",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 39,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "BURN-THROUGH"
+    }
+  },
+  {
+    "id": "owner-manual-p40-entity-defect-edf5e73441f8",
+    "type": "weld_defect",
+    "label": "Slag",
+    "text": "Stick Weld – Coat of Slag Over Weld",
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Stick Weld – Coat of Slag Over Weld"
+    }
+  },
+  {
+    "id": "owner-manual-p40-entity-defect-93aa6444c27c",
+    "type": "weld_defect",
+    "label": "Porosity",
+    "text": "Stick Weld – Porosity — Small cavities or holes in the bead.",
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Stick Weld – Porosity"
+    }
+  },
+  {
+    "id": "owner-manual-p40-entity-defect-893fae55f9c2",
+    "type": "weld_defect",
+    "label": "Crooked",
+    "text": "Stick Weld – Crooked/Wavy Bead",
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Stick Weld – Crooked/Wavy Bead"
+    }
+  },
+  {
+    "id": "owner-manual-p40-entity-defect-0c8beff031c7",
+    "type": "weld_defect",
+    "label": "Wavy Bead",
+    "text": "Stick Weld – Crooked/Wavy Bead",
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Stick Weld – Crooked/Wavy Bead"
+    }
+  },
+  {
+    "id": "owner-manual-p40-entity-defect-67682c4133bf",
+    "type": "weld_defect",
+    "label": "Spatter",
+    "text": "Stick Weld – Excessive Spatter",
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Stick Weld – Excessive Spatter"
+    }
+  },
+  {
+    "id": "owner-manual-p40-entity-defect-d1d69485a4d9",
+    "type": "weld_defect",
+    "label": "Burn-Through",
+    "text": "Stick Weld – Burn-Through — Base material melts away, leaving a hole in the weld.",
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Stick Weld – Burn-Through"
+    }
+  },
+  {
+    "id": "owner-manual-p41-entity-6d8aa3645eaf",
+    "type": "part_or_control",
+    "label": "Mig Gun",
+    "text": "4. For optimal MIG / Flux-Cored wire weld quality, clean and inspect the MIG Gun Contact Tip and Nozzle before each use, as explained below.",
+    "processes": [
+      "mig",
+      "flux"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 41,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "AFTER EVERY USE"
+    }
+  },
+  {
+    "id": "owner-manual-p41-entity-d8f0d3a368a2",
+    "type": "part_or_control",
+    "label": "Contact Tip",
+    "text": "4. For optimal MIG / Flux-Cored wire weld quality, clean and inspect the MIG Gun Contact Tip and Nozzle before each use, as explained below.",
+    "processes": [
+      "mig",
+      "flux"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 41,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "AFTER EVERY USE"
+    }
+  },
+  {
+    "id": "owner-manual-p41-entity-e8c269206ea7",
+    "type": "part_or_control",
+    "label": "Nozzle",
+    "text": "4. For optimal MIG / Flux-Cored wire weld quality, clean and inspect the MIG Gun Contact Tip and Nozzle before each use, as explained below.",
+    "processes": [
+      "mig",
+      "flux"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 41,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "AFTER EVERY USE"
+    }
+  },
+  {
+    "id": "owner-manual-p42-entity-6d8aa3645eaf",
+    "type": "part_or_control",
+    "label": "Mig Gun",
+    "text": "IMPORTANT! Be CERTAIN to shut off the Welder, disconnect it from power, and discharge the MIG Gun to ground before adjusting, cleaning, or repairing the unit.",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "ground before adjusting, cleaning, or repairing the unit."
+    }
+  },
+  {
+    "id": "owner-manual-p42-wire-feed-5344ba390d0b",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "Wire Feed Motor Runs but Wire Does Not Feed Properly",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "Likely Solutions",
+      "neighboringText": "Wire Feed Motor Runs but Wire Does Not Feed Properly"
+    }
+  },
+  {
+    "id": "owner-manual-p42-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "Wire Feed Motor Runs but Wire Does Not Feed Properly",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Likely Solutions"
+    }
+  },
+  {
+    "id": "owner-manual-p42-entity-edb5c0f72552",
+    "type": "part_or_control",
+    "label": "Tensioner",
+    "text": "4. Feed Tensioner is too tight.",
+    "processes": [
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Likely Solutions"
+    }
+  },
+  {
+    "id": "owner-manual-p42-entity-d8f0d3a368a2",
+    "type": "part_or_control",
+    "label": "Contact Tip",
+    "text": "2. Incorrect Contact Tip size. 3. MIG Gun Cable Connector not fully inserted into Wire Feed mechanism. 4. Damaged liner.",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Likely Solutions"
+    }
+  },
+  {
+    "id": "owner-manual-p42-entity-627c012b20c4",
+    "type": "part_or_control",
+    "label": "Spool",
+    "text": "3. Gun liner is too small for welding wire being used. 4. Wire is tangled on the spool. 5. Wire is not making contact with Feed Rollers.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Likely Solutions"
+    }
+  },
+  {
+    "id": "owner-manual-p42-entity-cc64e02b144c",
+    "type": "part_or_control",
+    "label": "Ground Clamp",
+    "text": "1. See first Troubleshooting section above. 2. Replace with the proper tip or liner size for wire used. 3. Adjust wire feed speed to achieve a more stable arc. 4. Check to ensure that all connections are tight. 5. Have a qualified technician inspect and repair/replace as necessary. 6. Ensure polarity is correct for operation: DCEP for MIG welding and DCEN for Flux-Cored self-shielded welding. 7. E",
+    "processes": [
+      "mig",
+      "flux",
+      "tig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Likely Solutions"
+    }
+  },
+  {
+    "id": "owner-manual-p43-entity-050dd0ca2bce",
+    "type": "part_or_control",
+    "label": "Power Switch",
+    "text": "1. If a warning screen appears in the LCD Display window, Welder may have overheated and shut down. Stop and wait with the Power Switch ON for the Welder to cool. The Welder automatically returns to service after cooling off. Reduce duration or frequency of welding periods to help reduce wear on the Welder. Refer to Duty Cycle (Duration of Use) on page 19.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Likely Solutions"
+    }
+  },
+  {
+    "id": "owner-manual-p43-entity-2e6c9c90ab6c",
+    "type": "part_or_control",
+    "label": "Lcd Display",
+    "text": "1. If a warning screen appears in the LCD Display window, Welder may have overheated and shut down. Stop and wait with the Power Switch ON for the Welder to cool. The Welder automatically returns to service after cooling off. Reduce duration or frequency of welding periods to help reduce wear on the Welder. Refer to Duty Cycle (Duration of Use) on page 19.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Likely Solutions"
+    }
+  },
+  {
+    "id": "owner-manual-p43-entity-45ba6501fd6e",
+    "type": "part_or_control",
+    "label": "Reset Button",
+    "text": "4. Check input voltage and ensure it falls within the specified range. If input voltage is correct, press Reset Button on back of machine.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Likely Solutions"
+    }
+  },
+  {
+    "id": "owner-manual-p43-wire-feed-6ab80d3ab867",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "Wire Feeds, but Arc Does Not Ignite",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "Likely Solutions",
+      "neighboringText": "Wire Feeds, but Arc Does Not Ignite"
+    }
+  },
+  {
+    "id": "owner-manual-p43-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "Wire Feeds, but Arc Does Not Ignite",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Likely Solutions"
+    }
+  },
+  {
+    "id": "owner-manual-p43-entity-d8f0d3a368a2",
+    "type": "part_or_control",
+    "label": "Contact Tip",
+    "text": "2. Improperly sized Contact Tip.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Likely Solutions"
+    }
+  },
+  {
+    "id": "owner-manual-p43-entity-cc64e02b144c",
+    "type": "part_or_control",
+    "label": "Ground Clamp",
+    "text": "1. Make certain that the workpiece is contacted properly by the Ground Clamp and that the workpiece is properly cleaned near the ground clamp and the welding location.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Likely Solutions"
+    }
+  },
+  {
+    "id": "owner-manual-p43-entity-defect-93aa6444c27c",
+    "type": "weld_defect",
+    "label": "Porosity",
+    "text": "Porosity in the Weld Metal",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.75,
+      "section": "Likely Solutions"
+    }
+  },
+  {
+    "id": "owner-manual-p43-entity-fe98a4b07a9f",
+    "type": "part_or_control",
+    "label": "Regulator",
+    "text": "2. Check gas regulator to ensure proper flow.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Likely Solutions"
+    }
+  },
+  {
+    "id": "owner-manual-p44-entity-cc64e02b144c",
+    "type": "part_or_control",
+    "label": "Ground Clamp",
+    "text": "3. Ground Clamp not attached to workpiece.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 44,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Likely Solutions"
+    }
+  },
+  {
+    "id": "owner-manual-p44-entity-2e6c9c90ab6c",
+    "type": "part_or_control",
+    "label": "Lcd Display",
+    "text": "4. Connect shielding gas to Welder. LCD Display Does Not Light When Welder is Switched On",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 44,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Likely Solutions"
+    }
+  },
+  {
+    "id": "owner-manual-p44-entity-5c0c033c503c",
+    "type": "part_or_control",
+    "label": "Electrode Holder",
+    "text": "2. Damaged electrode holder or loose connection within electrode holder.",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 44,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Likely Solutions"
+    }
+  },
+  {
+    "id": "owner-manual-p45-wire-feed-c15e3d590f4a",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "WIRE FEEDER",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 45,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "WIRE FEEDER",
+      "neighboringText": "WIRE FEEDER"
+    }
+  },
+  {
+    "id": "owner-manual-p45-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "WIRE FEEDER",
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 45,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "WIRE FEEDER"
+    }
+  },
+  {
+    "id": "owner-manual-p46-wire-feed-e91307c64fb8",
+    "type": "wire_feed_instruction",
+    "label": "Wire feed / tension instruction",
+    "text": "Part Description Qty 1 Right Cover 1 2 Handle Base 1 3 Handle Cover 1 4 Hinge-Right 2 5 Hinge-left 2 6 Left Cover 1 7 Latch 1 8 Middle Bracket 1 9 PFC Inductance 1 10 Spool 1 11 Remote Control PCB 1 12 Wire Feeder 1 13 Aviation Plug Wire 1 14 Miller Plug Connector 1 15 Protective Cover 1 16 Display PCB 1 17 Screen Cover 1 18 Screen Frame 1 19 MIG Welding Torch 1 20 Front Handle Cover 1 21 Front Panel 1 22 Display 1 23 Knob 2 24 Knob 1 25 Storage Door 1 26 Switch 1 27 American Air Fitting 2 28 Air Connector 3 29 Quick Connector 2 30 Grounding Clamp Assembly 1 31 Welding Clamp Assembly 1",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "keyword_section",
+      "confidence": 0.75,
+      "section": "Qty",
+      "neighboringText": "Part Description Qty 1 Right Cover 1 2 Handle Base 1 3 Handle Cover 1 4 Hinge-Right 2 5 Hinge-left 2 6 Left Cover 1 7 Latch 1 8 Middle Bracket 1 9 PFC Inductance 1 10 Spool 1 11 Remote Control PCB 1 12 Wire Feeder 1 13 Aviation Plug Wire 1 14 Miller Plug Connector 1 15 Protective Cover 1 16 Display "
+    }
+  },
+  {
+    "id": "owner-manual-p46-entity-c5b14797b831",
+    "type": "part_or_control",
+    "label": "Wire Feed",
+    "text": "Part Description Qty 1 Right Cover 1 2 Handle Base 1 3 Handle Cover 1 4 Hinge-Right 2 5 Hinge-left 2 6 Left Cover 1 7 Latch 1 8 Middle Bracket 1 9 PFC Inductance 1 10 Spool 1 11 Remote Control PCB 1 12 Wire Feeder 1 13 Aviation Plug Wire 1 14 Miller Plug Connector 1 15 Protective Cover 1 16 Display PCB 1 17 Screen Cover 1 18 Screen Frame 1 19 MIG Welding Torch 1 20 Front Handle Cover 1 21 Front Pa",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Qty"
+    }
+  },
+  {
+    "id": "owner-manual-p46-entity-627c012b20c4",
+    "type": "part_or_control",
+    "label": "Spool",
+    "text": "Part Description Qty 1 Right Cover 1 2 Handle Base 1 3 Handle Cover 1 4 Hinge-Right 2 5 Hinge-left 2 6 Left Cover 1 7 Latch 1 8 Middle Bracket 1 9 PFC Inductance 1 10 Spool 1 11 Remote Control PCB 1 12 Wire Feeder 1 13 Aviation Plug Wire 1 14 Miller Plug Connector 1 15 Protective Cover 1 16 Display PCB 1 17 Screen Cover 1 18 Screen Frame 1 19 MIG Welding Torch 1 20 Front Handle Cover 1 21 Front Pa",
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "Qty"
+    }
+  },
+  {
+    "id": "quick-start-guide-p01-entity-e8c269206ea7",
+    "type": "part_or_control",
+    "label": "Nozzle",
+    "text": "Nozzle",
+    "processes": [],
+    "provenance": {
+      "source": "quick-start-guide.pdf",
+      "page": 1,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "BASIC WELDING INSTRUCTIONS AND WELDING TIPS ARE IN MANUAL."
+    }
+  },
+  {
+    "id": "quick-start-guide-p01-entity-627c012b20c4",
+    "type": "part_or_control",
+    "label": "Spool",
+    "text": "2 lb Wire Spool",
+    "processes": [],
+    "provenance": {
+      "source": "quick-start-guide.pdf",
+      "page": 1,
+      "extractionMethod": "keyword_match",
+      "confidence": 0.8,
+      "section": "WARNING"
+    }
+  }
+]

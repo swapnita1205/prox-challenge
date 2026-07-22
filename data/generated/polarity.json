@@ -1,0 +1,1277 @@
+[
+  {
+    "id": "owner-manual-p08-polarity-777761559f62",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "MIG Gun / Spool Gun Cable Socket",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 8,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Front Panel Controls",
+      "neighboringText": "MIG Gun / Spool Gun Cable Socket"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p08-polarity-bbf01f4b04d6",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Socket",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 8,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Front Panel Controls",
+      "neighboringText": "Socket"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p08-polarity-71fdcf473f02",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Page 8 For technical questions, please call 1-800-444-3353. Item 57812 Safety Welding Tips TIG / Stick CONTROLS Wire MAINTENANCE Controls Front Panel Controls ® Wire Feed Power Cable Power Switch LCD Display Right Knob Left Knob Control Knob Home Button Back Button Spool Gun Gas Outlet MIG Gun / Spool Gun Cable Socket Negative Socket Positive Socket Storage Compartment Note: When using an optional Spool Gun (sold separately), connect the Spool Gun gas hose to the Spool Gun Gas Outlet.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 8,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Front Panel Controls",
+      "neighboringText": "Page 8\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\nControls\nFront Panel Controls\n®\nWire Feed \nPower Cable\nPower \nSwitch\nLCD \nDisplay\nRight \nKnob\nLeft \nKnob\nControl \nKnob\nHome \nButton\nBack \nButton\nSpool Gun \nGas Outlet\nMIG Gun / \nSpool Gun \nCable Socket \nNegative \nSocket\nPositive \nSocket\nStorage \nCompartment\nNot"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p09-polarity-c91783d664c8",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Wire Feed Control Socket Foot Pedal",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 9,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Interior Controls",
+      "neighboringText": "Wire Feed Control Socket Foot Pedal"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p09-polarity-bbf01f4b04d6",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Socket",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 9,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Interior Controls",
+      "neighboringText": "Socket"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p09-polarity-91a842771b8f",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Page 9 For technical questions, please call 1-800-444-3353. Item 57812 Safety Welding Tips MAINTENANCE TIG / Stick CONTROLS Wire Interior Controls Cold Wire Feed Switch Idler Arm Wire Feed Mechanism Wire Spool Spool Knob Feed Tensioner Wire Inlet Liner Feed Roller Knob Wire Feed Control Socket Foot Pedal Socket",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 9,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Interior Controls",
+      "neighboringText": "Page 9\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nInterior Controls\nCold Wire \nFeed Switch\nIdler \nArm\nWire Feed \nMechanism\nWire Spool\nSpool Knob\nFeed \nTensioner\nWire Inlet \nLiner\nFeed \nRoller \nKnob\nWire Feed \nControl Socket\nFoot Pedal \nSocket"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p13-polarity-846c2bdcb17a",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "13. Loosen the Knob on the Wire Feed mechanism, then insert the Gun Cable Connector through the hole on the Welder front and into the socket on the Wire Feed.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "13.\tLoosen the Knob on the Wire Feed",
+      "neighboringText": "13. Loosen the Knob on the Wire Feed mechanism, then insert the Gun Cable Connector through the hole on the Welder front and into the socket on the Wire Feed."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p13-polarity-b6184461d82a",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "14. Ensure that the Gun Cable Connector is fully inserted into the socket on the Wire Feed mechanism as shown, then tighten the Knob securely. If Connector is not fully inserted, the gas connection will leak, preventing shielding gas from reaching the welding arc.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "14.\tEnsure that the Gun Cable Connector",
+      "neighboringText": "14. Ensure that the Gun Cable Connector is fully inserted into the socket on the Wire Feed mechanism as shown, then tighten the Knob securely. If Connector is not fully inserted, the gas connection will leak, preventing shielding gas from reaching the welding arc."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p13-polarity-e2d8d3482935",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "15. Insert the Wire Feed Control Cable through the hole on the Welder front and connect it to the Wire Feed Control Socket inside the machine, then tighten the lock ring on the Cable plug. Note that the plug on the Cable fits into the Socket in one specific orientation only.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "15.\tInsert the Wire Feed Control Cable through",
+      "neighboringText": "15. Insert the Wire Feed Control Cable through the hole on the Welder front and connect it to the Wire Feed Control Socket inside the machine, then tighten the lock ring on the Cable plug. Note that the plug on the Cable fits into the Socket in one specific orientation only."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p13-polarity-f571458e470b",
+    "polarityType": "DCEN",
+    "process": "flux",
+    "groundSocket": "positive",
+    "electrodeSocket": "negative",
+    "instructions": "16. DCEN Direct Current Electrode Negative Wire Setup for Flux-Cored (gasless) welding: Plug Ground Clamp Cable into Positive ( + ) Socket. Plug Wire Feed Power Cable into Negative ( – ) Socket. Twist cables clockwise all the way to lock in place.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.85,
+      "section": "15.\tInsert the Wire Feed Control Cable through",
+      "neighboringText": "16. DCEN Direct Current Electrode Negative Wire Setup for Flux-Cored (gasless) welding: Plug Ground Clamp Cable into Positive ( + ) Socket. Plug Wire Feed Power Cable into Negative ( – ) Socket. Twist cables clockwise all the way to lock in place."
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p13-polarity-a9882d91ac38",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Ground Clamp Cable",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "15.\tInsert the Wire Feed Control Cable through",
+      "neighboringText": "Ground Clamp Cable"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p13-polarity-a748bfeac08a",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "in Positive Socket",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "15.\tInsert the Wire Feed Control Cable through",
+      "neighboringText": "in Positive Socket"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p13-polarity-226a3285957e",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": "negative",
+    "instructions": "Wire Feed Power Cable in Negative Socket",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "15.\tInsert the Wire Feed Control Cable through",
+      "neighboringText": "Wire Feed Power Cable in Negative Socket"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p13-polarity-ea6d4ca8465c",
+    "polarityType": "DCEN",
+    "process": "flux",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "DCEN Flux-Cored (Gasless)",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "DCEN",
+      "neighboringText": "DCEN Flux-Cored (Gasless)"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p13-polarity-d93ffb1b5bd7",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Polarity Setup",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "DCEN",
+      "neighboringText": "Polarity Setup"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p13-polarity-097e8ac0ec63",
+    "polarityType": "DCEN",
+    "process": "flux",
+    "groundSocket": "positive",
+    "electrodeSocket": "negative",
+    "instructions": "Page 13 For technical questions, please call 1-800-444-3353. Item 57812 Safety Welding Tips MAINTENANCE TIG / Stick CONTROLS Wire 13. Loosen the Knob on the Wire Feed mechanism, then insert the Gun Cable Connector through the hole on the Welder front and into the socket on the Wire Feed. 14. Ensure that the Gun Cable Connector is fully inserted into the socket on the Wire Feed mechanism as shown, then tighten the Knob securely. If Connector is not fully inserted, the gas connection will leak, preventing shielding gas from reaching the welding arc. NOTICE: To prevent damage, do not overtighten the Knob. 15. Insert the Wire Feed Control Cable through the hole on the Welder front and connect it to the Wire Feed Control Socket inside the machine, then tighten the lock ring on the Cable plug. Note that the plug on the Cable fits into the Socket in one specific orientation only. 16. DCEN Direct Current Electrode Negative Wire Setup for Flux-Cored (gasless) welding: Plug Ground Clamp Cable in",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.85,
+      "section": "DCEN",
+      "neighboringText": "Page 13\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\n13.\tLoosen the Knob on the Wire Feed \nmechanism, then insert the Gun Cable \nConnector through the hole on the Welder \nfront and into the socket on the Wire Feed.\n14.\tEnsure that the Gun Cable Connector \nis fully inserted into the socket on \nthe Wire Feed mecha"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p14-polarity-1009b30bcfb4",
+    "polarityType": "DCEP",
+    "process": "mig-solid",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "17. DCEP Direct Current Electrode Positive Wire Setup for Solid Core (gas shielded) welding:",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Setup for Solid Core (gas shielded) welding:",
+      "neighboringText": "17. DCEP Direct Current Electrode Positive Wire Setup for Solid Core (gas shielded) welding:"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p14-polarity-3308c36d04ed",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": "negative",
+    "electrodeSocket": null,
+    "instructions": "a. Plug Ground Clamp Cable into Negative ( – )",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": ")",
+      "neighboringText": "a. Plug Ground Clamp Cable into Negative ( – )"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p14-polarity-d2594b19fdea",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": "positive",
+    "instructions": "Socket. Plug Wire Feed Power Cable into Positive ( + ) Socket. Twist cables clockwise all the way to lock in place.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "clockwise all the way to lock in place.",
+      "neighboringText": "Socket. Plug Wire Feed Power Cable into Positive ( + ) Socket. Twist cables clockwise all the way to lock in place."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p14-polarity-a9882d91ac38",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Ground Clamp Cable",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Ground Clamp Cable",
+      "neighboringText": "Ground Clamp Cable"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p14-polarity-f34f8ae3c697",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "in Negative Socket",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "in Negative Socket",
+      "neighboringText": "in Negative Socket"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p14-polarity-c0e12aacf7a1",
+    "polarityType": "DCEP",
+    "process": "mig-solid",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "DCEP Solid Core (Gas Shielded)",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Solid Core (Gas Shielded)",
+      "neighboringText": "DCEP Solid Core (Gas Shielded)"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p14-polarity-d93ffb1b5bd7",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Polarity Setup",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Polarity Setup",
+      "neighboringText": "Polarity Setup"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p14-polarity-4c923bcf933a",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": "positive",
+    "instructions": "Wire Feed Power Cable in Positive Socket",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Positive Socket",
+      "neighboringText": "Wire Feed Power Cable in Positive Socket"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p14-polarity-5d0f42faaf52",
+    "polarityType": "DCEP",
+    "process": "mig-solid",
+    "groundSocket": "negative",
+    "electrodeSocket": "positive",
+    "instructions": "Page 14 For technical questions, please call 1-800-444-3353. Item 57812 Safety Welding Tips TIG / Stick CONTROLS Wire MAINTENANCE 17. DCEP Direct Current Electrode Positive Wire Setup for Solid Core (gas shielded) welding: a. Plug Ground Clamp Cable into Negative (–) Socket. Plug Wire Feed Power Cable into Positive (+) Socket. Twist cables clockwise all the way to lock in place. b. Determine which type of shielding gas would be appropriate for the welding you will do. Refer to the Settings Chart on the inside of the Welder door. c. With assistance, set the cylinder (not included) onto a cabinet or cart near the Welder and secure the cylinder in place with two straps (not included) to prevent tipping. d. Remove the cylinder’s cap. Stand to the side of the valve opening, then open the valve briefly to blow dust and dirt from the valve opening. Close the cylinder valve. e. Locate the Regulator (included) and close its valve until it is loose, then thread Regulator onto cylinder and wrench",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.85,
+      "section": "d",
+      "neighboringText": "Page 14\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\n17.\tDCEP Direct Current Electrode Positive Wire \nSetup for Solid Core (gas shielded) welding:\na.\t Plug Ground Clamp Cable into Negative (–) \nSocket.  Plug Wire Feed Power Cable \ninto Positive (+) Socket.  Twist cables \nclockwise all the way to lock in place.\nb"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p16-polarity-282e74530380",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "24. Plug either 120 VAC or 240 VAC Power Cord into Power Input Socket.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 16,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Cord into Power Input Socket.",
+      "neighboringText": "24. Plug either 120 VAC or 240 VAC Power Cord into Power Input Socket."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p16-polarity-8c027e339cee",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Page 16 For technical questions, please call 1-800-444-3353. Item 57812 Safety Welding Tips TIG / Stick CONTROLS Wire MAINTENANCE DANGER PARTS MAY BE AT WELDING VOLTAGE TO PREVENT ELECTRIC SHOCK AND DEATH: 1. Keep hands away from Wire Feed mechanism. 2. Close door before plugging in, unless using Cold Wire Feed to feed wire through to gun. 3. Do not touch Trigger while feeding wire through to gun. 24. Plug either 120 VAC or 240 VAC Power Cord into Power Input Socket. Note: Plug will only fit one way. 25. Do not touch the Gun’s Trigger. Plug the Power Cord into a properly grounded, GFCI protected 120 VAC (20 amp rated) or 240 VAC receptacle that matches the plug and turn the Power Switch ON. The circuit must be equipped with delayed action-type circuit breaker or fuses. 26. Point the Gun away from all objects. Press and hold the Cold Wire Feed Switch until the wire feeds through two inches. The wire liner may come out with the welding wire. This is normal, just push the wire liner back ",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 16,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Feed Switch",
+      "neighboringText": "Page 16\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\nDANGER\nPARTS MAY BE AT WELDING VOLTAGE\nTO PREVENT ELECTRIC SHOCK AND DEATH:\n1.\t Keep hands away from Wire Feed mechanism.\n2.\t Close door before plugging in, unless using Cold \nWire Feed to feed wire through to gun.\n3.\t Do not touch Trigger while feeding wire t"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p17-polarity-859dbf14ee18",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": "negative",
+    "electrodeSocket": "positive",
+    "instructions": "1. To set up optional Spool Gun (sold separately), plug Ground Clamp Cable into Negative ( – ) Socket. Plug Wire Feed Power Cable into Positive ( + ) Socket. Twist cables clockwise all the way to lock in place.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Optional Spool Gun Setup",
+      "neighboringText": "1. To set up optional Spool Gun (sold separately), plug Ground Clamp Cable into Negative ( – ) Socket. Plug Wire Feed Power Cable into Positive ( + ) Socket. Twist cables clockwise all the way to lock in place."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p17-polarity-0287998c0af3",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "2. Loosen the Knob on the Wire Feed mechanism, then insert the Spool Gun Cable Connector through the hole on the Welder front and into the socket on the Wire Feed.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Optional Spool Gun Setup",
+      "neighboringText": "2. Loosen the Knob on the Wire Feed mechanism, then insert the Spool Gun Cable Connector through the hole on the Welder front and into the socket on the Wire Feed."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p17-polarity-7b0551962112",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "4. Insert the Wire Feed Control Cable through hole on Welder front and connect to the Wire Feed Control Socket inside the machine, then tighten lock ring on the Cable plug. Note that the plug on the Cable fits into the Socket in one specific orientation only.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Optional Spool Gun Setup",
+      "neighboringText": "4. Insert the Wire Feed Control Cable through hole on Welder front and connect to the Wire Feed Control Socket inside the machine, then tighten lock ring on the Cable plug. Note that the plug on the Cable fits into the Socket in one specific orientation only."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p17-polarity-a9882d91ac38",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Ground Clamp Cable",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Optional Spool Gun Setup",
+      "neighboringText": "Ground Clamp Cable"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p17-polarity-bbf01f4b04d6",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Socket",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Optional Spool Gun Setup",
+      "neighboringText": "Socket"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p17-polarity-4c923bcf933a",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": "positive",
+    "instructions": "Wire Feed Power Cable in Positive Socket",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Optional Spool Gun Setup",
+      "neighboringText": "Wire Feed Power Cable in Positive Socket"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p17-polarity-b5f88946c988",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": "negative",
+    "electrodeSocket": "positive",
+    "instructions": "Page 17 For technical questions, please call 1-800-444-3353. Item 57812 Safety Welding Tips MAINTENANCE TIG / Stick CONTROLS Wire 27. To check the wire’s drive tension, press and hold Trigger to feed the wire against a piece of wood from 2 to 3 inches away. Note: After pressing Trigger, wire will stop feeding after 3 seconds if there is no arc. Check tension for less than 3 seconds. If the wire stops instead of bending, unplug the Welder, slightly tighten the Feed Tensioner clockwise, and try again. If the wire bends from the feed pressure, then the tension is set properly. Before proceeding, turn OFF the Power Switch and unplug the Power Cord from its electrical outlet. 28. Turn OFF the Power Switch and unplug the Power Cord from its electrical outlet. 29. Close the Door. Make sure Door is securely latched. 30. Select a Contact Tip that is compatible with the welding wire used. Slide the Contact Tip over the wire and thread it clockwise into the MIG Gun. Tighten the Contact Tip. 31. R",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Optional Spool Gun Setup",
+      "neighboringText": "Page 17\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\n27.\tTo check the wire’s drive tension, press and hold \nTrigger to feed the wire against a piece of wood \nfrom 2 to 3 inches away.\n \nNote:  After pressing Trigger, wire will stop \nfeeding after 3 seconds if there is no arc.  \nCheck tension for less than 3 secon"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p19-polarity-6d52d913e851",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "on desired welding polarity",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Setting Up The Weld",
+      "neighboringText": "on desired welding polarity"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p19-polarity-cdd6a0a604d2",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Page 19 For technical questions, please call 1-800-444-3353. Item 57812 Safety Welding Tips MAINTENANCE TIG / Stick CONTROLS Wire Setting Up The Weld clamps workpieces Chamfer thick workpieces. Clean surfaces to bare metal. 1. Make practice welds on pieces of scrap the same thickness as your intended workpiece to practice technique before welding anything of value. Clean the weld surfaces thoroughly with a wire brush or angle grinder; there must be no rust, paint, oil, or other materials on the weld surfaces, only bare metal. 2. Use clamps (not included) to hold the workpieces in position so that you can concentrate on proper welding technique. The distance (if any) between the two workpieces must be controlled properly to allow the weld to hold both sides securely while allowing the weld to penetrate fully into the joint. The edges of thicker workpieces may need to be chamfered (or beveled) to allow proper weld penetration. Notice: When welding equipment on a vehicle, disconnect the v",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Rated Duty Cycle",
+      "neighboringText": "Page 19\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSetting Up The Weld\nclamps\nworkpieces\nChamfer thick workpieces.\nClean surfaces \nto bare metal.\n1.\t Make practice welds on pieces of scrap the \nsame thickness as your intended workpiece \nto practice technique before welding anything \nof value.  Clean the weld s"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p20-polarity-795a8bfbe690",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "a. Polarity and Gas Settings:",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 20,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Settings",
+      "neighboringText": "a. Polarity and Gas Settings:"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p20-polarity-4ac01f76474c",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Page 20 For technical questions, please call 1-800-444-3353. Item 57812 Safety Welding Tips TIG / Stick CONTROLS Wire MAINTENANCE 4. Turn the Power Switch to the OFF position, then plug the Power Cord into a properly grounded, GFCI protected 120 VAC (20 amp rated) or 240 VAC receptacle that matches the plug. The circuit must be equipped with delayed action-type circuit breaker or fuses. 5. Set MIG Gun down on nonconductive, nonflammable surface away from any grounded objects. 6. Turn the Power Switch ON. Power Switch Settings ® Main Control Knob Left Knob Right Knob 1. Press Home Button on Control Panel. 2. Turn Main Control Knob until desired process appears on LCD display screen. 3. Press Main Control Knob to select process. Note: Press Main Control Knob to go to next screen. Press Back Button to return to the previous screen. 4. Adjust settings for the selected process. a. Polarity and Gas Settings: • Plug cables in according to screen. • Connect gas according to screen. • Set SCFH ",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 20,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "0",
+      "neighboringText": "Page 20\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\n4.\t Turn the Power Switch to the OFF position, \nthen plug the Power Cord into a properly \ngrounded, GFCI protected 120 VAC (20 amp \nrated) or 240 VAC receptacle that matches \nthe plug.  The circuit must be equipped with \ndelayed action-type circuit breaker or "
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p24-polarity-a9882d91ac38",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Ground Clamp Cable",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Connect Cables",
+      "neighboringText": "Ground Clamp Cable"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p24-polarity-a748bfeac08a",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "in Positive Socket",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Connect Cables",
+      "neighboringText": "in Positive Socket"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p24-polarity-896305163f6c",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Socket Socket",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Connect Cables",
+      "neighboringText": "Socket Socket"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p24-polarity-19fb41a64bc9",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Foot Pedal Socket",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Connect Cables",
+      "neighboringText": "Foot Pedal Socket"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p24-polarity-4345837ea455",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": "positive",
+    "electrodeSocket": null,
+    "instructions": "1. Plug Ground Clamp Cable into Positive Socket. Twist clockwise all the way to lock in place.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Connect Cables",
+      "neighboringText": "1. Plug Ground Clamp Cable into Positive Socket. Twist clockwise all the way to lock in place."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p24-polarity-4c8585963394",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "2. Plug TIG Torch Cable (TIG Torch sold separately) into Negative Socket. Twist clockwise all the way to lock in place.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Connect Cables",
+      "neighboringText": "2. Plug TIG Torch Cable (TIG Torch sold separately) into Negative Socket. Twist clockwise all the way to lock in place."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p24-polarity-2d563c1f907e",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "3. Insert the Foot Pedal Cable (Foot Pedal sold separately) through hole on Welder front and connect to the Foot Pedal Socket inside the machine. Secure by turning collar clockwise until tight.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Connect Cables",
+      "neighboringText": "3. Insert the Foot Pedal Cable (Foot Pedal sold separately) through hole on Welder front and connect to the Foot Pedal Socket inside the machine. Secure by turning collar clockwise until tight."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p24-polarity-e20be9e1a4a5",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": "positive",
+    "electrodeSocket": null,
+    "instructions": "Page 24 For technical questions, please call 1-800-444-3353. Item 57812 Safety Welding Tips TIG / Stick CONTROLS Wire MAINTENANCE TIG / Stick Welding Read the ENTIRE IMPORTANT SAFETY INFORMATION section at the beginning of this manual including all text under subheadings therein before set up or use of this product. TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Turn the Power Switch off and unplug the Welder before setup. Note: Remove the protective foam and cardboard from the Welder before setup. Place the Welder on a level surface that can bear its weight near the work area. Leave space around the Welder for proper air flow. TIG Setup Connect Cables Ground Clamp Cable in Positive Socket Ground Clamp TIG Torch TIG Torch Cable in Cable in Negative Negative Socket Socket TIG Torch (sold separately) Foot Pedal Socket (inside Welder) Foot Pedal (sold separately) Foot Pedal Cable Shielding Gas Hose 1. Plug Ground Clamp Cable into Positive Socket. Twist clockwise all the way to lock ",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Connect Cables",
+      "neighboringText": "Page 24\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\nTIG / Stick Welding\nRead the ENTIRE IMPORTANT SAFETY INFORMATION section at the beginning of this manual \nincluding all text under subheadings therein before set up or use of this product.\nTO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION:\nTurn the Power Swi"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p25-polarity-15a86741ee20",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Plug either 120 VAC or 240 VAC Power Cord into Power Input Socket.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 25,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Cord into Power Input Socket.",
+      "neighboringText": "Plug either 120 VAC or 240 VAC Power Cord into Power Input Socket."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p25-polarity-2de144da1e86",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Page 25 For technical questions, please call 1-800-444-3353. Item 57812 Safety Welding Tips MAINTENANCE TIG / Stick CONTROLS Wire Connect Shielding Gas 1. With assistance, place an 100% Argon cylinder (not included) onto a cabinet or cart near the Welder and secure the cylinder in place with two straps (not included) to prevent tipping. 2. Remove the cylinder’s cap. Stand to the side of the valve opening, then open the valve briefly to blow dust and dirt from the valve opening. Close the cylinder valve. 3. Locate the Regulator (included) and close its valve until it is loose, then thread Regulator onto cylinder and wrench-tighten connection. 4. Connect Shielding Gas Hose on TIG Torch Cable Connector to the Regulator’s Outlet and wrench-tighten connection. Connect Power Cord Plug either 120 VAC or 240 VAC Power Cord into Power Input Socket. Note: Plug will only fit one way. WARNING! TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Do not plug cord into wall outlet at this time. 4 3 ",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 25,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Input",
+      "neighboringText": "Page 25\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nConnect Shielding Gas\n1.\t With assistance, place an 100% Argon cylinder \n(not included) onto a cabinet or cart near the \nWelder and secure the cylinder in place with \ntwo straps (not included) to prevent tipping.\n2.\t Remove the cylinder’s cap.  Stand to the \ns"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p27-polarity-9cb609c5e496",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Electrode Holder Cable in Positive Socket",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Cable in Positive Socket",
+      "neighboringText": "Electrode Holder Cable in Positive Socket"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p27-polarity-a9882d91ac38",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Ground Clamp Cable",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Ground Clamp Cable",
+      "neighboringText": "Ground Clamp Cable"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p27-polarity-f34f8ae3c697",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "in Negative Socket",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "in Negative Socket",
+      "neighboringText": "in Negative Socket"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p27-polarity-3eab9ce620cc",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": "negative",
+    "electrodeSocket": null,
+    "instructions": "1. Plug Ground Clamp Cable into Negative Socket. Twist clockwise all the way to lock in place.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Twist clockwise all the way to lock in place.",
+      "neighboringText": "1. Plug Ground Clamp Cable into Negative Socket. Twist clockwise all the way to lock in place."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p27-polarity-0ac4d008f153",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "2. Plug Electrode Holder Cable into Positive Socket. Twist clockwise all the way to lock in place.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Plug Electrode Holder Cable into Positive Socket.",
+      "neighboringText": "2. Plug Electrode Holder Cable into Positive Socket. Twist clockwise all the way to lock in place."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p27-polarity-15a86741ee20",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Plug either 120 VAC or 240 VAC Power Cord into Power Input Socket.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Cord into Power Input Socket.",
+      "neighboringText": "Plug either 120 VAC or 240 VAC Power Cord into Power Input Socket."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p27-polarity-9dada93abf6f",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": "negative",
+    "electrodeSocket": null,
+    "instructions": "Page 27 For technical questions, please call 1-800-444-3353. Item 57812 Safety Welding Tips MAINTENANCE TIG / Stick CONTROLS Wire Stick Setup Connect Cables Electrode Holder Cable in Positive Socket Ground Clamp Cable in Negative Socket Ground Clamp Electrode Holder 1. Plug Ground Clamp Cable into Negative Socket. Twist clockwise all the way to lock in place. 2. Plug Electrode Holder Cable into Positive Socket. Twist clockwise all the way to lock in place. Connect Power Cord Plug either 120 VAC or 240 VAC Power Cord into Power Input Socket. Note: Plug will only fit one way. WARNING! TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Do not plug cord into wall outlet at this time. Reset Power Input Gas Inlet IP21S S 1 f1 f2 Date: 57812 25d Conforms to ANSI/IEC Std. 60974-1 264149 Vulcan OMNIPRO 220 30A/15.5V to 220A/25V X 25% 60% 100% U0 = 86V I2 200A 130A 115A U2 24V 20.5V 19.75V 1~50/60Hz U1 = 240V I1max = 25.5A 23.7A 15.6A I1eff = 12.8A 11.9A 8.5A 10A/20.4V to 175A/27V X 25% 60% 10",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Input",
+      "neighboringText": "Page 27\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nStick Setup\nConnect Cables\nElectrode Holder \nCable in Positive Socket\nGround Clamp Cable \nin Negative Socket\nGround \nClamp\nElectrode \nHolder\n1.\t Plug Ground Clamp Cable into Negative Socket.  \nTwist clockwise all the way to lock in place.\n2.\t Plug Electrode Ho"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p29-polarity-6d52d913e851",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "on desired welding polarity",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "3. Clamp Ground Cable to bare metal on the",
+      "neighboringText": "on desired welding polarity"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p29-polarity-1d365fc3af24",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Page 29 For technical questions, please call 1-800-444-3353. Item 57812 SaFety Welding tipS Maintenance tig / Stick cOntROlS WiRe Duty Cycle (Duration of Use) avoid damage to the Welder by not welding for more than the prescribed duty cycle time. The Duty Cycle defines the number of minutes, within a 10 minute period, during which a given welder can produce a particular welding current without overheating. For example, a welder with a 40% duty cycle at 125 A welding current must be allowed to rest for at least 6 minutes after every 4 minutes of continuous welding. Failure to carefully observe duty cycle limitations can easily over-stress a welder’s power generation system contributing to premature welder failure. This Welder has an internal thermal protection system to help prevent this sort of over-stress. When the Welder overheats, it automatically shuts down and a warning screen appears in the LCD Display window. The Welder automatically returns to service after cooling off. Should ",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "3. Clamp Ground Cable to bare metal on the",
+      "neighboringText": "Page 29\nFor technical questions, please call 1-800-444-3353.\nItem 57812\n        \nSaFety\nWelding tipS\nMaintenance\ntig / Stick\ncOntROlS\nWiRe\n Duty Cycle (Duration of Use)\navoid damage to the Welder by not welding for more \nthan the prescribed duty cycle time.  The Duty Cycle \ndefines the number of minutes, within a 10 minute \nperiod, during which a given welder can produce a \nparticular welding curr"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p30-polarity-795a8bfbe690",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "a. Polarity and Gas Settings:",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "TO PREVENT DEATH FROM ASPHYXIATION:",
+      "neighboringText": "a. Polarity and Gas Settings:"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p30-polarity-fec2e630eefb",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Page 30 For technical questions, please call 1-800-444-3353. Item 57812 Safety Welding Tips TIG / Stick CONTROLS Wire MAINTENANCE TIG Welding TO PREVENT SERIOUS INJURY AND DEATH: Do not weld without Grounding Clamp. When the operator is not holding the Torch, it must be sitting on a nonconductive, nonflammable surface. Only hold TIG Rod with an electrically insulated welding glove. TO PREVENT DEATH FROM ASPHYXIATION: Do not open gas without proper ventilation. Fix gas leaks immediately. Shielding gas can displace air and cause rapid loss of consciousness and death. Shielding gas without carbon dioxide can be even more hazardous because asphyxiation can start without feeling shortness of breath. NOTICE: TIG welding is a complicated process, requiring experience and skill to achieve successful results. Training beyond the scope of this manual is required to TIG weld properly. 1. Open gas cylinder’s valve all the way. 2. Set Flow Gauge to SCFH value indicated on the Settings Chart on the ",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "WARNING!  TO PREVENT SERIOUS",
+      "neighboringText": "Page 30\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\nTIG Welding\nTO PREVENT SERIOUS INJURY AND DEATH:  \nDo not weld without Grounding Clamp. \nWhen the operator is not holding the Torch, it must be sitting on a nonconductive, nonflammable surface.\nOnly hold TIG Rod with an electrically insulated welding glove.\n  "
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p32-polarity-25946330b495",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "a. Polarity Setting:",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "TO PREVENT SERIOUS INJURY AND DEATH:",
+      "neighboringText": "a. Polarity Setting:"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p32-polarity-5539dbe9df29",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Page 32 For technical questions, please call 1-800-444-3353. Item 57812 Safety Welding Tips TIG / Stick CONTROLS Wire MAINTENANCE Stick Welding TO PREVENT SERIOUS INJURY AND DEATH: Do not weld without Grounding Clamp. When the operator is not holding the Electrode Holder, it must be sitting on a nonconductive, nonflammable surface. 1. Turn the Power Switch to the OFF position, then plug the Welder into a properly grounded, GFCI protected, 120 VAC (20 amp rated) outlet or 240 V outlet. The circuit must be equipped with delayed action-type circuit breaker or fuses. 2. Set Electrode Holder down on nonconductive, nonflammable surface away from any grounded objects. 3. Turn the Power Switch ON. 4. Press Home Button on Control Panel. 5. Turn Main Control Knob until Stick process appears on LCD display screen. 6. Press Main Control Knob to select STICK process. Note: Press Main Control Knob to go to next screen. Press Back Button to return to the previous screen. Main Control Knob Left Knob R",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "WARNING!  TO PREVENT SERIOUS",
+      "neighboringText": "Page 32\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\nStick Welding\nTO PREVENT SERIOUS INJURY AND DEATH:  \nDo not weld without Grounding Clamp. \nWhen the operator is not holding the Electrode Holder, it must be \nsitting on a nonconductive, nonflammable surface.\n1.\t Turn the Power Switch to the OFF position, then "
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p35-polarity-e2487d70be26",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "or Wrong Polarity",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Example Wire Weld Diagrams",
+      "neighboringText": "or Wrong Polarity"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p35-polarity-508d3e444694",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Check Polarity",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "TO CORRECT:",
+      "neighboringText": "Check Polarity"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p35-polarity-f89c053edf19",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Page 35 For technical questions, please call 1-800-444-3353. Item 57812 Safety Welding Tips MAINTENANCE TIG / Stick CONTROLS Wire Wire Weld Diagnosis – Workpiece Heat Control / Weld Penetration EXCESS PENETRATION OR BURN-THROUGH PROPER PENETRATION INADEQUATE PENETRATION Not hot enough Too hot Ideal heat How to increase workpiece heat and increase penetration: (to weld THICKER workpieces properly) How to reduce workpiece heat and limit penetration: (to weld THINNER workpieces properly) a. Increase weld current b. Decrease travel speed c. Use faster wire feed d. Use shorter CTWD e. Decrease weld current f. Increase travel speed g. Use slower wire feed h. Use longer CTWD Example Wire Weld Diagrams Good Weld Voltage Too Low or Wire Feed Too Slow Voltage Too High or Wire Feed Too Fast Travel Speed Too Fast Travel Speed Too Slow CTWD Too Long or Wrong Polarity TO CORRECT: travel slower TO CORRECT: travel faster TO CORRECT: Check Polarity and maintain less less than 1/2\" than 1/2\" CTWD CTWD T",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "TO CORRECT:",
+      "neighboringText": "Page 35\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nWire Weld Diagnosis – Workpiece Heat Control / Weld Penetration\nEXCESS PENETRATION OR \nBURN-THROUGH\nPROPER PENETRATION\nINADEQUATE PENETRATION\nNot hot enough\nToo hot\nIdeal heat\nHow to increase workpiece heat \nand increase penetration: \n(to weld THICKER workpiec"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p37-polarity-1bb96bd41e7b",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "POSSIBLE CAUSES AND SOLUTIONS 1. Incorrect polarity: Check that polarity is set correctly for type of welding. 2. Insufficient shielding gas (MIG only): Increase flow of gas. Clean nozzle. Maintain proper CTWD. 3. Incorrect shielding gas (MIG only): Use shielding gas recommended by wire supplier. 4. Dirty workpiece or welding wire: Clean workpiece down to bare metal. Make certain that wire is clean and free from oil, coatings, and other residues. 5. Inconsistent travel speed: Maintain steady travel speed. 6. CTWD too long: Reduce CTWD.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Wire Weld – Porosity",
+      "neighboringText": "POSSIBLE CAUSES AND SOLUTIONS 1. Incorrect polarity: Check that polarity is set correctly for type of welding. 2. Insufficient shielding gas (MIG only): Increase flow of gas. Clean nozzle. Maintain proper CTWD. 3. Incorrect shielding gas (MIG only): Use shielding gas recommended by wire supplier. 4. Dirty workpiece or welding wire: Clean workpiece down to bare metal. Make certain that wire is clea"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p37-polarity-24f19eda8396",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "POSSIBLE CAUSES AND SOLUTIONS 1. Dirty workpiece or welding wire: Clean workpiece down to bare metal. Make certain that wire is clean and free from oil, coatings, and other residues. 2. Incorrect polarity: Check that polarity is set correctly for type of welding. 3. Insufficient shielding gas (MIG only): Increase flow of gas. Clean nozzle. Maintain proper CTWD. 4. Wire feeding too fast: Reduce wire feed speed. 5. CTWD too long: Reduce CTWD.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Wire Weld – Excessive Spatter",
+      "neighboringText": "POSSIBLE CAUSES AND SOLUTIONS 1. Dirty workpiece or welding wire: Clean workpiece down to bare metal. Make certain that wire is clean and free from oil, coatings, and other residues. 2. Incorrect polarity: Check that polarity is set correctly for type of welding. 3. Insufficient shielding gas (MIG only): Increase flow of gas. Clean nozzle. Maintain proper CTWD. 4. Wire feeding too fast: Reduce wir"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p37-polarity-d7d170b74b22",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Page 37 For technical questions, please call 1-800-444-3353. Item 57812 Safety Welding Tips MAINTENANCE TIG / Stick CONTROLS Wire Wire Weld – Burn-Through Base material melts away, leaving a hole in the weld. POSSIBLE CAUSES AND SOLUTIONS 1. Workpiece overheating: Reduce current and/or wire feed speed. 2. Travel speed too slow: Increase travel speed and ensure that travel speed is kept steady. 3. Excessive material at weld: Reduce wire feed speed. TOP VIEW Wire Weld – Crooked/Wavy Bead POSSIBLE CAUSES AND SOLUTIONS 1. Inaccurate welding: Use two hands or rest hand on steady surface. 2. Inconsistent travel speed: Maintain steady travel speed. 3. CTWD too long: Reduce CTWD. TOP VIEW Wire Weld – Porosity Small cavities or holes in the bead. POSSIBLE CAUSES AND SOLUTIONS 1. Incorrect polarity: Check that polarity is set correctly for type of welding. 2. Insufficient shielding gas (MIG only): Increase flow of gas. Clean nozzle. Maintain proper CTWD. 3. Incorrect shielding gas (MIG only): Us",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Wire Weld – Excessive Spatter",
+      "neighboringText": "Page 37\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nWire Weld – Burn-Through\nBase material melts away, \nleaving a hole in the weld.\nPOSSIBLE CAUSES AND SOLUTIONS\n1.\t Workpiece overheating:\nReduce current and/or wire feed speed.\n2.\t Travel speed too slow:\nIncrease travel speed and ensure \nthat travel speed is ke"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p42-polarity-74e336417282",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "4. Loose MIG Gun cable or ground cable. 5. Damaged MIG Gun or loose connection within Gun. 6. Incorrect polarity for process being run.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Likely Solutions",
+      "neighboringText": "4. Loose MIG Gun cable or ground cable. 5. Damaged MIG Gun or loose connection within Gun. 6. Incorrect polarity for process being run."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p42-polarity-7104dedf691c",
+    "polarityType": "DCEP",
+    "process": "flux",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "1. See first Troubleshooting section above. 2. Replace with the proper tip or liner size for wire used. 3. Adjust wire feed speed to achieve a more stable arc. 4. Check to ensure that all connections are tight. 5. Have a qualified technician inspect and repair/replace as necessary. 6. Ensure polarity is correct for operation: DCEP for MIG welding and DCEN for Flux-Cored self-shielded welding. 7. Ensure gas flow rate is set according to Settings Chart. Make sure MIG Gun Cable Connector is fully inserted into Wire Feed mechanism with no O-Rings exposed. 8. Check the ground clamp connection to the workpiece and machine. Ensure the MIG Gun is properly secured.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Likely Solutions",
+      "neighboringText": "1. See first Troubleshooting section above. 2. Replace with the proper tip or liner size for wire used. 3. Adjust wire feed speed to achieve a more stable arc. 4. Check to ensure that all connections are tight. 5. Have a qualified technician inspect and repair/replace as necessary. 6. Ensure polarity is correct for operation: DCEP for MIG welding and DCEN for Flux-Cored self-shielded welding. 7. E"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p42-polarity-c629cbb53ed0",
+    "polarityType": "DCEP",
+    "process": "flux",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Page 42 For technical questions, please call 1-800-444-3353. Item 57812 Safety Welding Tips TIG / Stick CONTROLS Wire MAINTENANCE Troubleshooting – MIG / Flux-Cored Welding IMPORTANT! Be CERTAIN to shut off the Welder, disconnect it from power, and discharge the MIG Gun to ground before adjusting, cleaning, or repairing the unit. Problem Possible Causes Likely Solutions Wire Feed Motor Runs but Wire Does Not Feed Properly 1. Insufficient wire feed pressure. 2. Incorrect wire feed roller size. 3. Damaged MIG Gun, cable, or liner assembly. 4. Feed Tensioner is too tight. 1. Increase wire feed pressure properly. Follow step 27 on page 17. 2. Flip roll to correct size. Follow the Feed Roller instructions on page 12. 3. Have a qualified technician inspect these parts and replace as necessary. 4. Loosen Feed Tensioner so it applies only enough pressure to prevent continued spinning after the Gun Trigger is released. Wire Creates a Bird’s Nest During Operation 1. Excess wire feed pressure. 2.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Likely Solutions",
+      "neighboringText": "Page 42\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\nTroubleshooting – MIG / Flux-Cored Welding\nIMPORTANT!\nBe CERTAIN to shut off the Welder, disconnect it from power, and discharge the MIG Gun to \nground before adjusting, cleaning, or repairing the unit.\nProblem\nPossible Causes\nLikely Solutions\nWire Feed Motor "
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p43-polarity-0e7507a1e697",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "5. Polarity is incorrect for the application.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Likely Solutions",
+      "neighboringText": "5. Polarity is incorrect for the application."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p43-polarity-718e61bdcb96",
+    "polarityType": "DCEP",
+    "process": "flux",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "5. Check the polarity and ensure it is DCEP for MIG and DCEN for Flux-Cored.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Likely Solutions",
+      "neighboringText": "5. Check the polarity and ensure it is DCEP for MIG and DCEN for Flux-Cored."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p43-polarity-9281757641ff",
+    "polarityType": "DCEP",
+    "process": "flux",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Page 43 For technical questions, please call 1-800-444-3353. Item 57812 Safety Welding Tips MAINTENANCE TIG / Stick CONTROLS Wire Problem Possible Causes Likely Solutions Welder Does Not Function When Switched On 1. Tripped thermal protection device. 2. Circuit supplies insufficient input voltage or amperage. 3. Faulty or improperly connected Trigger. 4. Machine is in low- or over-voltage protection. 5. Machine is in the incorrect mode. 1. If a warning screen appears in the LCD Display window, Welder may have overheated and shut down. Stop and wait with the Power Switch ON for the Welder to cool. The Welder automatically returns to service after cooling off. Reduce duration or frequency of welding periods to help reduce wear on the Welder. Refer to Duty Cycle (Duration of Use) on page 19. 2. Verify that the circuit is designed to supply the required input voltage and amperage as detailed on the Specifications table. If a warning screen appears in the LCD Display window, check the input",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Likely Solutions",
+      "neighboringText": "Page 43\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nProblem\nPossible Causes\nLikely Solutions\nWelder Does Not \nFunction When \nSwitched On\n1.\t Tripped thermal protection device.\n\n\n\n\n\n\n2.\t Circuit supplies insufficient input voltage or \namperage.\n\n\n3.\t Faulty or improperly connected Trigger.\n\n4.\t Machine is in low"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-polarity-3adbea55889e",
+    "polarityType": null,
+    "process": null,
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Part Description Qty 32 Polarity Cable 1 33 Output Inductor 1 34 Air Connector 2 35 Solenoid Valve 2 36 Bottom Housing 1 37 Board Insulation Paper 1 38 Main PCB 1 39 Control PCB 1 40 Fast Recovery Diode 6 41 Metal Case Air Way 1 42 Rectifier Radiator Support Bar 1 43 Rectifier Radiator 1 44 Fan 1 45 Transformer 1 46 IGBT 6 47 Bridge Rectifier Heatsink 1 48 Fast Recovery Diode 2 49 IGBT Heat Sink Support Bar 1 50 IGBT Radiator 1 51 Bridge Rectifiers 2 52 IGBT Radiator 2 53 Fan 1 54 Y-Type Threaded Tee 1 55 120 VAC Power Cord 1 56 Rear Panel 1 57 Rear Handle Cover 1 58 American Power Socket 1 59 Overload Protector 1 60 Rear Panel 1 61 240 VAC Power Cord 1",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Qty",
+      "neighboringText": "Part Description Qty 32 Polarity Cable 1 33 Output Inductor 1 34 Air Connector 2 35 Solenoid Valve 2 36 Bottom Housing 1 37 Board Insulation Paper 1 38 Main PCB 1 39 Control PCB 1 40 Fast Recovery Diode 6 41 Metal Case Air Way 1 42 Rectifier Radiator Support Bar 1 43 Rectifier Radiator 1 44 Fan 1 45 Transformer 1 46 IGBT 6 47 Bridge Rectifier Heatsink 1 48 Fast Recovery Diode 2 49 IGBT Heat Sink S"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-polarity-cd3253e3ff33",
+    "polarityType": null,
+    "process": "tig",
+    "groundSocket": null,
+    "electrodeSocket": null,
+    "instructions": "Page 46 For technical questions, please call 1-800-444-3353. Item 57812 Safety Welding Tips TIG / Stick CONTROLS Wire MAINTENANCE Part Description Qty 1 Right Cover 1 2 Handle Base 1 3 Handle Cover 1 4 Hinge-Right 2 5 Hinge-left 2 6 Left Cover 1 7 Latch 1 8 Middle Bracket 1 9 PFC Inductance 1 10 Spool 1 11 Remote Control PCB 1 12 Wire Feeder 1 13 Aviation Plug Wire 1 14 Miller Plug Connector 1 15 Protective Cover 1 16 Display PCB 1 17 Screen Cover 1 18 Screen Frame 1 19 MIG Welding Torch 1 20 Front Handle Cover 1 21 Front Panel 1 22 Display 1 23 Knob 2 24 Knob 1 25 Storage Door 1 26 Switch 1 27 American Air Fitting 2 28 Air Connector 3 29 Quick Connector 2 30 Grounding Clamp Assembly 1 31 Welding Clamp Assembly 1 Part Description Qty 32 Polarity Cable 1 33 Output Inductor 1 34 Air Connector 2 35 Solenoid Valve 2 36 Bottom Housing 1 37 Board Insulation Paper 1 38 Main PCB 1 39 Control PCB 1 40 Fast Recovery Diode 6 41 Metal Case Air Way 1 42 Rectifier Radiator Support Bar 1 43 Rectifier",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "regex_section_text",
+      "confidence": 0.55,
+      "section": "Parts List",
+      "neighboringText": "Page 46\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nTIG / Stick\nCONTROLS\nWire\nMAINTENANCE\nPart\nDescription\nQty\n1\nRight Cover\n1\n2\nHandle Base\n1\n3\nHandle Cover\n1\n4\nHinge-Right\n2\n5\nHinge-left\n2\n6\nLeft Cover\n1\n7\nLatch\n1\n8\nMiddle Bracket\n1\n9\nPFC Inductance\n1\n10\nSpool\n1\n11\nRemote Control PCB\n1\n12\nWire Feeder\n1\n13\nAviation Plug Wire\n1\n14\nMiller Plug Conne"
+    },
+    "needsReview": true
+  }
+]

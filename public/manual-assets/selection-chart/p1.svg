@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Selection chart placeholder">
+  <rect width="400" height="300" fill="#1a1a1c"/>
+  <text x="200" y="40" text-anchor="middle" fill="#e85d04" font-family="monospace" font-size="14">Welding Process Selection Chart</text>
+  <text x="200" y="70" text-anchor="middle" fill="#9a9aa3" font-size="11">selection-chart.pdf  image-only source</text>
+  <rect x="40" y="100" width="320" height="120" rx="4" fill="#242428" stroke="#3a3a40" stroke-dasharray="6 4"/>
+  <text x="200" y="170" text-anchor="middle" fill="#666" font-size="10">Vision extraction required at ingest</text>
+</svg>

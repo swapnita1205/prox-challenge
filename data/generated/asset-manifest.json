@@ -1,0 +1,581 @@
+{
+  "version": 2,
+  "assets": [
+    {
+      "id": "owner-manual-p01-figure",
+      "source": "owner-manual.pdf",
+      "page": 1,
+      "path": "/manual-assets/owner-manual/p01-img-000.jpeg",
+      "caption": "OMNIPRO 220 MULTIPROCESS WELDING SYSTEM Visit our website at: https://www.harborfreight.com email our technical support at: productsupport@harborfreight.com",
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p20-figure-001",
+      "source": "owner-manual.pdf",
+      "page": 20,
+      "path": "/manual-assets/owner-manual/p20-img-001.png",
+      "caption": "\u2022 Connect gas according to screen. \u2022 Set SCFH between 20-30.",
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p20-figure-002",
+      "source": "owner-manual.pdf",
+      "page": 20,
+      "path": "/manual-assets/owner-manual/p20-img-002.png",
+      "caption": "\u2022 Turn Left Knob to set wire diameter. \u2022 Turn Right Knob to set material thickness. .025\" 24Ga c. Auto Weld Settings: \u2022 Turn Left Knob to adjust Wire Feed Speed (Amperage).",
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p20-figure-003",
+      "source": "owner-manual.pdf",
+      "page": 20,
+      "path": "/manual-assets/owner-manual/p20-img-003.png",
+      "caption": "\u2022 Turn Left Knob to adjust Wire Feed Speed (Amperage). \u2022 Turn Right Knob to adjust Voltage. 121 13.8 0.0 0 .030\" 0.0 25 5 24Ga Process Run-In WFS Inductance Spot Timer Wire Diameter Material Thickness",
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p23-figure",
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "path": "/manual-assets/owner-manual/p23-img-000.png",
+      "caption": "Safety Welding Tips MAINTENANCE TIG / Stick CONTROLS Wire Power Switch LCD Display Warning Screen",
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p26-figure",
+      "source": "owner-manual.pdf",
+      "page": 26,
+      "path": "/manual-assets/owner-manual/p26-img-000.jpeg",
+      "caption": "8. Lock Electrode in place with Back Cap. Electrode should protrude 1/8\" to 1/4\" beyond the Ceramic Nozzle. Collet Body Ceramic Nozzle Collet Back Cap Insert tungsten Electrode here.",
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p30-figure-001",
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "path": "/manual-assets/owner-manual/p30-img-001.png",
+      "caption": "\u2022 Connect gas according to screen. \u2022 Set SCFH between 10-25. b. Set Rod Diameter and Material Thickness: \u2022 Turn Left Knob to set rod diameter.",
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p30-figure-002",
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "path": "/manual-assets/owner-manual/p30-img-002.png",
+      "caption": "\u2022 Turn Left Knob to set rod diameter. \u2022 Turn Right Knob to set material thickness. c. Auto Weld Settings: \u2022 Turn Left Knob to adjust output amperage.",
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p30-figure-003",
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "path": "/manual-assets/owner-manual/p30-img-003.png",
+      "caption": "Page 30 For technical questions, please call 1-800-444-3353. Item 57812 WARNING! TO PREVENT SERIOUS INJURY: Welder is now energized and Open Circuit Voltage is present. Process Rod Diameter Material T",
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p31-figure",
+      "source": "owner-manual.pdf",
+      "page": 31,
+      "path": "/manual-assets/owner-manual/p31-img-000.png",
+      "caption": "\u2022 Recall Setting \u2013 Retrieve saved settings. \u2022 Save Setting \u2013 Program up to 5 different configurations.",
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p31-figure-001",
+      "source": "owner-manual.pdf",
+      "page": 31,
+      "path": "/manual-assets/owner-manual/p31-img-001.png",
+      "caption": "Note: The initial settings may need to be adjusted after stopping and carefully inspecting the weld. Proper welding takes experience.",
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p32-figure-001",
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "path": "/manual-assets/owner-manual/p32-img-001.png",
+      "caption": "a. Polarity Setting: \u2022 Plug cables in according to screen.",
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p32-figure-002",
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "path": "/manual-assets/owner-manual/p32-img-002.png",
+      "caption": "b. Set Electrode type: \u2022 Turn Main Control Knob to set electrode type. c. Set Electrode Diameter and Material Thickness: \u2022 Turn Left Knob to set electrode diameter.",
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p32-figure-003",
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "path": "/manual-assets/owner-manual/p32-img-003.png",
+      "caption": "\u2022 Turn Left Knob to set electrode diameter. \u2022 Turn Right Knob to set material thickness. d. Auto Weld Settings: \u2022 Turn Left Knob to adjust output amperage.",
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p32-figure-004",
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "path": "/manual-assets/owner-manual/p32-img-004.png",
+      "caption": "WARNING! TO PREVENT SERIOUS INJURY: Welder is now energized and Open Circuit Voltage is present. Hot Start Arc Force Electrode Diameter Material Thickness Process Electrode Type",
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p33-figure",
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "path": "/manual-assets/owner-manual/p33-img-000.png",
+      "caption": null,
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p33-figure-001",
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "path": "/manual-assets/owner-manual/p33-img-001.png",
+      "caption": "\u2022 Recall Setting \u2013 Retrieve saved settings. \u2022 Save Setting \u2013 Program up to 5 different configurations.",
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p33-figure-002",
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "path": "/manual-assets/owner-manual/p33-img-002.png",
+      "caption": null,
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p33-figure-003",
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "path": "/manual-assets/owner-manual/p33-img-003.png",
+      "caption": "Note: The initial settings may need to be adjusted after stopping and carefully inspecting the weld. Proper welding takes experience.",
+      "kind": "embedded_image"
+    },
+    {
+      "id": "selection-chart-p01-figure-fullpage",
+      "source": "selection-chart.pdf",
+      "page": 1,
+      "path": "/manual-assets/selection-chart/p01.png",
+      "caption": null,
+      "kind": "full_page_image_only"
+    },
+    {
+      "id": "selection-chart-p01-figure",
+      "source": "selection-chart.pdf",
+      "page": 1,
+      "path": "/manual-assets/selection-chart/p01-img-000.jpeg",
+      "caption": null,
+      "kind": "embedded_image"
+    },
+    {
+      "id": "owner-manual-p01-page",
+      "source": "owner-manual.pdf",
+      "page": 1,
+      "path": "/manual-assets/owner-manual/p01.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p1",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p02-page",
+      "source": "owner-manual.pdf",
+      "page": 2,
+      "path": "/manual-assets/owner-manual/p02.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p2",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p03-page",
+      "source": "owner-manual.pdf",
+      "page": 3,
+      "path": "/manual-assets/owner-manual/p03.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p3",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p04-page",
+      "source": "owner-manual.pdf",
+      "page": 4,
+      "path": "/manual-assets/owner-manual/p04.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p4",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p05-page",
+      "source": "owner-manual.pdf",
+      "page": 5,
+      "path": "/manual-assets/owner-manual/p05.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p5",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p06-page",
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "path": "/manual-assets/owner-manual/p06.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p6",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p07-page",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "path": "/manual-assets/owner-manual/p07.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p7",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p08-page",
+      "source": "owner-manual.pdf",
+      "page": 8,
+      "path": "/manual-assets/owner-manual/p08.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p8",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p09-page",
+      "source": "owner-manual.pdf",
+      "page": 9,
+      "path": "/manual-assets/owner-manual/p09.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p9",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p10-page",
+      "source": "owner-manual.pdf",
+      "page": 10,
+      "path": "/manual-assets/owner-manual/p10.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p10",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p11-page",
+      "source": "owner-manual.pdf",
+      "page": 11,
+      "path": "/manual-assets/owner-manual/p11.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p11",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p12-page",
+      "source": "owner-manual.pdf",
+      "page": 12,
+      "path": "/manual-assets/owner-manual/p12.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p12",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p13-page",
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "path": "/manual-assets/owner-manual/p13.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p13",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p14-page",
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "path": "/manual-assets/owner-manual/p14.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p14",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p15-page",
+      "source": "owner-manual.pdf",
+      "page": 15,
+      "path": "/manual-assets/owner-manual/p15.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p15",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p16-page",
+      "source": "owner-manual.pdf",
+      "page": 16,
+      "path": "/manual-assets/owner-manual/p16.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p16",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p17-page",
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "path": "/manual-assets/owner-manual/p17.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p17",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p18-page",
+      "source": "owner-manual.pdf",
+      "page": 18,
+      "path": "/manual-assets/owner-manual/p18.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p18",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p19-page",
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "path": "/manual-assets/owner-manual/p19.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p19",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p20-page",
+      "source": "owner-manual.pdf",
+      "page": 20,
+      "path": "/manual-assets/owner-manual/p20.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p20",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p21-page",
+      "source": "owner-manual.pdf",
+      "page": 21,
+      "path": "/manual-assets/owner-manual/p21.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p21",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p22-page",
+      "source": "owner-manual.pdf",
+      "page": 22,
+      "path": "/manual-assets/owner-manual/p22.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p22",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p23-page",
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "path": "/manual-assets/owner-manual/p23.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p23",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p24-page",
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "path": "/manual-assets/owner-manual/p24.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p24",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p25-page",
+      "source": "owner-manual.pdf",
+      "page": 25,
+      "path": "/manual-assets/owner-manual/p25.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p25",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p26-page",
+      "source": "owner-manual.pdf",
+      "page": 26,
+      "path": "/manual-assets/owner-manual/p26.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p26",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p27-page",
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "path": "/manual-assets/owner-manual/p27.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p27",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p28-page",
+      "source": "owner-manual.pdf",
+      "page": 28,
+      "path": "/manual-assets/owner-manual/p28.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p28",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p29-page",
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "path": "/manual-assets/owner-manual/p29.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p29",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p30-page",
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "path": "/manual-assets/owner-manual/p30.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p30",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p31-page",
+      "source": "owner-manual.pdf",
+      "page": 31,
+      "path": "/manual-assets/owner-manual/p31.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p31",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p32-page",
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "path": "/manual-assets/owner-manual/p32.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p32",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p33-page",
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "path": "/manual-assets/owner-manual/p33.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p33",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p34-page",
+      "source": "owner-manual.pdf",
+      "page": 34,
+      "path": "/manual-assets/owner-manual/p34.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p34",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p35-page",
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "path": "/manual-assets/owner-manual/p35.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p35",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p36-page",
+      "source": "owner-manual.pdf",
+      "page": 36,
+      "path": "/manual-assets/owner-manual/p36.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p36",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p37-page",
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "path": "/manual-assets/owner-manual/p37.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p37",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p38-page",
+      "source": "owner-manual.pdf",
+      "page": 38,
+      "path": "/manual-assets/owner-manual/p38.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p38",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p39-page",
+      "source": "owner-manual.pdf",
+      "page": 39,
+      "path": "/manual-assets/owner-manual/p39.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p39",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p40-page",
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "path": "/manual-assets/owner-manual/p40.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p40",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p41-page",
+      "source": "owner-manual.pdf",
+      "page": 41,
+      "path": "/manual-assets/owner-manual/p41.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p41",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p42-page",
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "path": "/manual-assets/owner-manual/p42.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p42",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p43-page",
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "path": "/manual-assets/owner-manual/p43.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p43",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p44-page",
+      "source": "owner-manual.pdf",
+      "page": 44,
+      "path": "/manual-assets/owner-manual/p44.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p44",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p45-page",
+      "source": "owner-manual.pdf",
+      "page": 45,
+      "path": "/manual-assets/owner-manual/p45.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p45",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p46-page",
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "path": "/manual-assets/owner-manual/p46.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p46",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p47-page",
+      "source": "owner-manual.pdf",
+      "page": 47,
+      "path": "/manual-assets/owner-manual/p47.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p47",
+      "kind": "page_render"
+    },
+    {
+      "id": "owner-manual-p48-page",
+      "source": "owner-manual.pdf",
+      "page": 48,
+      "path": "/manual-assets/owner-manual/p48.png",
+      "caption": "Full page render \u2014 owner-manual.pdf p48",
+      "kind": "page_render"
+    },
+    {
+      "id": "quick-start-guide-p01-page",
+      "source": "quick-start-guide.pdf",
+      "page": 1,
+      "path": "/manual-assets/quick-start-guide/p01.png",
+      "caption": "Full page render \u2014 quick-start-guide.pdf p1",
+      "kind": "page_render"
+    },
+    {
+      "id": "quick-start-guide-p02-page",
+      "source": "quick-start-guide.pdf",
+      "page": 2,
+      "path": "/manual-assets/quick-start-guide/p02.png",
+      "caption": "Full page render \u2014 quick-start-guide.pdf p2",
+      "kind": "page_render"
+    },
+    {
+      "id": "selection-chart-p01-page",
+      "source": "selection-chart.pdf",
+      "page": 1,
+      "path": "/manual-assets/selection-chart/p01.png",
+      "caption": "Full page render \u2014 selection-chart.pdf p1",
+      "kind": "page_render"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "selection-chart-p01-settings-img",
+    "type": "process_selection_chart",
+    "data": null,
+    "provenance": {
+      "source": "selection-chart.pdf",
+      "page": 1,
+      "extractionMethod": "image_only_preserved",
+      "confidence": 0.2,
+      "assetPath": "/manual-assets/selection-chart/p01.png"
+    },
+    "needsMultimodalInterpretation": true,
+    "needsReview": true
+  }
+]

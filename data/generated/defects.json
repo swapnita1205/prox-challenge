@@ -1,0 +1,930 @@
+[
+  {
+    "id": "owner-manual-p04-defect-edf5e73441f8",
+    "defect": "slag",
+    "description": "ARC AND SLAG can cause fire.",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 4,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Fire Safety",
+      "neighboringText": "ARC AND SLAG can cause fire."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p04-defect-edf5e73441f8",
+    "defect": "slag",
+    "description": "7. Do not dispose of hot slag in containers holding combustible materials.",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 4,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Fire Safety",
+      "neighboringText": "7. Do not dispose of hot slag in containers holding combustible materials."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p05-defect-edf5e73441f8",
+    "defect": "slag",
+    "description": "6. Protect gas cylinders from heat, being struck, physical damage, slag, flames, sparks, and arcs.",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 5,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Gas Shielded Welding - Cylinder Safety",
+      "neighboringText": "6. Protect gas cylinders from heat, being struck, physical damage, slag, flames, sparks, and arcs."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p06-defect-67682c4133bf",
+    "defect": "spatter",
+    "description": "Fire Hazard. Keep flammable materials away during welding. Spatter can cause accidental fires.",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "AWG",
+      "neighboringText": "Fire Hazard. Keep flammable materials away during welding. Spatter can cause accidental fires."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p19-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "2. Use clamps (not included) to hold the workpieces in position so that you can concentrate on proper welding technique. The distance (if any) between the two workpieces must be controlled properly to allow the weld to hold both sides securely while allowing the weld to penetrate fully into the joint. The edges of thicker workpieces may need to be chamfered (or beveled) to allow proper weld penetration.",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Setting Up The Weld",
+      "neighboringText": "2. Use clamps (not included) to hold the workpieces in position so that you can concentrate on proper welding technique. The distance (if any) between the two workpieces must be controlled properly to allow the weld to hold both sides securely while allowing the weld to penetrate fully into the join"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p29-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "2. Use clamps (not included) to hold the workpieces in position so that you can concentrate on proper welding technique. The distance (if any) between the two workpieces must be controlled properly to allow the weld to hold both sides securely while allowing the weld to penetrate fully into the joint. The edges of thicker workpieces may need to be chamfered (or beveled) to allow proper weld penetration.",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "2. Use clamps (not included) to hold the workpieces",
+      "neighboringText": "2. Use clamps (not included) to hold the workpieces in position so that you can concentrate on proper welding technique. The distance (if any) between the two workpieces must be controlled properly to allow the weld to hold both sides securely while allowing the weld to penetrate fully into the join"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p33-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "• Arc Force – Adjust weld penetration and smoothness.",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Wire",
+      "neighboringText": "• Arc Force – Adjust weld penetration and smoothness."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p34-defect-edf5e73441f8",
+    "defect": "slag",
+    "description": "A good way to test welding technique is to examine a weld’s appearance after it has cooled and the slag has been removed. Then, better welding can be learned by adjusting your weld technique to remedy any problems found.",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 34,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "MAINTENANCE",
+      "neighboringText": "A good way to test welding technique is to examine a weld’s appearance after it has cooled and the slag has been removed. Then, better welding can be learned by adjusting your weld technique to remedy any problems found."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p34-defect-edf5e73441f8",
+    "defect": "slag",
+    "description": "1. A weld from flux-cored wire welding or stick welding will be covered by slag. Use a chipping hammer to knock this off. Be careful not to damage the weld or base material.",
+    "causes": [],
+    "corrections": [],
+    "processes": [
+      "flux",
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 34,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "TO PREVENT SERIOUS INJURY:",
+      "neighboringText": "1. A weld from flux-cored wire welding or stick welding will be covered by slag. Use a chipping hammer to knock this off. Be careful not to damage the weld or base material."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p35-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "Wire Weld Diagnosis – Workpiece Heat Control / Weld Penetration",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Wire Weld Diagnosis – Workpiece Heat Control / Weld Penetration",
+      "neighboringText": "Wire Weld Diagnosis – Workpiece Heat Control / Weld Penetration"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p35-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "EXCESS PENETRATION OR",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "EXCESS PENETRATION OR",
+      "neighboringText": "EXCESS PENETRATION OR"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p35-defect-d1d69485a4d9",
+    "defect": "burn-through",
+    "description": "BURN-THROUGH PROPER PENETRATION INADEQUATE PENETRATION",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "INADEQUATE PENETRATION",
+      "neighboringText": "BURN-THROUGH PROPER PENETRATION INADEQUATE PENETRATION"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p35-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "BURN-THROUGH PROPER PENETRATION INADEQUATE PENETRATION",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "INADEQUATE PENETRATION",
+      "neighboringText": "BURN-THROUGH PROPER PENETRATION INADEQUATE PENETRATION"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p35-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "and increase penetration: (to weld THICKER workpieces properly)",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "and increase penetration:",
+      "neighboringText": "and increase penetration: (to weld THICKER workpieces properly)"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p35-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "and limit penetration: (to weld THINNER workpieces properly)",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "and limit penetration:",
+      "neighboringText": "and limit penetration: (to weld THINNER workpieces properly)"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p36-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "Wire Weld Penetration (Workpiece Heat Control)",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 36,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Wire Weld Penetration (Workpiece Heat Control)",
+      "neighboringText": "Wire Weld Penetration (Workpiece Heat Control)"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p36-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "EXCESS PENETRATION OR",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 36,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "EXCESS PENETRATION OR",
+      "neighboringText": "EXCESS PENETRATION OR"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p36-defect-d1d69485a4d9",
+    "defect": "burn-through",
+    "description": "BURN-THROUGH Weld droops on top and underneath, or falls through",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 36,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "BURN-THROUGH",
+      "neighboringText": "BURN-THROUGH Weld droops on top and underneath, or falls through"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p36-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "PROPER PENETRATION Weld is visible underneath and",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 36,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "PROPER PENETRATION",
+      "neighboringText": "PROPER PENETRATION Weld is visible underneath and"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p36-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "INADEQUATE PENETRATION",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 36,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "INADEQUATE PENETRATION",
+      "neighboringText": "INADEQUATE PENETRATION"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p36-defect-edf5e73441f8",
+    "defect": "slag",
+    "description": "Coat of Slag Over Weld",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 36,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Coat of Slag Over Weld",
+      "neighboringText": "Coat of Slag Over Weld"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p36-defect-edf5e73441f8",
+    "defect": "slag",
+    "description": "Slag is a necessary part of a flux-cored wire weld. It shields the weld from impurities. Clean off the slag with a Chipping Hammer and Wire Brush after welding.",
+    "causes": [],
+    "corrections": [],
+    "processes": [
+      "flux"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 36,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Coat of Slag Over Weld",
+      "neighboringText": "Slag is a necessary part of a flux-cored wire weld. It shields the weld from impurities. Clean off the slag with a Chipping Hammer and Wire Brush after welding."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p36-defect-edf5e73441f8",
+    "defect": "slag",
+    "description": "Gas-shielded MIG welds are protected by the shielding gas and do not need slag to protect them.",
+    "causes": [],
+    "corrections": [],
+    "processes": [
+      "mig"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 36,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Coat of Slag Over Weld",
+      "neighboringText": "Gas-shielded MIG welds are protected by the shielding gas and do not need slag to protect them."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p37-defect-d1d69485a4d9",
+    "defect": "burn-through",
+    "description": "Wire Weld – Burn-Through",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Wire Weld – Burn-Through",
+      "neighboringText": "Wire Weld – Burn-Through"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p37-defect-893fae55f9c2",
+    "defect": "crooked",
+    "description": "Wire Weld – Crooked/Wavy Bead",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Wire Weld – Crooked/Wavy Bead",
+      "neighboringText": "Wire Weld – Crooked/Wavy Bead"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p37-defect-0c8beff031c7",
+    "defect": "wavy bead",
+    "description": "Wire Weld – Crooked/Wavy Bead",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Wire Weld – Crooked/Wavy Bead",
+      "neighboringText": "Wire Weld – Crooked/Wavy Bead"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p37-defect-93aa6444c27c",
+    "defect": "porosity",
+    "description": "Wire Weld – Porosity",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Wire Weld – Porosity",
+      "neighboringText": "Wire Weld – Porosity"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p37-defect-67682c4133bf",
+    "defect": "spatter",
+    "description": "Wire Weld – Excessive Spatter",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Wire Weld – Excessive Spatter",
+      "neighboringText": "Wire Weld – Excessive Spatter"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p37-defect-67682c4133bf",
+    "defect": "spatter",
+    "description": "Fine spatter is normal. Spatter that is grainy and large is a problem.",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Wire Weld – Excessive Spatter",
+      "neighboringText": "Fine spatter is normal. Spatter that is grainy and large is a problem."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p38-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "Stick Weld Diagnosis – Workpiece Heat Control / Weld Penetration",
+    "causes": [],
+    "corrections": [],
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 38,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Stick Weld Diagnosis – Workpiece Heat Control / Weld Penetration",
+      "neighboringText": "Stick Weld Diagnosis – Workpiece Heat Control / Weld Penetration"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p38-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "EXCESS PENETRATION OR",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 38,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "EXCESS PENETRATION OR",
+      "neighboringText": "EXCESS PENETRATION OR"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p38-defect-d1d69485a4d9",
+    "defect": "burn-through",
+    "description": "BURN-THROUGH PROPER PENETRATION INADEQUATE PENETRATION",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 38,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "INADEQUATE PENETRATION",
+      "neighboringText": "BURN-THROUGH PROPER PENETRATION INADEQUATE PENETRATION"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p38-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "BURN-THROUGH PROPER PENETRATION INADEQUATE PENETRATION",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 38,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "INADEQUATE PENETRATION",
+      "neighboringText": "BURN-THROUGH PROPER PENETRATION INADEQUATE PENETRATION"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p38-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "and increase penetration: (to weld THICKER workpieces properly)",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 38,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "and increase penetration:",
+      "neighboringText": "and increase penetration: (to weld THICKER workpieces properly)"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p38-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "and limit penetration: (to weld THINNER workpieces properly)",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 38,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "and limit penetration:",
+      "neighboringText": "and limit penetration: (to weld THINNER workpieces properly)"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p38-defect-edf5e73441f8",
+    "defect": "slag",
+    "description": "Stick welds will have a coat of slag over them until cleaned.",
+    "causes": [],
+    "corrections": [],
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 38,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "CLEAN WELDS FIRST!",
+      "neighboringText": "Stick welds will have a coat of slag over them until cleaned."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p39-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "Stick Weld Penetration (Workpiece Heat Control)",
+    "causes": [],
+    "corrections": [],
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 39,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Stick Weld Penetration (Workpiece Heat Control)",
+      "neighboringText": "Stick Weld Penetration (Workpiece Heat Control)"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p39-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "EXCESS PENETRATION OR",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 39,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "EXCESS PENETRATION OR",
+      "neighboringText": "EXCESS PENETRATION OR"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p39-defect-d1d69485a4d9",
+    "defect": "burn-through",
+    "description": "BURN-THROUGH Weld droops on top and underneath or falls through",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 39,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "BURN-THROUGH",
+      "neighboringText": "BURN-THROUGH Weld droops on top and underneath or falls through"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p39-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "PROPER PENETRATION Weld is visible underneath and",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 39,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "PROPER PENETRATION",
+      "neighboringText": "PROPER PENETRATION Weld is visible underneath and"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p39-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "INADEQUATE PENETRATION Weld does not contact the joint",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 39,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "INADEQUATE PENETRATION",
+      "neighboringText": "INADEQUATE PENETRATION Weld does not contact the joint"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p39-defect-d1d69485a4d9",
+    "defect": "burn-through",
+    "description": "POSSIBLE CAUSES AND SOLUTIONS FOR EXCESS PENETRATION OR BURN-THROUGH",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 39,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "EXCESS PENETRATION OR BURN-THROUGH",
+      "neighboringText": "POSSIBLE CAUSES AND SOLUTIONS FOR EXCESS PENETRATION OR BURN-THROUGH"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p39-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "POSSIBLE CAUSES AND SOLUTIONS FOR EXCESS PENETRATION OR BURN-THROUGH",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 39,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "EXCESS PENETRATION OR BURN-THROUGH",
+      "neighboringText": "POSSIBLE CAUSES AND SOLUTIONS FOR EXCESS PENETRATION OR BURN-THROUGH"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p39-defect-6c7dd80b5bd4",
+    "defect": "penetration",
+    "description": "INADEQUATE PENETRATION",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 39,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "EXCESS PENETRATION OR BURN-THROUGH",
+      "neighboringText": "INADEQUATE PENETRATION"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p40-defect-edf5e73441f8",
+    "defect": "slag",
+    "description": "Stick Weld – Coat of Slag Over Weld",
+    "causes": [],
+    "corrections": [],
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Stick Weld – Coat of Slag Over Weld",
+      "neighboringText": "Stick Weld – Coat of Slag Over Weld"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p40-defect-edf5e73441f8",
+    "defect": "slag",
+    "description": "Slag is a necessary part of a stick weld. It shields the weld from impurities. Clean off the slag with the Chipping Hammer and Wire Brush after welding.",
+    "causes": [],
+    "corrections": [],
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "PARTIALLY CHIPPED AWAY TO SHOW WELD",
+      "neighboringText": "Slag is a necessary part of a stick weld. It shields the weld from impurities. Clean off the slag with the Chipping Hammer and Wire Brush after welding."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p40-defect-93aa6444c27c",
+    "defect": "porosity",
+    "description": "Stick Weld – Porosity — Small cavities or holes in the bead.",
+    "causes": [],
+    "corrections": [],
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Stick Weld – Porosity",
+      "neighboringText": "Stick Weld – Porosity — Small cavities or holes in the bead."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p40-defect-893fae55f9c2",
+    "defect": "crooked",
+    "description": "Stick Weld – Crooked/Wavy Bead",
+    "causes": [],
+    "corrections": [],
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Stick Weld – Crooked/Wavy Bead",
+      "neighboringText": "Stick Weld – Crooked/Wavy Bead"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p40-defect-0c8beff031c7",
+    "defect": "wavy bead",
+    "description": "Stick Weld – Crooked/Wavy Bead",
+    "causes": [],
+    "corrections": [],
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Stick Weld – Crooked/Wavy Bead",
+      "neighboringText": "Stick Weld – Crooked/Wavy Bead"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p40-defect-67682c4133bf",
+    "defect": "spatter",
+    "description": "Stick Weld – Excessive Spatter",
+    "causes": [],
+    "corrections": [],
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Stick Weld – Excessive Spatter",
+      "neighboringText": "Stick Weld – Excessive Spatter"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p40-defect-67682c4133bf",
+    "defect": "spatter",
+    "description": "Fine spatter is normal. Spatter that is grainy and large is a problem.",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Stick Weld – Excessive Spatter",
+      "neighboringText": "Fine spatter is normal. Spatter that is grainy and large is a problem."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p40-defect-d1d69485a4d9",
+    "defect": "burn-through",
+    "description": "Stick Weld – Burn-Through — Base material melts away, leaving a hole in the weld.",
+    "causes": [],
+    "corrections": [],
+    "processes": [
+      "stick"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Stick Weld – Burn-Through",
+      "neighboringText": "Stick Weld – Burn-Through — Base material melts away, leaving a hole in the weld."
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p43-defect-93aa6444c27c",
+    "defect": "porosity",
+    "description": "Porosity in the Weld Metal",
+    "causes": [],
+    "corrections": [],
+    "processes": [],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "keyword_defect_section",
+      "confidence": 0.7,
+      "section": "Likely Solutions",
+      "neighboringText": "Porosity in the Weld Metal"
+    },
+    "needsReview": true
+  }
+]

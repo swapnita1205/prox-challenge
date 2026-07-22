@@ -1,0 +1,512 @@
+[
+  {
+    "id": "owner-manual-p01-figure",
+    "kind": "embedded_image",
+    "caption": "OMNIPRO 220 MULTIPROCESS WELDING SYSTEM Visit our website at: https://www.harborfreight.com email our technical support at: productsupport@harborfreight.com",
+    "width": 1226,
+    "height": 1256,
+    "area": 88615.65342043713,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 1,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "Owner’s Manual & Safety Instructions",
+      "bbox": [
+        150.58,
+        360.94,
+        444.69,
+        662.25
+      ],
+      "neighboringText": "OMNIPRO 220 MULTIPROCESS WELDING SYSTEM Visit our website at: https://www.harborfreight.com email our technical support at: productsupport@harborfreight.com",
+      "assetPath": "/manual-assets/owner-manual/p01-img-000.jpeg"
+    },
+    "needsMultimodalInterpretation": false
+  },
+  {
+    "id": "owner-manual-p20-figure-001",
+    "kind": "embedded_image",
+    "caption": "• Connect gas according to screen. • Set SCFH between 20-30.",
+    "width": 745,
+    "height": 425,
+    "area": 18224.3151538074,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 20,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "0",
+      "bbox": [
+        81.23,
+        625.01,
+        259.91,
+        727.01
+      ],
+      "neighboringText": "• Connect gas according to screen. • Set SCFH between 20-30.",
+      "assetPath": "/manual-assets/owner-manual/p20-img-001.png"
+    },
+    "needsMultimodalInterpretation": false
+  },
+  {
+    "id": "owner-manual-p20-figure-002",
+    "kind": "embedded_image",
+    "caption": "• Turn Left Knob to set wire diameter. • Turn Right Knob to set material thickness. .025\" 24Ga c. Auto Weld Settings: • Turn Left Knob to adjust Wire Feed Speed (Amperage).",
+    "width": 730,
+    "height": 414,
+    "area": 17389.10744573269,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 20,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "0",
+      "bbox": [
+        346.13,
+        299.09,
+        521.28,
+        398.37
+      ],
+      "neighboringText": "• Turn Left Knob to set wire diameter. • Turn Right Knob to set material thickness. .025\" 24Ga c. Auto Weld Settings: • Turn Left Knob to adjust Wire Feed Speed (Amperage).",
+      "assetPath": "/manual-assets/owner-manual/p20-img-002.png"
+    },
+    "needsMultimodalInterpretation": false
+  },
+  {
+    "id": "owner-manual-p20-figure-003",
+    "kind": "embedded_image",
+    "caption": "• Turn Left Knob to adjust Wire Feed Speed (Amperage). • Turn Right Knob to adjust Voltage. 121 13.8 0.0 0 .030\" 0.0 25 5 24Ga Process Run-In WFS Inductance Spot Timer Wire Diameter Material Thickness",
+    "width": 721,
+    "height": 409,
+    "area": 16956.686414267868,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 20,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "0",
+      "bbox": [
+        345.18,
+        484.36,
+        518.15,
+        582.4
+      ],
+      "neighboringText": "• Turn Left Knob to adjust Wire Feed Speed (Amperage). • Turn Right Knob to adjust Voltage. 121 13.8 0.0 0 .030\" 0.0 25 5 24Ga Process Run-In WFS Inductance Spot Timer Wire Diameter Material Thickness Gas Type Note: If the Wire Feed Speed or Voltage settings are adjusted manually, the white mark on the line shows the recommended setting for your wire/electrode diameter and workpiece thickness.",
+      "assetPath": "/manual-assets/owner-manual/p20-img-003.png"
+    },
+    "needsMultimodalInterpretation": false
+  },
+  {
+    "id": "owner-manual-p23-figure",
+    "kind": "embedded_image",
+    "caption": "Safety Welding Tips MAINTENANCE TIG / Stick CONTROLS Wire Power Switch LCD Display Warning Screen",
+    "width": 681,
+    "height": 386,
+    "area": 15107.832401972264,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "FOLLOW DUTY CYCLE!",
+      "bbox": [
+        387.01,
+        74.59,
+        550.28,
+        167.13
+      ],
+      "neighboringText": "Safety Welding Tips MAINTENANCE TIG / Stick CONTROLS Wire Power Switch LCD Display Warning Screen",
+      "assetPath": "/manual-assets/owner-manual/p23-img-000.png"
+    },
+    "needsMultimodalInterpretation": false
+  },
+  {
+    "id": "owner-manual-p26-figure",
+    "kind": "embedded_image",
+    "caption": "8. Lock Electrode in place with Back Cap. Electrode should protrude 1/8\" to 1/4\" beyond the Ceramic Nozzle. Collet Body Ceramic Nozzle Collet Back Cap Insert tungsten Electrode here.",
+    "width": 545,
+    "height": 612,
+    "area": 22605.235911911353,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 26,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "Assemble TIG Torch (sold separately)",
+      "bbox": [
+        393.22,
+        349.73,
+        535.11,
+        509.06
+      ],
+      "neighboringText": "8. Lock Electrode in place with Back Cap. Electrode should protrude 1/8\" to 1/4\" beyond the Ceramic Nozzle. Collet Body Ceramic Nozzle Collet Back Cap Insert tungsten Electrode here.",
+      "assetPath": "/manual-assets/owner-manual/p26-img-000.jpeg"
+    },
+    "needsMultimodalInterpretation": false
+  },
+  {
+    "id": "owner-manual-p30-figure-001",
+    "kind": "embedded_image",
+    "caption": "• Connect gas according to screen. • Set SCFH between 10-25. b. Set Rod Diameter and Material Thickness: • Turn Left Knob to set rod diameter.",
+    "width": 737,
+    "height": 418,
+    "area": 17730.718141809106,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS",
+      "bbox": [
+        345.27,
+        299.81,
+        522.14,
+        400.05
+      ],
+      "neighboringText": "• Connect gas according to screen. • Set SCFH between 10-25. b. Set Rod Diameter and Material Thickness: • Turn Left Knob to set rod diameter.",
+      "assetPath": "/manual-assets/owner-manual/p30-img-001.png"
+    },
+    "needsMultimodalInterpretation": false
+  },
+  {
+    "id": "owner-manual-p30-figure-002",
+    "kind": "embedded_image",
+    "caption": "• Turn Left Knob to set rod diameter. • Turn Right Knob to set material thickness. c. Auto Weld Settings: • Turn Left Knob to adjust output amperage.",
+    "width": 737,
+    "height": 418,
+    "area": 17730.721201062202,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS",
+      "bbox": [
+        345.27,
+        474.05,
+        522.14,
+        574.3
+      ],
+      "neighboringText": "• Turn Left Knob to set rod diameter. • Turn Right Knob to set material thickness. c. Auto Weld Settings: • Turn Left Knob to adjust output amperage.",
+      "assetPath": "/manual-assets/owner-manual/p30-img-002.png"
+    },
+    "needsMultimodalInterpretation": false
+  },
+  {
+    "id": "owner-manual-p30-figure-003",
+    "kind": "embedded_image",
+    "caption": "Page 30 For technical questions, please call 1-800-444-3353. Item 57812 WARNING! TO PREVENT SERIOUS INJURY: Welder is now energized and Open Circuit Voltage is present. Process Rod Diameter Material T",
+    "width": 726,
+    "height": 412,
+    "area": 17189.35680373013,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS",
+      "bbox": [
+        344.89,
+        688.8,
+        519.04,
+        787.5
+      ],
+      "neighboringText": "Page 30 For technical questions, please call 1-800-444-3353. Item 57812 WARNING! TO PREVENT SERIOUS INJURY: Welder is now energized and Open Circuit Voltage is present. Process Rod Diameter Material Thickness Gas Type",
+      "assetPath": "/manual-assets/owner-manual/p30-img-003.png"
+    },
+    "needsMultimodalInterpretation": false
+  },
+  {
+    "id": "owner-manual-p31-figure",
+    "kind": "embedded_image",
+    "caption": "• Recall Setting – Retrieve saved settings. • Save Setting – Program up to 5 different configurations.",
+    "width": 737,
+    "height": 418,
+    "area": 17730.719671435654,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 31,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "19.\tTo prevent accidents, after use:",
+      "bbox": [
+        73.27,
+        211.78,
+        250.14,
+        312.03
+      ],
+      "neighboringText": "• Recall Setting – Retrieve saved settings. • Save Setting – Program up to 5 different configurations.",
+      "assetPath": "/manual-assets/owner-manual/p31-img-000.png"
+    },
+    "needsMultimodalInterpretation": false
+  },
+  {
+    "id": "owner-manual-p31-figure-001",
+    "kind": "embedded_image",
+    "caption": "Note: The initial settings may need to be adjusted after stopping and carefully inspecting the weld. Proper welding takes experience.",
+    "width": 737,
+    "height": 418,
+    "area": 17730.719671435654,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 31,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "19.\tTo prevent accidents, after use:",
+      "bbox": [
+        73.0,
+        326.19,
+        249.87,
+        426.44
+      ],
+      "neighboringText": "Note: The initial settings may need to be adjusted after stopping and carefully inspecting the weld. Proper welding takes experience.",
+      "assetPath": "/manual-assets/owner-manual/p31-img-001.png"
+    },
+    "needsMultimodalInterpretation": false
+  },
+  {
+    "id": "owner-manual-p32-figure-001",
+    "kind": "embedded_image",
+    "caption": "a. Polarity Setting: • Plug cables in according to screen.",
+    "width": 737,
+    "height": 418,
+    "area": 17730.721201062202,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS",
+      "bbox": [
+        82.13,
+        636.75,
+        259.01,
+        737.0
+      ],
+      "neighboringText": "a. Polarity Setting: • Plug cables in according to screen.",
+      "assetPath": "/manual-assets/owner-manual/p32-img-001.png"
+    },
+    "needsMultimodalInterpretation": false
+  },
+  {
+    "id": "owner-manual-p32-figure-002",
+    "kind": "embedded_image",
+    "caption": "b. Set Electrode type: • Turn Main Control Knob to set electrode type. c. Set Electrode Diameter and Material Thickness: • Turn Left Knob to set electrode diameter.",
+    "width": 737,
+    "height": 418,
+    "area": 17730.718141809106,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS",
+      "bbox": [
+        345.27,
+        177.81,
+        522.14,
+        278.05
+      ],
+      "neighboringText": "b. Set Electrode type: • Turn Main Control Knob to set electrode type. c. Set Electrode Diameter and Material Thickness: • Turn Left Knob to set electrode diameter.",
+      "assetPath": "/manual-assets/owner-manual/p32-img-002.png"
+    },
+    "needsMultimodalInterpretation": false
+  },
+  {
+    "id": "owner-manual-p32-figure-003",
+    "kind": "embedded_image",
+    "caption": "• Turn Left Knob to set electrode diameter. • Turn Right Knob to set material thickness. d. Auto Weld Settings: • Turn Left Knob to adjust output amperage.",
+    "width": 737,
+    "height": 418,
+    "area": 17730.721201062202,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS",
+      "bbox": [
+        345.27,
+        352.05,
+        522.14,
+        452.3
+      ],
+      "neighboringText": "• Turn Left Knob to set electrode diameter. • Turn Right Knob to set material thickness. d. Auto Weld Settings: • Turn Left Knob to adjust output amperage.",
+      "assetPath": "/manual-assets/owner-manual/p32-img-003.png"
+    },
+    "needsMultimodalInterpretation": false
+  },
+  {
+    "id": "owner-manual-p32-figure-004",
+    "kind": "embedded_image",
+    "caption": "WARNING! TO PREVENT SERIOUS INJURY: Welder is now energized and Open Circuit Voltage is present. Hot Start Arc Force Electrode Diameter Material Thickness Process Electrode Type",
+    "width": 729,
+    "height": 415,
+    "area": 17422.18556478247,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS",
+      "bbox": [
+        346.34,
+        582.29,
+        521.28,
+        681.88
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Welder is now energized and Open Circuit Voltage is present. Hot Start Arc Force Electrode Diameter Material Thickness Process Electrode Type",
+      "assetPath": "/manual-assets/owner-manual/p32-img-004.png"
+    },
+    "needsMultimodalInterpretation": false
+  },
+  {
+    "id": "owner-manual-p33-figure",
+    "kind": "embedded_image",
+    "caption": null,
+    "width": 737,
+    "height": 418,
+    "area": 17730.719671435654,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "14.\tClean, then store Welder and its accessories",
+      "bbox": [
+        73.13,
+        367.04,
+        250.01,
+        467.28
+      ],
+      "assetPath": "/manual-assets/owner-manual/p33-img-000.png"
+    },
+    "needsMultimodalInterpretation": true
+  },
+  {
+    "id": "owner-manual-p33-figure-001",
+    "kind": "embedded_image",
+    "caption": "• Recall Setting – Retrieve saved settings. • Save Setting – Program up to 5 different configurations.",
+    "width": 737,
+    "height": 418,
+    "area": 17730.719671435654,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "14.\tClean, then store Welder and its accessories",
+      "bbox": [
+        73.13,
+        256.76,
+        250.01,
+        357.0
+      ],
+      "neighboringText": "• Recall Setting – Retrieve saved settings. • Save Setting – Program up to 5 different configurations.",
+      "assetPath": "/manual-assets/owner-manual/p33-img-001.png"
+    },
+    "needsMultimodalInterpretation": false
+  },
+  {
+    "id": "owner-manual-p33-figure-002",
+    "kind": "embedded_image",
+    "caption": null,
+    "width": 737,
+    "height": 418,
+    "area": 17730.719671435654,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "14.\tClean, then store Welder and its accessories",
+      "bbox": [
+        73.13,
+        476.32,
+        250.01,
+        576.56
+      ],
+      "assetPath": "/manual-assets/owner-manual/p33-img-002.png"
+    },
+    "needsMultimodalInterpretation": true
+  },
+  {
+    "id": "owner-manual-p33-figure-003",
+    "kind": "embedded_image",
+    "caption": "Note: The initial settings may need to be adjusted after stopping and carefully inspecting the weld. Proper welding takes experience.",
+    "width": 737,
+    "height": 418,
+    "area": 17730.719671435654,
+    "isDiagram": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "14.\tClean, then store Welder and its accessories",
+      "bbox": [
+        73.13,
+        586.32,
+        250.01,
+        686.56
+      ],
+      "neighboringText": "Note: The initial settings may need to be adjusted after stopping and carefully inspecting the weld. Proper welding takes experience.",
+      "assetPath": "/manual-assets/owner-manual/p33-img-003.png"
+    },
+    "needsMultimodalInterpretation": false
+  },
+  {
+    "id": "selection-chart-p01-figure-fullpage",
+    "kind": "full_page_image_only",
+    "caption": null,
+    "provenance": {
+      "source": "selection-chart.pdf",
+      "page": 1,
+      "extractionMethod": "pymupdf_render",
+      "confidence": 0.95,
+      "assetPath": "/manual-assets/selection-chart/p01.png"
+    },
+    "needsMultimodalInterpretation": true
+  },
+  {
+    "id": "selection-chart-p01-figure",
+    "kind": "embedded_image",
+    "caption": null,
+    "width": 1200,
+    "height": 1200,
+    "area": 1440000.0,
+    "isDiagram": true,
+    "provenance": {
+      "source": "selection-chart.pdf",
+      "page": 1,
+      "extractionMethod": "pymupdf_extract_image",
+      "confidence": 0.9,
+      "section": "BASIC WELDING INSTRUCTIONS AND WELDING TIPS ARE IN MANUAL.",
+      "bbox": [
+        0.0,
+        0.0,
+        1200.0,
+        1200.0
+      ],
+      "assetPath": "/manual-assets/selection-chart/p01-img-000.jpeg"
+    },
+    "needsMultimodalInterpretation": true
+  }
+]

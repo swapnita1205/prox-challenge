@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Specifications table placeholder">
+  <rect width="400" height="300" fill="#1a1a1c"/>
+  <rect x="20" y="20" width="360" height="260" rx="4" fill="#242428" stroke="#3a3a40"/>
+  <text x="200" y="50" text-anchor="middle" fill="#e85d04" font-family="monospace" font-size="14">Specifications  Page 7</text>
+  <text x="40" y="90" fill="#9a9aa3" font-family="monospace" font-size="11">MIG 240V: 25% @ 200A · 100% @ 115A</text>
+  <text x="40" y="115" fill="#9a9aa3" font-family="monospace" font-size="11">TIG 240V: 30% @ 175A · 100% @ 105A</text>
+  <text x="40" y="140" fill="#9a9aa3" font-family="monospace" font-size="11">Stick 240V: 25% @ 175A · 100% @ 100A</text>
+  <text x="200" y="250" text-anchor="middle" fill="#666" font-size="10">Placeholder  full page render after ingest</text>
+</svg>

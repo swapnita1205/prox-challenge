@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "owner-manual-p07-duty-0af319d509d4",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 40,
+    "amps": 100,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "100% @ 115 A",
+      "neighboringText": "Rated Duty Cycles 40% @ 100 A 100% @ 75 A 25% @ 200 A 100% @ 115 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-936335ecf08f",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 75,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "100% @ 115 A",
+      "neighboringText": "Rated Duty Cycles 40% @ 100 A 100% @ 75 A 25% @ 200 A 100% @ 115 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-bc381b8e4deb",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 25,
+    "amps": 200,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "100% @ 115 A",
+      "neighboringText": "Rated Duty Cycles 40% @ 100 A 100% @ 75 A 25% @ 200 A 100% @ 115 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-8e9486f4be0f",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 115,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "100% @ 115 A",
+      "neighboringText": "Rated Duty Cycles 40% @ 100 A 100% @ 75 A 25% @ 200 A 100% @ 115 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-cont-f369cb89fc62",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 75,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "100% @ 115 A",
+      "neighboringText": "Rated Duty Cycles 40% @ 100 A 100% @ 75 A 25% @ 200 A 100% @ 115 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-cont-28dae7c8bde2",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 115,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "100% @ 115 A",
+      "neighboringText": "Rated Duty Cycles 40% @ 100 A 100% @ 75 A 25% @ 200 A 100% @ 115 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-5b2b457890d7",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 40,
+    "amps": 125,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "100% @ 105 A",
+      "neighboringText": "Rated Duty Cycles 40% @ 125 A 100% @ 90 A 30% @ 175 A 100% @ 105 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-7b9a6a9a9a3e",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 90,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "100% @ 105 A",
+      "neighboringText": "Rated Duty Cycles 40% @ 125 A 100% @ 90 A 30% @ 175 A 100% @ 105 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-aa666bb2cb12",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 30,
+    "amps": 175,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "100% @ 105 A",
+      "neighboringText": "Rated Duty Cycles 40% @ 125 A 100% @ 90 A 30% @ 175 A 100% @ 105 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-b0b888c88f61",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 105,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "100% @ 105 A",
+      "neighboringText": "Rated Duty Cycles 40% @ 125 A 100% @ 90 A 30% @ 175 A 100% @ 105 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-cont-69f59c273b6e",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 90,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "100% @ 105 A",
+      "neighboringText": "Rated Duty Cycles 40% @ 125 A 100% @ 90 A 30% @ 175 A 100% @ 105 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-cont-1253e9373e78",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 105,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "100% @ 105 A",
+      "neighboringText": "Rated Duty Cycles 40% @ 125 A 100% @ 90 A 30% @ 175 A 100% @ 105 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-2b38b49535de",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 40,
+    "amps": 80,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "100% @ 100 A",
+      "neighboringText": "Rated Duty Cycles 40% @ 80 A 100% @ 60 A 25% @ 175 A 100% @ 100 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-bc1fcfa0c853",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 60,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "100% @ 100 A",
+      "neighboringText": "Rated Duty Cycles 40% @ 80 A 100% @ 60 A 25% @ 175 A 100% @ 100 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-b62880b0cef9",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 25,
+    "amps": 175,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "100% @ 100 A",
+      "neighboringText": "Rated Duty Cycles 40% @ 80 A 100% @ 60 A 25% @ 175 A 100% @ 100 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-69a9a52df60d",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 100,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "100% @ 100 A",
+      "neighboringText": "Rated Duty Cycles 40% @ 80 A 100% @ 60 A 25% @ 175 A 100% @ 100 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-cont-39fa9ec190ee",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 60,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "100% @ 100 A",
+      "neighboringText": "Rated Duty Cycles 40% @ 80 A 100% @ 60 A 25% @ 175 A 100% @ 100 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-cont-ad5736686512",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 100,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "100% @ 100 A",
+      "neighboringText": "Rated Duty Cycles 40% @ 80 A 100% @ 60 A 25% @ 175 A 100% @ 100 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-0af319d509d4",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 40,
+    "amps": 100,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "100% @ 100 A",
+      "neighboringText": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120 VAC / 60 Hz\n240 VAC / 60 Hz\nCurrent Input at Output\n20.8 A at 100 A\n25.5 A at 200 A\nWelding Current Range\n30 –140 A\n30 –220 A\n"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-936335ecf08f",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 75,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "100% @ 100 A",
+      "neighboringText": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120 VAC / 60 Hz\n240 VAC / 60 Hz\nCurrent Input at Output\n20.8 A at 100 A\n25.5 A at 200 A\nWelding Current Range\n30 –140 A\n30 –220 A\n"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-bc381b8e4deb",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 25,
+    "amps": 200,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "100% @ 100 A",
+      "neighboringText": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120 VAC / 60 Hz\n240 VAC / 60 Hz\nCurrent Input at Output\n20.8 A at 100 A\n25.5 A at 200 A\nWelding Current Range\n30 –140 A\n30 –220 A\n"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-8e9486f4be0f",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 115,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "100% @ 100 A",
+      "neighboringText": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120 VAC / 60 Hz\n240 VAC / 60 Hz\nCurrent Input at Output\n20.8 A at 100 A\n25.5 A at 200 A\nWelding Current Range\n30 –140 A\n30 –220 A\n"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-5b2b457890d7",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 40,
+    "amps": 125,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "100% @ 100 A",
+      "neighboringText": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120 VAC / 60 Hz\n240 VAC / 60 Hz\nCurrent Input at Output\n20.8 A at 100 A\n25.5 A at 200 A\nWelding Current Range\n30 –140 A\n30 –220 A\n"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-7b9a6a9a9a3e",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 90,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "100% @ 100 A",
+      "neighboringText": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120 VAC / 60 Hz\n240 VAC / 60 Hz\nCurrent Input at Output\n20.8 A at 100 A\n25.5 A at 200 A\nWelding Current Range\n30 –140 A\n30 –220 A\n"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-aa666bb2cb12",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 30,
+    "amps": 175,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "100% @ 100 A",
+      "neighboringText": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120 VAC / 60 Hz\n240 VAC / 60 Hz\nCurrent Input at Output\n20.8 A at 100 A\n25.5 A at 200 A\nWelding Current Range\n30 –140 A\n30 –220 A\n"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-b0b888c88f61",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 105,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "100% @ 100 A",
+      "neighboringText": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120 VAC / 60 Hz\n240 VAC / 60 Hz\nCurrent Input at Output\n20.8 A at 100 A\n25.5 A at 200 A\nWelding Current Range\n30 –140 A\n30 –220 A\n"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-2b38b49535de",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 40,
+    "amps": 80,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "100% @ 100 A",
+      "neighboringText": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120 VAC / 60 Hz\n240 VAC / 60 Hz\nCurrent Input at Output\n20.8 A at 100 A\n25.5 A at 200 A\nWelding Current Range\n30 –140 A\n30 –220 A\n"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-bc1fcfa0c853",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 60,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "100% @ 100 A",
+      "neighboringText": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120 VAC / 60 Hz\n240 VAC / 60 Hz\nCurrent Input at Output\n20.8 A at 100 A\n25.5 A at 200 A\nWelding Current Range\n30 –140 A\n30 –220 A\n"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-b62880b0cef9",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 25,
+    "amps": 175,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "100% @ 100 A",
+      "neighboringText": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120 VAC / 60 Hz\n240 VAC / 60 Hz\nCurrent Input at Output\n20.8 A at 100 A\n25.5 A at 200 A\nWelding Current Range\n30 –140 A\n30 –220 A\n"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-69a9a52df60d",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 100,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "100% @ 100 A",
+      "neighboringText": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120 VAC / 60 Hz\n240 VAC / 60 Hz\nCurrent Input at Output\n20.8 A at 100 A\n25.5 A at 200 A\nWelding Current Range\n30 –140 A\n30 –220 A\n"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-cont-f369cb89fc62",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 75,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "100% @ 100 A",
+      "neighboringText": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120 VAC / 60 Hz\n240 VAC / 60 Hz\nCurrent Input at Output\n20.8 A at 100 A\n25.5 A at 200 A\nWelding Current Range\n30 –140 A\n30 –220 A\n"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-cont-28dae7c8bde2",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 115,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "100% @ 100 A",
+      "neighboringText": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120 VAC / 60 Hz\n240 VAC / 60 Hz\nCurrent Input at Output\n20.8 A at 100 A\n25.5 A at 200 A\nWelding Current Range\n30 –140 A\n30 –220 A\n"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-cont-69f59c273b6e",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 90,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "100% @ 100 A",
+      "neighboringText": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120 VAC / 60 Hz\n240 VAC / 60 Hz\nCurrent Input at Output\n20.8 A at 100 A\n25.5 A at 200 A\nWelding Current Range\n30 –140 A\n30 –220 A\n"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-cont-1253e9373e78",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 105,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "100% @ 100 A",
+      "neighboringText": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120 VAC / 60 Hz\n240 VAC / 60 Hz\nCurrent Input at Output\n20.8 A at 100 A\n25.5 A at 200 A\nWelding Current Range\n30 –140 A\n30 –220 A\n"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-cont-39fa9ec190ee",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 60,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "100% @ 100 A",
+      "neighboringText": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120 VAC / 60 Hz\n240 VAC / 60 Hz\nCurrent Input at Output\n20.8 A at 100 A\n25.5 A at 200 A\nWelding Current Range\n30 –140 A\n30 –220 A\n"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-cont-ad5736686512",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 100,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "100% @ 100 A",
+      "neighboringText": "Page 7\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSpecifications\nMIG\nPower Input\n120 VAC / 60 Hz\n240 VAC / 60 Hz\nCurrent Input at Output\n20.8 A at 100 A\n25.5 A at 200 A\nWelding Current Range\n30 –140 A\n30 –220 A\n"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p19-duty-cont-28dae7c8bde2",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 115,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "Rated Duty Cycle",
+      "neighboringText": "100% Continuous Use at 115 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p19-duty-cont-f369cb89fc62",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 75,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "Rated Duty Cycle",
+      "neighboringText": "100% Continuous Use at 75 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p19-duty-cont-28dae7c8bde2",
+    "process": "mig",
+    "inputVoltage": 240,
+    "dutyPercent": 100,
+    "amps": 115,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "Rated Duty Cycle",
+      "neighboringText": "Page 19\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSetting Up The Weld\nclamps\nworkpieces\nChamfer thick workpieces.\nClean surfaces \nto bare metal.\n1.\t Make practice welds on pieces of scrap the \nsame thickness as"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p19-duty-cont-f369cb89fc62",
+    "process": "mig",
+    "inputVoltage": 240,
+    "dutyPercent": 100,
+    "amps": 75,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "Rated Duty Cycle",
+      "neighboringText": "Page 19\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nSetting Up The Weld\nclamps\nworkpieces\nChamfer thick workpieces.\nClean surfaces \nto bare metal.\n1.\t Make practice welds on pieces of scrap the \nsame thickness as"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p23-duty-cont-f369cb89fc62",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 75,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "Screen",
+      "neighboringText": "100% Continuous Use at 75 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p23-duty-cont-28dae7c8bde2",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 115,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "Screen",
+      "neighboringText": "100% Continuous Use at 115 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p23-duty-cont-f369cb89fc62",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 75,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "FOLLOW DUTY CYCLE!",
+      "neighboringText": "Page 23\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nNote:  If Welder is used too long, a \nwarning screen appears in the LCD \nDisplay window and the unit automatically \nshuts down.  The Welder automatically \nretur"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p23-duty-cont-28dae7c8bde2",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 115,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "FOLLOW DUTY CYCLE!",
+      "neighboringText": "Page 23\nFor technical questions, please call 1-800-444-3353.\nItem 57812 \n        \nSafety\nWelding Tips\nMAINTENANCE\nTIG / Stick\nCONTROLS\nWire\nNote:  If Welder is used too long, a \nwarning screen appears in the LCD \nDisplay window and the unit automatically \nshuts down.  The Welder automatically \nretur"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p29-duty-cont-ad5736686512",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 100,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "Duty Cycle (Duration of Use)",
+      "neighboringText": "100% Continuous Use at 100 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p29-duty-cont-39fa9ec190ee",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 60,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "Duty Cycle (Duration of Use)",
+      "neighboringText": "100% Continuous Use at 60 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p29-duty-cont-1253e9373e78",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 105,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "Duty Cycle (Duration of Use)",
+      "neighboringText": "100% Continuous Use at 105 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p29-duty-cont-69f59c273b6e",
+    "process": null,
+    "inputVoltage": null,
+    "dutyPercent": 100,
+    "amps": 90,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "Duty Cycle (Duration of Use)",
+      "neighboringText": "100% Continuous Use at 90 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p29-duty-cont-ad5736686512",
+    "process": "tig",
+    "inputVoltage": 240,
+    "dutyPercent": 100,
+    "amps": 100,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "3. Clamp Ground Cable to bare metal on the",
+      "neighboringText": "Page 29\nFor technical questions, please call 1-800-444-3353.\nItem 57812\n        \nSaFety\nWelding tipS\nMaintenance\ntig / Stick\ncOntROlS\nWiRe\n Duty Cycle (Duration of Use)\navoid damage to the Welder by not welding for more \nthan the prescribed duty cycle time.  The Duty Cycle \ndefines the number of min"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p29-duty-cont-39fa9ec190ee",
+    "process": "tig",
+    "inputVoltage": 240,
+    "dutyPercent": 100,
+    "amps": 60,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "3. Clamp Ground Cable to bare metal on the",
+      "neighboringText": "Page 29\nFor technical questions, please call 1-800-444-3353.\nItem 57812\n        \nSaFety\nWelding tipS\nMaintenance\ntig / Stick\ncOntROlS\nWiRe\n Duty Cycle (Duration of Use)\navoid damage to the Welder by not welding for more \nthan the prescribed duty cycle time.  The Duty Cycle \ndefines the number of min"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p29-duty-cont-1253e9373e78",
+    "process": "tig",
+    "inputVoltage": 240,
+    "dutyPercent": 100,
+    "amps": 105,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "3. Clamp Ground Cable to bare metal on the",
+      "neighboringText": "Page 29\nFor technical questions, please call 1-800-444-3353.\nItem 57812\n        \nSaFety\nWelding tipS\nMaintenance\ntig / Stick\ncOntROlS\nWiRe\n Duty Cycle (Duration of Use)\navoid damage to the Welder by not welding for more \nthan the prescribed duty cycle time.  The Duty Cycle \ndefines the number of min"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p29-duty-cont-69f59c273b6e",
+    "process": "tig",
+    "inputVoltage": 240,
+    "dutyPercent": 100,
+    "amps": 90,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "regex_text",
+      "confidence": 0.7,
+      "section": "3. Clamp Ground Cable to bare metal on the",
+      "neighboringText": "Page 29\nFor technical questions, please call 1-800-444-3353.\nItem 57812\n        \nSaFety\nWelding tipS\nMaintenance\ntig / Stick\ncOntROlS\nWiRe\n Duty Cycle (Duration of Use)\navoid damage to the Welder by not welding for more \nthan the prescribed duty cycle time.  The Duty Cycle \ndefines the number of min"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p29-duty-cont-1253e9373e78",
+    "process": null,
+    "inputVoltage": 240,
+    "dutyPercent": 100,
+    "amps": 105,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "3. Clamp Ground Cable to bare metal on the",
+      "neighboringText": "240 VAC 30% Use at 175 A For 10 continuous Minutes 33 77 MMiinnuutteess MMiinnuutteess WWeellddiinngg RReessttiinngg 100% Continuous Use at 105 A 120 VAC 40% Use at 125 A For 10 continuous Minutes 44 66 MMiinnuutteess MMiinnuutteess WWeellddiinngg RReessttiinngg 100% Continuous Use at 90 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p29-duty-cont-69f59c273b6e",
+    "process": null,
+    "inputVoltage": 240,
+    "dutyPercent": 100,
+    "amps": 90,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "3. Clamp Ground Cable to bare metal on the",
+      "neighboringText": "240 VAC 30% Use at 175 A For 10 continuous Minutes 33 77 MMiinnuutteess MMiinnuutteess WWeellddiinngg RReessttiinngg 100% Continuous Use at 105 A 120 VAC 40% Use at 125 A For 10 continuous Minutes 44 66 MMiinnuutteess MMiinnuutteess WWeellddiinngg RReessttiinngg 100% Continuous Use at 90 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p29-duty-cont-39fa9ec190ee",
+    "process": null,
+    "inputVoltage": 240,
+    "dutyPercent": 100,
+    "amps": 60,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "regex_text",
+      "confidence": 0.5,
+      "section": "3. Clamp Ground Cable to bare metal on the",
+      "neighboringText": "240 VAC Use at 175 A ntinuous Minutes 77--11//22 MMiinnuutteess RReessttiinngg inuous Use at 100 A 120 VAC 40% Use at 80 A For 10 continuous Minutes 44 66 MMiinnuutteess MMiinnuutteess WWeellddiinngg RReessttiinngg 100% Continuous Use at 60 A"
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p07-duty-06b8a865a18e",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 40,
+    "amps": 100,
+    "continuous": false,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_specs_table",
+      "confidence": 0.95,
+      "section": "100% @ 100 A",
+      "neighboringText": "40% @ 100 A 100% @ 75 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-d622e3e044a0",
+    "process": "mig",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 75,
+    "continuous": false,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_specs_table",
+      "confidence": 0.95,
+      "section": "100% @ 100 A",
+      "neighboringText": "40% @ 100 A 100% @ 75 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-2f6d5a479400",
+    "process": "mig",
+    "inputVoltage": 240,
+    "dutyPercent": 25,
+    "amps": 200,
+    "continuous": false,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_specs_table",
+      "confidence": 0.95,
+      "section": "100% @ 100 A",
+      "neighboringText": "25% @ 200 A 100% @ 115 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-f89b708ae337",
+    "process": "mig",
+    "inputVoltage": 240,
+    "dutyPercent": 100,
+    "amps": 115,
+    "continuous": false,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_specs_table",
+      "confidence": 0.95,
+      "section": "100% @ 100 A",
+      "neighboringText": "25% @ 200 A 100% @ 115 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-cont-f89b708ae337",
+    "process": "mig",
+    "inputVoltage": 240,
+    "dutyPercent": 100,
+    "amps": 115,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_specs_table",
+      "confidence": 0.95,
+      "section": "100% @ 100 A",
+      "neighboringText": "25% @ 200 A 100% @ 115 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-60154bbde391",
+    "process": "tig",
+    "inputVoltage": 120,
+    "dutyPercent": 40,
+    "amps": 125,
+    "continuous": false,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_specs_table",
+      "confidence": 0.95,
+      "section": "100% @ 100 A",
+      "neighboringText": "40% @ 125 A 100% @ 90 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-44189f47cca9",
+    "process": "tig",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 90,
+    "continuous": false,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_specs_table",
+      "confidence": 0.95,
+      "section": "100% @ 100 A",
+      "neighboringText": "40% @ 125 A 100% @ 90 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-cont-44189f47cca9",
+    "process": "tig",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 90,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_specs_table",
+      "confidence": 0.95,
+      "section": "100% @ 100 A",
+      "neighboringText": "40% @ 125 A 100% @ 90 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-a7c740296737",
+    "process": "tig",
+    "inputVoltage": 240,
+    "dutyPercent": 30,
+    "amps": 175,
+    "continuous": false,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_specs_table",
+      "confidence": 0.95,
+      "section": "100% @ 100 A",
+      "neighboringText": "30% @ 175 A 100% @ 105 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-4e95d39fcbed",
+    "process": "tig",
+    "inputVoltage": 240,
+    "dutyPercent": 100,
+    "amps": 105,
+    "continuous": false,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_specs_table",
+      "confidence": 0.95,
+      "section": "100% @ 100 A",
+      "neighboringText": "30% @ 175 A 100% @ 105 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-cont-4e95d39fcbed",
+    "process": "tig",
+    "inputVoltage": 240,
+    "dutyPercent": 100,
+    "amps": 105,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_specs_table",
+      "confidence": 0.95,
+      "section": "100% @ 100 A",
+      "neighboringText": "30% @ 175 A 100% @ 105 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-96e52bde4d44",
+    "process": "stick",
+    "inputVoltage": 120,
+    "dutyPercent": 40,
+    "amps": 80,
+    "continuous": false,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_specs_table",
+      "confidence": 0.95,
+      "section": "100% @ 100 A",
+      "neighboringText": "40% @ 80 A 100% @ 60 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-5ef68df637c9",
+    "process": "stick",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 60,
+    "continuous": false,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_specs_table",
+      "confidence": 0.95,
+      "section": "100% @ 100 A",
+      "neighboringText": "40% @ 80 A 100% @ 60 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-cont-5ef68df637c9",
+    "process": "stick",
+    "inputVoltage": 120,
+    "dutyPercent": 100,
+    "amps": 60,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_specs_table",
+      "confidence": 0.95,
+      "section": "100% @ 100 A",
+      "neighboringText": "40% @ 80 A 100% @ 60 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-7ceefa29d047",
+    "process": "stick",
+    "inputVoltage": 240,
+    "dutyPercent": 25,
+    "amps": 175,
+    "continuous": false,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_specs_table",
+      "confidence": 0.95,
+      "section": "100% @ 100 A",
+      "neighboringText": "25% @ 175 A 100% @ 100 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-6377ef89dcce",
+    "process": "stick",
+    "inputVoltage": 240,
+    "dutyPercent": 100,
+    "amps": 100,
+    "continuous": false,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_specs_table",
+      "confidence": 0.95,
+      "section": "100% @ 100 A",
+      "neighboringText": "25% @ 175 A 100% @ 100 A"
+    },
+    "needsReview": false
+  },
+  {
+    "id": "owner-manual-p07-duty-cont-6377ef89dcce",
+    "process": "stick",
+    "inputVoltage": 240,
+    "dutyPercent": 100,
+    "amps": 100,
+    "continuous": true,
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "extractionMethod": "pdfplumber_specs_table",
+      "confidence": 0.95,
+      "section": "100% @ 100 A",
+      "neighboringText": "25% @ 175 A 100% @ 100 A"
+    },
+    "needsReview": false
+  }
+]

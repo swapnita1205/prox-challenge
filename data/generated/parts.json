@@ -1,0 +1,1344 @@
+[
+  {
+    "id": "owner-manual-p46-part",
+    "cells": [
+      "1",
+      "Right Cover",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-001",
+    "cells": [
+      "2",
+      "Handle Base",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-002",
+    "cells": [
+      "3",
+      "Handle Cover",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-003",
+    "cells": [
+      "4",
+      "Hinge-Right",
+      "2"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-004",
+    "cells": [
+      "5",
+      "Hinge-left",
+      "2"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-005",
+    "cells": [
+      "6",
+      "Left Cover",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-006",
+    "cells": [
+      "7",
+      "Latch",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-007",
+    "cells": [
+      "8",
+      "Middle Bracket",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-008",
+    "cells": [
+      "9",
+      "PFC Inductance",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-009",
+    "cells": [
+      "10",
+      "Spool",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-010",
+    "cells": [
+      "11",
+      "Remote Control PCB",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-011",
+    "cells": [
+      "12",
+      "Wire Feeder",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-012",
+    "cells": [
+      "13",
+      "Aviation Plug Wire",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-013",
+    "cells": [
+      "14",
+      "Miller Plug Connector",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-014",
+    "cells": [
+      "15",
+      "Protective Cover",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-015",
+    "cells": [
+      "16",
+      "Display PCB",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-016",
+    "cells": [
+      "17",
+      "Screen Cover",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-017",
+    "cells": [
+      "18",
+      "Screen Frame",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-018",
+    "cells": [
+      "19",
+      "MIG Welding Torch",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-019",
+    "cells": [
+      "20",
+      "Front Handle Cover",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-020",
+    "cells": [
+      "21",
+      "Front Panel",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-021",
+    "cells": [
+      "22",
+      "Display",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-022",
+    "cells": [
+      "23",
+      "Knob",
+      "2"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-023",
+    "cells": [
+      "24",
+      "Knob",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-024",
+    "cells": [
+      "25",
+      "Storage Door",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-025",
+    "cells": [
+      "26",
+      "Switch",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-026",
+    "cells": [
+      "27",
+      "American Air Fitting",
+      "2"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-027",
+    "cells": [
+      "28",
+      "Air Connector",
+      "3"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-028",
+    "cells": [
+      "29",
+      "Quick Connector",
+      "2"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-029",
+    "cells": [
+      "30",
+      "Grounding Clamp Assembly",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-030",
+    "cells": [
+      "31",
+      "Welding Clamp Assembly",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        45.5,
+        253.24,
+        294.01,
+        625.9
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part",
+    "cells": [
+      "32",
+      "Polarity Cable",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-001",
+    "cells": [
+      "33",
+      "Output Inductor",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-002",
+    "cells": [
+      "34",
+      "Air Connector",
+      "2"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-003",
+    "cells": [
+      "35",
+      "Solenoid Valve",
+      "2"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-004",
+    "cells": [
+      "36",
+      "Bottom Housing",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-005",
+    "cells": [
+      "37",
+      "Board Insulation Paper",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-006",
+    "cells": [
+      "38",
+      "Main PCB",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-007",
+    "cells": [
+      "39",
+      "Control PCB",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-008",
+    "cells": [
+      "40",
+      "Fast Recovery Diode",
+      "6"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-009",
+    "cells": [
+      "41",
+      "Metal Case Air Way",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-010",
+    "cells": [
+      "42",
+      "Rectifier Radiator Support Bar",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-011",
+    "cells": [
+      "43",
+      "Rectifier Radiator",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-012",
+    "cells": [
+      "44",
+      "Fan",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-013",
+    "cells": [
+      "45",
+      "Transformer",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-014",
+    "cells": [
+      "46",
+      "IGBT",
+      "6"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-015",
+    "cells": [
+      "47",
+      "Bridge Rectifier Heatsink",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-016",
+    "cells": [
+      "48",
+      "Fast Recovery Diode",
+      "2"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-017",
+    "cells": [
+      "49",
+      "IGBT Heat Sink Support Bar",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-018",
+    "cells": [
+      "50",
+      "IGBT Radiator",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-019",
+    "cells": [
+      "51",
+      "Bridge Rectifiers",
+      "2"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-020",
+    "cells": [
+      "52",
+      "IGBT Radiator",
+      "2"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-021",
+    "cells": [
+      "53",
+      "Fan",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-022",
+    "cells": [
+      "54",
+      "Y-Type Threaded Tee",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-023",
+    "cells": [
+      "55",
+      "120 VAC Power Cord",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-024",
+    "cells": [
+      "56",
+      "Rear Panel",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-025",
+    "cells": [
+      "57",
+      "Rear Handle Cover",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-026",
+    "cells": [
+      "58",
+      "American Power Socket",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-027",
+    "cells": [
+      "59",
+      "Overload Protector",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-028",
+    "cells": [
+      "60",
+      "Rear Panel",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  },
+  {
+    "id": "owner-manual-p46-part-029",
+    "cells": [
+      "61",
+      "240 VAC Power Cord",
+      "1"
+    ],
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "extractionMethod": "pdfplumber_table_row",
+      "confidence": 1.0,
+      "section": "Parts List",
+      "bbox": [
+        308.64,
+        253.24,
+        557.15,
+        614.95
+      ]
+    },
+    "needsReview": true
+  }
+]

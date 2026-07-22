@@ -1,0 +1,234 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-geist-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-geist-mono: ui-monospace, "SF Mono", "Cascadia Code", monospace;
+  --status-strip-height: 2.75rem;
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-garage-bg text-garage-text antialiased;
+  font-feature-settings: "kern" 1, "liga" 1;
+  text-rendering: optimizeLegibility;
+}
+
+/* Subtle steel texture — restrained, not decorative */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  z-index: -1;
+}
+
+/* Skip link for keyboard users */
+.skip-link {
+  @apply sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-md focus:bg-garage-orange focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-white;
+}
+
+:focus-visible {
+  @apply outline-none ring-2 ring-garage-orange ring-offset-2 ring-offset-garage-bg;
+}
+
+/* Industrial label typography */
+.label-caps {
+  @apply font-mono text-[10px] font-semibold uppercase tracking-widest text-garage-muted;
+}
+
+/* Thin scrollbar for status strip / drawers */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: theme("colors.garage.border") transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-garage-border;
+}
+
+@media print {
+  body::before {
+    display: none;
+  }
+
+  .artifact-printable {
+    break-inside: avoid;
+  }
+
+  .artifact-printable button {
+    display: none;
+  }
+}
+
+/* ── Entry animations ── */
+
+@keyframes artifact-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.artifact-fade-in {
+  animation: artifact-fade-in 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes message-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.message-in {
+  animation: message-in 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes stream-pulse {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.stream-dot {
+  animation: stream-pulse 1.2s ease-in-out infinite;
+}
+
+.stream-dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.stream-dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+/* ── Micro-interaction flashes ── */
+
+@keyframes micro-flash {
+  0% {
+    background-color: transparent;
+  }
+  30% {
+    background-color: rgba(232, 93, 4, 0.12);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes micro-flash-confidence {
+  0% {
+    box-shadow: inset 0 0 0 0 rgba(232, 93, 4, 0);
+  }
+  40% {
+    box-shadow: inset 0 0 0 2px rgba(232, 93, 4, 0.5);
+  }
+  100% {
+    box-shadow: inset 0 0 0 0 rgba(232, 93, 4, 0);
+  }
+}
+
+@keyframes micro-flash-conflict {
+  0% {
+    box-shadow: inset 0 0 0 0 rgba(245, 158, 11, 0);
+  }
+  40% {
+    box-shadow: inset 0 0 0 2px rgba(245, 158, 11, 0.6);
+  }
+  100% {
+    box-shadow: inset 0 0 0 0 rgba(245, 158, 11, 0);
+  }
+}
+
+@keyframes hypothesis-strike {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0.5;
+    transform: translateX(-2px);
+  }
+}
+
+.micro-flash-active {
+  animation: micro-flash 0.65s ease-out;
+}
+
+.micro-flash-confidence {
+  animation: micro-flash-confidence 0.65s ease-out;
+}
+
+.micro-flash-conflict {
+  animation: micro-flash-conflict 0.65s ease-out;
+}
+
+.hypothesis-eliminated {
+  animation: hypothesis-strike 0.4s ease-out forwards;
+}
+
+@keyframes region-highlight {
+  0%,
+  100% {
+    stroke-opacity: 0.7;
+    fill-opacity: 0.12;
+  }
+  50% {
+    stroke-opacity: 1;
+    fill-opacity: 0.22;
+  }
+}
+
+.region-highlight {
+  animation: region-highlight 2.5s ease-in-out infinite;
+}
+
+/* Drawer expand */
+.drawer-panel {
+  @apply transition-all duration-300 ease-out;
+}
+
+/* Mode card industrial accent */
+.mode-card-accent {
+  @apply relative overflow-hidden;
+}
+
+.mode-card-accent::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  @apply bg-garage-orange opacity-0 transition-opacity duration-200;
+}
+
+.mode-card-accent:hover::before,
+.mode-card-accent:focus-within::before {
+  @apply opacity-100;
+}

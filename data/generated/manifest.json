@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "generatedAt": "2026-07-10T05:56:47.587827+00:00",
+  "elapsedSeconds": 39.56,
+  "sources": [
+    "owner-manual.pdf",
+    "quick-start-guide.pdf",
+    "selection-chart.pdf"
+  ],
+  "counts": {
+    "pages": 51,
+    "sections": 721,
+    "tables": 64,
+    "figures": 21,
+    "warnings": 78,
+    "entities": 182,
+    "relationships": 127,
+    "dutyCycles": 72,
+    "polarity": 75,
+    "settings": 1,
+    "troubleshooting": 127,
+    "defects": 53,
+    "parts": 61
+  },
+  "errors": []
+}

@@ -1,0 +1,1484 @@
+[
+  {
+    "id": "owner-manual-p02-warn-b3c55e049a71",
+    "level": "warning",
+    "text": "WARNING SYMBOLS AND DEFINITIONS",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 2,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING SYMBOLS AND DEFINITIONS",
+      "bbox": [
+        206.77,
+        139.51,
+        397.52,
+        153.37
+      ],
+      "neighboringText": "WARNING SYMBOLS AND DEFINITIONS"
+    }
+  },
+  {
+    "id": "owner-manual-p02-warn-b3c55e049a71",
+    "level": "warning",
+    "text": "WARNING SYMBOLS AND DEFINITIONS",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 2,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING SYMBOLS AND DEFINITIONS",
+      "bbox": [
+        206.77,
+        139.51,
+        397.52,
+        153.37
+      ],
+      "neighboringText": "WARNING SYMBOLS AND DEFINITIONS"
+    }
+  },
+  {
+    "id": "owner-manual-p02-warn-04826f92b8b4",
+    "level": "caution",
+    "text": "at common sense and caution are factors which cannot be built into this product, but must be supplied by the operator.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 2,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "General Safety",
+      "bbox": [
+        308.14,
+        650.86,
+        538.97,
+        736.21
+      ],
+      "neighboringText": "at common sense and caution are factors which cannot be built into this product, but must be supplied by the operator."
+    }
+  },
+  {
+    "id": "owner-manual-p02-warn-04826f92b8b4",
+    "level": "caution",
+    "text": "at common sense and caution are factors which cannot be built into this product, but must be supplied by the operator.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 2,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "General Safety",
+      "bbox": [
+        308.14,
+        650.86,
+        538.97,
+        736.21
+      ],
+      "neighboringText": "at common sense and caution are factors which cannot be built into this product, but must be supplied by the operator."
+    }
+  },
+  {
+    "id": "owner-manual-p04-warn-531b26d042d0",
+    "level": "warning",
+    "text": "ation in work areas to prevent accumulation of such substances. Welders create sparks which may ignite flammable substances or make reactive fumes toxic.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 4,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Fire Safety",
+      "bbox": [
+        45.0,
+        632.75,
+        290.66,
+        718.1
+      ],
+      "neighboringText": "ation in work areas to prevent accumulation of such substances. Welders create sparks which may ignite flammable substances or make reactive fumes toxic."
+    }
+  },
+  {
+    "id": "owner-manual-p06-warn-f2cd367ebd65",
+    "level": "warning",
+    "text": "TO PREVENT ELECTRIC SHOCK AND DEATH FROM INCORRECT GROUNDING WIRE CONNECTION: Check with a qualified electrician if you are in doubt as to whether the outlet is properly grounded. Do not use the welder if the power cord or plug is damaged. If damaged, have it repaired by a service facility before use. If the plug will not fit the outlet, have a proper outlet installed by a qualified electrician, d",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "FROM INCORRECT GROUNDING WIRE CONNECTION:",
+      "bbox": [
+        45.0,
+        95.26,
+        540.16,
+        169.12
+      ],
+      "neighboringText": "TO PREVENT ELECTRIC SHOCK AND DEATH FROM INCORRECT GROUNDING WIRE CONNECTION: Check with a qualified electrician if you are in doubt as to whether the outlet is properly grounded. Do not use the welder if the power cord or plug is damaged. If damaged, have it repaired by a service facility before use. If the plug will not fit the outlet, have a proper outlet installed by a qualified electrician, d"
+    }
+  },
+  {
+    "id": "owner-manual-p10-warn-6589b2db86a7",
+    "level": "warning",
+    "text": "Pad as illustrated. To prevent wire feed problems, set the Spool so that it will unwind clockwise.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 10,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "MAINTENANCE",
+      "bbox": [
+        45.0,
+        623.61,
+        283.66,
+        673.43
+      ],
+      "neighboringText": "Pad as illustrated. To prevent wire feed problems, set the Spool so that it will unwind clockwise."
+    }
+  },
+  {
+    "id": "owner-manual-p10-warn-9f688eb33e35",
+    "level": "warning",
+    "text": "TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Turn the Power Switch off and unplug the Welder before setup.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 10,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION:",
+      "bbox": [
+        157.5,
+        104.93,
+        474.2,
+        130.79
+      ],
+      "neighboringText": "TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Turn the Power Switch off and unplug the Welder before setup."
+    }
+  },
+  {
+    "id": "owner-manual-p11-warn-b9e32109cc95",
+    "level": "warning",
+    "text": "with hole in Spool. To prevent wire feed problems, set the Spool so that it will unwind clockwise.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 11,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Wire",
+      "bbox": [
+        36.0,
+        247.72,
+        266.9,
+        297.54
+      ],
+      "neighboringText": "with hole in Spool. To prevent wire feed problems, set the Spool so that it will unwind clockwise."
+    }
+  },
+  {
+    "id": "owner-manual-p13-warn-dc3f97d4f55a",
+    "level": "warning",
+    "text": "NOTICE: To prevent damage, do not overtighten the Knob.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "14.\tEnsure that the Gun Cable Connector",
+      "bbox": [
+        36.0,
+        267.18,
+        184.77,
+        292.53
+      ],
+      "neighboringText": "NOTICE: To prevent damage, do not overtighten the Knob."
+    }
+  },
+  {
+    "id": "owner-manual-p14-warn-8a79381d6435",
+    "level": "warning",
+    "text": "raps (not included) to prevent tipping.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "straps (not included) to prevent tipping.",
+      "bbox": [
+        76.5,
+        319.72,
+        258.8,
+        357.03
+      ],
+      "neighboringText": "raps (not included) to prevent tipping."
+    }
+  },
+  {
+    "id": "owner-manual-p16-warn-0bd7272b77c3",
+    "level": "danger",
+    "text": "DANGER",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 16,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "DANGER",
+      "bbox": [
+        338.62,
+        38.47,
+        416.62,
+        63.42
+      ],
+      "neighboringText": "DANGER"
+    }
+  },
+  {
+    "id": "owner-manual-p16-warn-83dbfdb83fd6",
+    "level": "warning",
+    "text": "AT WELDING VOLTAGE TO PREVENT ELECTRIC SHOCK AND DEATH:",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 16,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "TO PREVENT ELECTRIC SHOCK AND DEATH:",
+      "bbox": [
+        238.12,
+        64.97,
+        501.25,
+        98.0
+      ],
+      "neighboringText": "AT WELDING VOLTAGE TO PREVENT ELECTRIC SHOCK AND DEATH:"
+    }
+  },
+  {
+    "id": "owner-manual-p17-warn-dc3f97d4f55a",
+    "level": "warning",
+    "text": "NOTICE: To prevent damage, do not overtighten the Knob.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Optional Spool Gun Setup",
+      "bbox": [
+        36.0,
+        571.31,
+        184.77,
+        596.66
+      ],
+      "neighboringText": "NOTICE: To prevent damage, do not overtighten the Knob."
+    }
+  },
+  {
+    "id": "owner-manual-p18-warn-7de5fde3cdb8",
+    "level": "warning",
+    "text": "TO PREVENT SERIOUS INJURY: Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 18,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "TO PREVENT SERIOUS INJURY:",
+      "bbox": [
+        45.0,
+        129.45,
+        551.24,
+        203.31
+      ],
+      "neighboringText": "TO PREVENT SERIOUS INJURY: Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes."
+    }
+  },
+  {
+    "id": "owner-manual-p18-warn-5c9c0960ea78",
+    "level": "warning",
+    "text": "TO PREVENT SERIOUS INJURY, FIRE AND BURNS: Keep welding tip clear of grounded objects whenever unit is plugged in and turned on.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 18,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "FIRE AND BURNS:",
+      "bbox": [
+        110.38,
+        543.32,
+        279.86,
+        605.18
+      ],
+      "neighboringText": "TO PREVENT SERIOUS INJURY, FIRE AND BURNS: Keep welding tip clear of grounded objects whenever unit is plugged in and turned on."
+    }
+  },
+  {
+    "id": "owner-manual-p19-warn-a067dfcc2099",
+    "level": "warning",
+    "text": "ly shuts down and a warning screen appears in the LCD Display window. The Welder automatically returns to service after cooling off. Should this occur, rest the MIG Gun on an electrically non-conductive, heat‑proof surface, such as a concrete slab, well clear of the ground clamp.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Duty Cycle (Duration of Use)",
+      "bbox": [
+        36.0,
+        204.09,
+        278.74,
+        301.4
+      ],
+      "neighboringText": "ly shuts down and a warning screen appears in the LCD Display window. The Welder automatically returns to service after cooling off. Should this occur, rest the MIG Gun on an electrically non-conductive, heat‑proof surface, such as a concrete slab, well clear of the ground clamp."
+    }
+  },
+  {
+    "id": "owner-manual-p19-warn-a067dfcc2099",
+    "level": "warning",
+    "text": "ly shuts down and a warning screen appears in the LCD Display window. The Welder automatically returns to service after cooling off. Should this occur, rest the MIG Gun on an electrically non-conductive, heat‑proof surface, such as a concrete slab, well clear of the ground clamp.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Duty Cycle (Duration of Use)",
+      "bbox": [
+        36.0,
+        204.09,
+        278.74,
+        301.4
+      ],
+      "neighboringText": "ly shuts down and a warning screen appears in the LCD Display window. The Welder automatically returns to service after cooling off. Should this occur, rest the MIG Gun on an electrically non-conductive, heat‑proof surface, such as a concrete slab, well clear of the ground clamp."
+    }
+  },
+  {
+    "id": "owner-manual-p19-warn-ef5932abf369",
+    "level": "warning",
+    "text": "longer rest periods to prevent needless wear.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Duty Cycle (Duration of Use)",
+      "bbox": [
+        36.0,
+        333.09,
+        290.6,
+        358.4
+      ],
+      "neighboringText": "longer rest periods to prevent needless wear."
+    }
+  },
+  {
+    "id": "owner-manual-p21-warn-590e25c0e641",
+    "level": "danger",
+    "text": "DANGER! TO PREVENT DEATH FROM ASPHYXIATION: Do not open gas without proper ventilation. Fix gas leaks immediately. Shielding gas can displace air and cause rapid loss of consciousness and death. Shielding gas without carbon dioxide can be even more hazardous because asphyxiation can start without feeling shortness of breath.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 21,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "FROM ASPHYXIATION:",
+      "bbox": [
+        36.0,
+        538.84,
+        285.49,
+        648.7
+      ],
+      "neighboringText": "DANGER! TO PREVENT DEATH FROM ASPHYXIATION: Do not open gas without proper ventilation. Fix gas leaks immediately. Shielding gas can displace air and cause rapid loss of consciousness and death. Shielding gas without carbon dioxide can be even more hazardous because asphyxiation can start without feeling shortness of breath."
+    }
+  },
+  {
+    "id": "owner-manual-p21-warn-590e25c0e641",
+    "level": "warning",
+    "text": "DANGER! TO PREVENT DEATH FROM ASPHYXIATION: Do not open gas without proper ventilation. Fix gas leaks immediately. Shielding gas can displace air and cause rapid loss of consciousness and death. Shielding gas without carbon dioxide can be even more hazardous because asphyxiation can start without feeling shortness of breath.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 21,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "FROM ASPHYXIATION:",
+      "bbox": [
+        36.0,
+        538.84,
+        285.49,
+        648.7
+      ],
+      "neighboringText": "DANGER! TO PREVENT DEATH FROM ASPHYXIATION: Do not open gas without proper ventilation. Fix gas leaks immediately. Shielding gas can displace air and cause rapid loss of consciousness and death. Shielding gas without carbon dioxide can be even more hazardous because asphyxiation can start without feeling shortness of breath."
+    }
+  },
+  {
+    "id": "owner-manual-p23-warn-ccd8706c6349",
+    "level": "warning",
+    "text": "is used too long, a warning screen appears in the LCD Display window and the unit automatically shuts down. The Welder automatically returns to service after cooling off. Should this occur, rest the MIG Gun on an electrically non-conductive, heat‑proof surface, such as a concrete slab, away from the ground clamp.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Wire",
+      "bbox": [
+        36.0,
+        33.18,
+        223.85,
+        142.53
+      ],
+      "neighboringText": "is used too long, a warning screen appears in the LCD Display window and the unit automatically shuts down. The Welder automatically returns to service after cooling off. Should this occur, rest the MIG Gun on an electrically non-conductive, heat‑proof surface, such as a concrete slab, away from the ground clamp."
+    }
+  },
+  {
+    "id": "owner-manual-p23-warn-ccd8706c6349",
+    "level": "warning",
+    "text": "is used too long, a warning screen appears in the LCD Display window and the unit automatically shuts down. The Welder automatically returns to service after cooling off. Should this occur, rest the MIG Gun on an electrically non-conductive, heat‑proof surface, such as a concrete slab, away from the ground clamp.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Wire",
+      "bbox": [
+        36.0,
+        33.18,
+        223.85,
+        142.53
+      ],
+      "neighboringText": "is used too long, a warning screen appears in the LCD Display window and the unit automatically shuts down. The Welder automatically returns to service after cooling off. Should this occur, rest the MIG Gun on an electrically non-conductive, heat‑proof surface, such as a concrete slab, away from the ground clamp."
+    }
+  },
+  {
+    "id": "owner-manual-p23-warn-7cd1206eab2e",
+    "level": "caution",
+    "text": "CAUTION! Weld will be hot, do not touch.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Wire",
+      "bbox": [
+        36.0,
+        366.18,
+        234.72,
+        380.04
+      ],
+      "neighboringText": "CAUTION! Weld will be hot, do not touch."
+    }
+  },
+  {
+    "id": "owner-manual-p23-warn-7cd1206eab2e",
+    "level": "caution",
+    "text": "CAUTION! Weld will be hot, do not touch.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Wire",
+      "bbox": [
+        36.0,
+        366.18,
+        234.72,
+        380.04
+      ],
+      "neighboringText": "CAUTION! Weld will be hot, do not touch."
+    }
+  },
+  {
+    "id": "owner-manual-p23-warn-af498f205ef6",
+    "level": "warning",
+    "text": "LCD Display Warning",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Warning",
+      "bbox": [
+        380.25,
+        41.96,
+        495.76,
+        66.82
+      ],
+      "neighboringText": "LCD Display Warning"
+    }
+  },
+  {
+    "id": "owner-manual-p23-warn-af498f205ef6",
+    "level": "warning",
+    "text": "LCD Display Warning",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Warning",
+      "bbox": [
+        380.25,
+        41.96,
+        495.76,
+        66.82
+      ],
+      "neighboringText": "LCD Display Warning"
+    }
+  },
+  {
+    "id": "owner-manual-p24-warn-9f688eb33e35",
+    "level": "warning",
+    "text": "TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Turn the Power Switch off and unplug the Welder before setup.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION:",
+      "bbox": [
+        157.5,
+        104.93,
+        474.2,
+        130.79
+      ],
+      "neighboringText": "TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Turn the Power Switch off and unplug the Welder before setup."
+    }
+  },
+  {
+    "id": "owner-manual-p25-warn-8a79381d6435",
+    "level": "warning",
+    "text": "raps (not included) to prevent tipping.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 25,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "two straps (not included) to prevent tipping.",
+      "bbox": [
+        36.0,
+        108.95,
+        264.66,
+        158.26
+      ],
+      "neighboringText": "raps (not included) to prevent tipping."
+    }
+  },
+  {
+    "id": "owner-manual-p25-warn-b879a871401d",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Do not plug cord into wall outlet at this time.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 25,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "plug cord into wall outlet at this time.",
+      "bbox": [
+        36.0,
+        659.11,
+        246.41,
+        696.46
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Do not plug cord into wall outlet at this time."
+    }
+  },
+  {
+    "id": "owner-manual-p25-warn-b879a871401d",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Do not plug cord into wall outlet at this time.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 25,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "plug cord into wall outlet at this time.",
+      "bbox": [
+        36.0,
+        659.11,
+        246.41,
+        696.46
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Do not plug cord into wall outlet at this time."
+    }
+  },
+  {
+    "id": "owner-manual-p25-warn-b879a871401d",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Do not plug cord into wall outlet at this time.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 25,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "plug cord into wall outlet at this time.",
+      "bbox": [
+        36.0,
+        659.11,
+        246.41,
+        696.46
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Do not plug cord into wall outlet at this time."
+    }
+  },
+  {
+    "id": "owner-manual-p26-warn-18c0401f1d54",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY: Some Electrodes may have materials added to them that are hazardous to breathe. Wear a respirator and ANSI- approved Safety goggles when grinding an Electrode.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 26,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS INJURY:",
+      "bbox": [
+        45.0,
+        75.91,
+        289.85,
+        125.26
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Some Electrodes may have materials added to them that are hazardous to breathe. Wear a respirator and ANSI- approved Safety goggles when grinding an Electrode."
+    }
+  },
+  {
+    "id": "owner-manual-p26-warn-18c0401f1d54",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY: Some Electrodes may have materials added to them that are hazardous to breathe. Wear a respirator and ANSI- approved Safety goggles when grinding an Electrode.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 26,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS INJURY:",
+      "bbox": [
+        45.0,
+        75.91,
+        289.85,
+        125.26
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Some Electrodes may have materials added to them that are hazardous to breathe. Wear a respirator and ANSI- approved Safety goggles when grinding an Electrode."
+    }
+  },
+  {
+    "id": "owner-manual-p26-warn-18c0401f1d54",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY: Some Electrodes may have materials added to them that are hazardous to breathe. Wear a respirator and ANSI- approved Safety goggles when grinding an Electrode.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 26,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS INJURY:",
+      "bbox": [
+        45.0,
+        75.91,
+        289.85,
+        125.26
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Some Electrodes may have materials added to them that are hazardous to breathe. Wear a respirator and ANSI- approved Safety goggles when grinding an Electrode."
+    }
+  },
+  {
+    "id": "owner-manual-p27-warn-b879a871401d",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Do not plug cord into wall outlet at this time.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "plug cord into wall outlet at this time.",
+      "bbox": [
+        36.0,
+        651.28,
+        246.41,
+        688.63
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Do not plug cord into wall outlet at this time."
+    }
+  },
+  {
+    "id": "owner-manual-p27-warn-b879a871401d",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Do not plug cord into wall outlet at this time.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "plug cord into wall outlet at this time.",
+      "bbox": [
+        36.0,
+        651.28,
+        246.41,
+        688.63
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Do not plug cord into wall outlet at this time."
+    }
+  },
+  {
+    "id": "owner-manual-p27-warn-b879a871401d",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Do not plug cord into wall outlet at this time.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "plug cord into wall outlet at this time.",
+      "bbox": [
+        36.0,
+        651.28,
+        246.41,
+        688.63
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY FROM ACCIDENTAL OPERATION: Do not plug cord into wall outlet at this time."
+    }
+  },
+  {
+    "id": "owner-manual-p28-warn-7de5fde3cdb8",
+    "level": "warning",
+    "text": "TO PREVENT SERIOUS INJURY: Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 28,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "TO PREVENT SERIOUS INJURY:",
+      "bbox": [
+        45.0,
+        126.14,
+        551.24,
+        200.0
+      ],
+      "neighboringText": "TO PREVENT SERIOUS INJURY: Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes."
+    }
+  },
+  {
+    "id": "owner-manual-p28-warn-5c9c0960ea78",
+    "level": "warning",
+    "text": "TO PREVENT SERIOUS INJURY, FIRE AND BURNS: Keep welding tip clear of grounded objects whenever unit is plugged in and turned on.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 28,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "FIRE AND BURNS:",
+      "bbox": [
+        110.69,
+        515.01,
+        280.17,
+        576.87
+      ],
+      "neighboringText": "TO PREVENT SERIOUS INJURY, FIRE AND BURNS: Keep welding tip clear of grounded objects whenever unit is plugged in and turned on."
+    }
+  },
+  {
+    "id": "owner-manual-p29-warn-a067dfcc2099",
+    "level": "warning",
+    "text": "ly shuts down and a warning screen appears in the LCD Display window. The Welder automatically returns to service after cooling off. Should this occur, rest the Tig Torch or Electrode Holder on an electrically non-conductive, heat-proof surface, such as a concrete slab, well clear of the ground clamp.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Duty Cycle (Duration of Use)",
+      "bbox": [
+        299.14,
+        58.59,
+        551.83,
+        155.9
+      ],
+      "neighboringText": "ly shuts down and a warning screen appears in the LCD Display window. The Welder automatically returns to service after cooling off. Should this occur, rest the Tig Torch or Electrode Holder on an electrically non-conductive, heat-proof surface, such as a concrete slab, well clear of the ground clamp."
+    }
+  },
+  {
+    "id": "owner-manual-p29-warn-a067dfcc2099",
+    "level": "warning",
+    "text": "ly shuts down and a warning screen appears in the LCD Display window. The Welder automatically returns to service after cooling off. Should this occur, rest the Tig Torch or Electrode Holder on an electrically non-conductive, heat-proof surface, such as a concrete slab, well clear of the ground clamp.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Duty Cycle (Duration of Use)",
+      "bbox": [
+        299.14,
+        58.59,
+        551.83,
+        155.9
+      ],
+      "neighboringText": "ly shuts down and a warning screen appears in the LCD Display window. The Welder automatically returns to service after cooling off. Should this occur, rest the Tig Torch or Electrode Holder on an electrically non-conductive, heat-proof surface, such as a concrete slab, well clear of the ground clamp."
+    }
+  },
+  {
+    "id": "owner-manual-p29-warn-ef5932abf369",
+    "level": "warning",
+    "text": "longer rest periods to prevent needless wear.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Duty Cycle (Duration of Use)",
+      "bbox": [
+        299.14,
+        187.59,
+        474.77,
+        224.9
+      ],
+      "neighboringText": "longer rest periods to prevent needless wear."
+    }
+  },
+  {
+    "id": "owner-manual-p30-warn-d592fdbeb389",
+    "level": "warning",
+    "text": "TO PREVENT SERIOUS INJURY AND DEATH: Do not weld without Grounding Clamp. When the operator is not holding the Torch, it must be sitting on a nonconductive, nonflammable surface. Only hold TIG Rod with an electrically insulated welding glove.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "TO PREVENT SERIOUS INJURY AND DEATH:",
+      "bbox": [
+        45.0,
+        83.21,
+        549.29,
+        133.07
+      ],
+      "neighboringText": "TO PREVENT SERIOUS INJURY AND DEATH: Do not weld without Grounding Clamp. When the operator is not holding the Torch, it must be sitting on a nonconductive, nonflammable surface. Only hold TIG Rod with an electrically insulated welding glove."
+    }
+  },
+  {
+    "id": "owner-manual-p30-warn-ceeb5c7d1c8c",
+    "level": "warning",
+    "text": "TO PREVENT DEATH FROM ASPHYXIATION: Do not open gas without proper ventilation. Fix gas leaks immediately. Shielding gas can displace air and cause rapid loss of consciousness and death. Shielding gas without carbon dioxide can be even more hazardous because asphyxiation can start without feeling shortness of breath.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "TO PREVENT DEATH FROM ASPHYXIATION:",
+      "bbox": [
+        45.0,
+        148.21,
+        508.82,
+        210.07
+      ],
+      "neighboringText": "TO PREVENT DEATH FROM ASPHYXIATION: Do not open gas without proper ventilation. Fix gas leaks immediately. Shielding gas can displace air and cause rapid loss of consciousness and death. Shielding gas without carbon dioxide can be even more hazardous because asphyxiation can start without feeling shortness of breath."
+    }
+  },
+  {
+    "id": "owner-manual-p30-warn-36cf3047a829",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY: Welder is now energized and Open Circuit Voltage is present.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS",
+      "bbox": [
+        308.14,
+        643.7,
+        492.44,
+        681.56
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Welder is now energized and Open Circuit Voltage is present."
+    }
+  },
+  {
+    "id": "owner-manual-p30-warn-36cf3047a829",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY: Welder is now energized and Open Circuit Voltage is present.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS",
+      "bbox": [
+        308.14,
+        643.7,
+        492.44,
+        681.56
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Welder is now energized and Open Circuit Voltage is present."
+    }
+  },
+  {
+    "id": "owner-manual-p30-warn-36cf3047a829",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY: Welder is now energized and Open Circuit Voltage is present.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS",
+      "bbox": [
+        308.14,
+        643.7,
+        492.44,
+        681.56
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Welder is now energized and Open Circuit Voltage is present."
+    }
+  },
+  {
+    "id": "owner-manual-p31-warn-a7de8027880c",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY: Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 31,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS INJURY:",
+      "bbox": [
+        36.0,
+        486.84,
+        279.78,
+        596.7
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes."
+    }
+  },
+  {
+    "id": "owner-manual-p31-warn-a7de8027880c",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY: Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 31,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS INJURY:",
+      "bbox": [
+        36.0,
+        486.84,
+        279.78,
+        596.7
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes."
+    }
+  },
+  {
+    "id": "owner-manual-p31-warn-a7de8027880c",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY: Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 31,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS INJURY:",
+      "bbox": [
+        36.0,
+        486.84,
+        279.78,
+        596.7
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes."
+    }
+  },
+  {
+    "id": "owner-manual-p31-warn-408d402b186a",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY: Metal work bench must be grounded when TIG welding.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 31,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS INJURY:",
+      "bbox": [
+        36.0,
+        711.56,
+        280.29,
+        737.42
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Metal work bench must be grounded when TIG welding."
+    }
+  },
+  {
+    "id": "owner-manual-p31-warn-408d402b186a",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY: Metal work bench must be grounded when TIG welding.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 31,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS INJURY:",
+      "bbox": [
+        36.0,
+        711.56,
+        280.29,
+        737.42
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Metal work bench must be grounded when TIG welding."
+    }
+  },
+  {
+    "id": "owner-manual-p31-warn-408d402b186a",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY: Metal work bench must be grounded when TIG welding.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 31,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS INJURY:",
+      "bbox": [
+        36.0,
+        711.56,
+        280.29,
+        737.42
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Metal work bench must be grounded when TIG welding."
+    }
+  },
+  {
+    "id": "owner-manual-p31-warn-12cbb91ef4e7",
+    "level": "warning",
+    "text": "19. To prevent accidents, after use:",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 31,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "19.\tTo prevent accidents, after use:",
+      "bbox": [
+        299.14,
+        480.22,
+        456.1,
+        493.53
+      ],
+      "neighboringText": "19. To prevent accidents, after use:"
+    }
+  },
+  {
+    "id": "owner-manual-p32-warn-d592fdbeb389",
+    "level": "warning",
+    "text": "TO PREVENT SERIOUS INJURY AND DEATH: Do not weld without Grounding Clamp. When the operator is not holding the Electrode Holder, it must be sitting on a nonconductive, nonflammable surface.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "TO PREVENT SERIOUS INJURY AND DEATH:",
+      "bbox": [
+        45.0,
+        83.21,
+        357.25,
+        133.07
+      ],
+      "neighboringText": "TO PREVENT SERIOUS INJURY AND DEATH: Do not weld without Grounding Clamp. When the operator is not holding the Electrode Holder, it must be sitting on a nonconductive, nonflammable surface."
+    }
+  },
+  {
+    "id": "owner-manual-p32-warn-36cf3047a829",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY: Welder is now energized and Open Circuit Voltage is present.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS",
+      "bbox": [
+        308.14,
+        538.2,
+        492.44,
+        576.06
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Welder is now energized and Open Circuit Voltage is present."
+    }
+  },
+  {
+    "id": "owner-manual-p32-warn-36cf3047a829",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY: Welder is now energized and Open Circuit Voltage is present.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS",
+      "bbox": [
+        308.14,
+        538.2,
+        492.44,
+        576.06
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Welder is now energized and Open Circuit Voltage is present."
+    }
+  },
+  {
+    "id": "owner-manual-p32-warn-36cf3047a829",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY: Welder is now energized and Open Circuit Voltage is present.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS",
+      "bbox": [
+        308.14,
+        538.2,
+        492.44,
+        576.06
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Welder is now energized and Open Circuit Voltage is present."
+    }
+  },
+  {
+    "id": "owner-manual-p33-warn-a7de8027880c",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY: Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS INJURY:",
+      "bbox": [
+        299.14,
+        33.18,
+        542.92,
+        143.04
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes."
+    }
+  },
+  {
+    "id": "owner-manual-p33-warn-a7de8027880c",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY: Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS INJURY:",
+      "bbox": [
+        299.14,
+        33.18,
+        542.92,
+        143.04
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes."
+    }
+  },
+  {
+    "id": "owner-manual-p33-warn-a7de8027880c",
+    "level": "warning",
+    "text": "WARNING! TO PREVENT SERIOUS INJURY: Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING!  TO PREVENT SERIOUS INJURY:",
+      "bbox": [
+        299.14,
+        33.18,
+        542.92,
+        143.04
+      ],
+      "neighboringText": "WARNING! TO PREVENT SERIOUS INJURY: Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes."
+    }
+  },
+  {
+    "id": "owner-manual-p33-warn-5b0257129f6b",
+    "level": "warning",
+    "text": "13. To prevent accidents, after use:",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 33,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "13.\tTo prevent accidents, after use:",
+      "bbox": [
+        299.14,
+        545.94,
+        456.1,
+        559.25
+      ],
+      "neighboringText": "13. To prevent accidents, after use:"
+    }
+  },
+  {
+    "id": "owner-manual-p34-warn-6c72e951bba2",
+    "level": "caution",
+    "text": "CAUTION! This test WILL damage the weld it is performed on. This test is ONLY an indicator of weld technique and is not intended to test working welds.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 34,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "CAUTION!",
+      "bbox": [
+        45.0,
+        293.3,
+        298.93,
+        331.16
+      ],
+      "neighboringText": "CAUTION! This test WILL damage the weld it is performed on. This test is ONLY an indicator of weld technique and is not intended to test working welds."
+    }
+  },
+  {
+    "id": "owner-manual-p34-warn-6c72e951bba2",
+    "level": "caution",
+    "text": "CAUTION! This test WILL damage the weld it is performed on. This test is ONLY an indicator of weld technique and is not intended to test working welds.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 34,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "CAUTION!",
+      "bbox": [
+        45.0,
+        293.3,
+        298.93,
+        331.16
+      ],
+      "neighboringText": "CAUTION! This test WILL damage the weld it is performed on. This test is ONLY an indicator of weld technique and is not intended to test working welds."
+    }
+  },
+  {
+    "id": "owner-manual-p34-warn-0de24bea3cd1",
+    "level": "warning",
+    "text": "TO PREVENT SERIOUS INJURY: Continue to wear ANSI-approved safety goggles and protective wear when cleaning a weld. Sparks or chips may fly when cleaning.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 34,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "TO PREVENT SERIOUS INJURY:",
+      "bbox": [
+        103.5,
+        570.32,
+        290.24,
+        632.18
+      ],
+      "neighboringText": "TO PREVENT SERIOUS INJURY: Continue to wear ANSI-approved safety goggles and protective wear when cleaning a weld. Sparks or chips may fly when cleaning."
+    }
+  },
+  {
+    "id": "owner-manual-p41-warn-f8705a2dc5c0",
+    "level": "warning",
+    "text": "TO PREVENT SERIOUS INJURY, FIRE AND BURNS: Unplug the Welder, rest the tool on a heat-proof, electrically non-conductive surface, and allow all parts of the Welder to cool thoroughly before service.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 41,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "TO PREVENT SERIOUS INJURY, FIRE AND BURNS:",
+      "bbox": [
+        99.0,
+        104.26,
+        551.7,
+        142.12
+      ],
+      "neighboringText": "TO PREVENT SERIOUS INJURY, FIRE AND BURNS: Unplug the Welder, rest the tool on a heat-proof, electrically non-conductive surface, and allow all parts of the Welder to cool thoroughly before service."
+    }
+  },
+  {
+    "id": "owner-manual-p42-warn-b97e9f0b068f",
+    "level": "warning",
+    "text": "nly enough pressure to prevent continued spinning after the Gun Trigger is released.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Likely Solutions",
+      "bbox": [
+        337.77,
+        127.91,
+        518.85,
+        228.53
+      ],
+      "neighboringText": "nly enough pressure to prevent continued spinning after the Gun Trigger is released."
+    }
+  },
+  {
+    "id": "owner-manual-p43-warn-7615050f3630",
+    "level": "warning",
+    "text": "1. If a warning screen appears in the LCD Display window, Welder may have overheated and shut down. Stop and wait with the Power Switch ON for the Welder to cool. The Welder automatically returns to service after cooling off. Reduce duration or frequency of welding periods to help reduce wear on the Welder. Refer to Duty Cycle (Duration of Use) on page 19.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Likely Solutions",
+      "bbox": [
+        328.77,
+        54.16,
+        538.85,
+        141.74
+      ],
+      "neighboringText": "1. If a warning screen appears in the LCD Display window, Welder may have overheated and shut down. Stop and wait with the Power Switch ON for the Welder to cool. The Welder automatically returns to service after cooling off. Reduce duration or frequency of welding periods to help reduce wear on the Welder. Refer to Duty Cycle (Duration of Use) on page 19."
+    }
+  },
+  {
+    "id": "owner-manual-p43-warn-7615050f3630",
+    "level": "warning",
+    "text": "1. If a warning screen appears in the LCD Display window, Welder may have overheated and shut down. Stop and wait with the Power Switch ON for the Welder to cool. The Welder automatically returns to service after cooling off. Reduce duration or frequency of welding periods to help reduce wear on the Welder. Refer to Duty Cycle (Duration of Use) on page 19.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Likely Solutions",
+      "bbox": [
+        328.77,
+        54.16,
+        538.85,
+        141.74
+      ],
+      "neighboringText": "1. If a warning screen appears in the LCD Display window, Welder may have overheated and shut down. Stop and wait with the Power Switch ON for the Welder to cool. The Welder automatically returns to service after cooling off. Reduce duration or frequency of welding periods to help reduce wear on the Welder. Refer to Duty Cycle (Duration of Use) on page 19."
+    }
+  },
+  {
+    "id": "owner-manual-p43-warn-759d76787c2a",
+    "level": "warning",
+    "text": "cations table. If a warning screen appears in the LCD Display window, check the input voltage to ensure it is within specified range.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Likely Solutions",
+      "bbox": [
+        328.77,
+        143.44,
+        540.86,
+        198.62
+      ],
+      "neighboringText": "cations table. If a warning screen appears in the LCD Display window, check the input voltage to ensure it is within specified range."
+    }
+  },
+  {
+    "id": "owner-manual-p43-warn-759d76787c2a",
+    "level": "warning",
+    "text": "cations table. If a warning screen appears in the LCD Display window, check the input voltage to ensure it is within specified range.",
+    "provenance": {
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "Likely Solutions",
+      "bbox": [
+        328.77,
+        143.44,
+        540.86,
+        198.62
+      ],
+      "neighboringText": "cations table. If a warning screen appears in the LCD Display window, check the input voltage to ensure it is within specified range."
+    }
+  },
+  {
+    "id": "quick-start-guide-p01-warn-86f56fe8221f",
+    "level": "warning",
+    "text": "WARNING",
+    "provenance": {
+      "source": "quick-start-guide.pdf",
+      "page": 1,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING",
+      "bbox": [
+        32.3,
+        207.8,
+        92.74,
+        226.51
+      ],
+      "neighboringText": "WARNING"
+    }
+  },
+  {
+    "id": "quick-start-guide-p01-warn-86f56fe8221f",
+    "level": "warning",
+    "text": "WARNING",
+    "provenance": {
+      "source": "quick-start-guide.pdf",
+      "page": 1,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING",
+      "bbox": [
+        32.3,
+        207.8,
+        92.74,
+        226.51
+      ],
+      "neighboringText": "WARNING"
+    }
+  },
+  {
+    "id": "quick-start-guide-p01-warn-8b9421a6b994",
+    "level": "warning",
+    "text": "To prevent serious injury, read manual warnings and instructions before use.",
+    "provenance": {
+      "source": "quick-start-guide.pdf",
+      "page": 1,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING",
+      "bbox": [
+        21.38,
+        227.91,
+        94.58,
+        277.4
+      ],
+      "neighboringText": "To prevent serious injury, read manual warnings and instructions before use."
+    }
+  },
+  {
+    "id": "quick-start-guide-p01-warn-86f56fe8221f",
+    "level": "warning",
+    "text": "WARNING",
+    "provenance": {
+      "source": "quick-start-guide.pdf",
+      "page": 1,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING",
+      "bbox": [
+        32.3,
+        288.24,
+        92.74,
+        306.95
+      ],
+      "neighboringText": "WARNING"
+    }
+  },
+  {
+    "id": "quick-start-guide-p01-warn-86f56fe8221f",
+    "level": "warning",
+    "text": "WARNING",
+    "provenance": {
+      "source": "quick-start-guide.pdf",
+      "page": 1,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING",
+      "bbox": [
+        32.3,
+        288.24,
+        92.74,
+        306.95
+      ],
+      "neighboringText": "WARNING"
+    }
+  },
+  {
+    "id": "quick-start-guide-p01-warn-255a2624173c",
+    "level": "warning",
+    "text": "To prevent fire and serious injury, keep torch and wire clear of grounded objects while welder plugged in.",
+    "provenance": {
+      "source": "quick-start-guide.pdf",
+      "page": 1,
+      "extractionMethod": "regex_warning",
+      "confidence": 0.9,
+      "section": "WARNING",
+      "bbox": [
+        21.38,
+        307.0,
+        90.72,
+        375.68
+      ],
+      "neighboringText": "To prevent fire and serious injury, keep torch and wire clear of grounded objects while welder plugged in."
+    }
+  }
+]

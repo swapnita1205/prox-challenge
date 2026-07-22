@@ -1,0 +1,1350 @@
+{
+  "generatedAt": "2026-07-10T05:56:47.624454+00:00",
+  "summary": {
+    "totalIssues": 172,
+    "errors": 0,
+    "warnings": 170,
+    "info": 2
+  },
+  "issues": [
+    {
+      "severity": "info",
+      "category": "image_only_page",
+      "source": "selection-chart.pdf",
+      "page": 1,
+      "message": "Page has only 0 chars \u2014 flagged for multimodal interpretation"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 1,
+      "id": "owner-manual-p01-table",
+      "message": "Table owner-manual-p01-table needs manual verification (confidence=0.171)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 1,
+      "id": "owner-manual-p01-table-001",
+      "message": "Table owner-manual-p01-table-001 needs manual verification (confidence=0.5)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 2,
+      "id": "owner-manual-p02-table",
+      "message": "Table owner-manual-p02-table needs manual verification (confidence=0.5)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 2,
+      "id": "owner-manual-p02-table-001",
+      "message": "Table owner-manual-p02-table-001 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 6,
+      "id": "owner-manual-p06-table-001",
+      "message": "Table owner-manual-p06-table-001 needs manual verification (confidence=0.625)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 8,
+      "id": "owner-manual-p08-table",
+      "message": "Table owner-manual-p08-table needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 9,
+      "id": "owner-manual-p09-table",
+      "message": "Table owner-manual-p09-table needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 10,
+      "id": "owner-manual-p10-table",
+      "message": "Table owner-manual-p10-table needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 10,
+      "id": "owner-manual-p10-table-001",
+      "message": "Table owner-manual-p10-table-001 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 10,
+      "id": "owner-manual-p10-table-002",
+      "message": "Table owner-manual-p10-table-002 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 10,
+      "id": "owner-manual-p10-table-003",
+      "message": "Table owner-manual-p10-table-003 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 11,
+      "id": "owner-manual-p11-table",
+      "message": "Table owner-manual-p11-table needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 11,
+      "id": "owner-manual-p11-table-001",
+      "message": "Table owner-manual-p11-table-001 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 16,
+      "id": "owner-manual-p16-table",
+      "message": "Table owner-manual-p16-table needs manual verification (confidence=0.5)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "id": "owner-manual-p19-table",
+      "message": "Table owner-manual-p19-table needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "id": "owner-manual-p19-table-001",
+      "message": "Table owner-manual-p19-table-001 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "id": "owner-manual-p19-table-002",
+      "message": "Table owner-manual-p19-table-002 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 20,
+      "id": "owner-manual-p20-table",
+      "message": "Table owner-manual-p20-table needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 22,
+      "id": "owner-manual-p22-table",
+      "message": "Table owner-manual-p22-table needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 22,
+      "id": "owner-manual-p22-table-001",
+      "message": "Table owner-manual-p22-table-001 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "id": "owner-manual-p23-table",
+      "message": "Table owner-manual-p23-table needs manual verification (confidence=0.222)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "id": "owner-manual-p29-table-002",
+      "message": "Table owner-manual-p29-table-002 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "id": "owner-manual-p29-table-003",
+      "message": "Table owner-manual-p29-table-003 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "id": "owner-manual-p29-table-004",
+      "message": "Table owner-manual-p29-table-004 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "id": "owner-manual-p30-table",
+      "message": "Table owner-manual-p30-table needs manual verification (confidence=0.5)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "id": "owner-manual-p32-table",
+      "message": "Table owner-manual-p32-table needs manual verification (confidence=0.5)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "id": "owner-manual-p35-table",
+      "message": "Table owner-manual-p35-table needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "id": "owner-manual-p35-table-001",
+      "message": "Table owner-manual-p35-table-001 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "id": "owner-manual-p35-table-002",
+      "message": "Table owner-manual-p35-table-002 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "id": "owner-manual-p35-table-003",
+      "message": "Table owner-manual-p35-table-003 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "id": "owner-manual-p35-table-004",
+      "message": "Table owner-manual-p35-table-004 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "id": "owner-manual-p35-table-005",
+      "message": "Table owner-manual-p35-table-005 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "id": "owner-manual-p35-table-006",
+      "message": "Table owner-manual-p35-table-006 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "id": "owner-manual-p37-table",
+      "message": "Table owner-manual-p37-table needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "id": "owner-manual-p37-table-001",
+      "message": "Table owner-manual-p37-table-001 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "id": "owner-manual-p37-table-002",
+      "message": "Table owner-manual-p37-table-002 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "id": "owner-manual-p37-table-003",
+      "message": "Table owner-manual-p37-table-003 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "id": "owner-manual-p40-table",
+      "message": "Table owner-manual-p40-table needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "id": "owner-manual-p40-table-001",
+      "message": "Table owner-manual-p40-table-001 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "id": "owner-manual-p40-table-002",
+      "message": "Table owner-manual-p40-table-002 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 40,
+      "id": "owner-manual-p40-table-003",
+      "message": "Table owner-manual-p40-table-003 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 45,
+      "id": "owner-manual-p45-table",
+      "message": "Table owner-manual-p45-table needs manual verification (confidence=0.333)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 45,
+      "id": "owner-manual-p45-table-001",
+      "message": "Table owner-manual-p45-table-001 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 45,
+      "id": "owner-manual-p45-table-002",
+      "message": "Table owner-manual-p45-table-002 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 45,
+      "id": "owner-manual-p45-table-003",
+      "message": "Table owner-manual-p45-table-003 needs manual verification (confidence=0.5)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 45,
+      "id": "owner-manual-p45-table-004",
+      "message": "Table owner-manual-p45-table-004 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 45,
+      "id": "owner-manual-p45-table-005",
+      "message": "Table owner-manual-p45-table-005 needs manual verification (confidence=0.143)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "owner-manual.pdf",
+      "page": 45,
+      "id": "owner-manual-p45-table-007",
+      "message": "Table owner-manual-p45-table-007 needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "quick-start-guide.pdf",
+      "page": 1,
+      "id": "quick-start-guide-p01-table",
+      "message": "Table quick-start-guide-p01-table needs manual verification (confidence=0.5)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "quick-start-guide.pdf",
+      "page": 1,
+      "id": "quick-start-guide-p01-table-001",
+      "message": "Table quick-start-guide-p01-table-001 needs manual verification (confidence=0.2)"
+    },
+    {
+      "severity": "warning",
+      "category": "table_needs_review",
+      "source": "quick-start-guide.pdf",
+      "page": 2,
+      "id": "quick-start-guide-p02-table",
+      "message": "Table quick-start-guide-p02-table needs manual verification (confidence=0.0)"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p07-duty-0af319d509d4",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "message": "Duty cycle entry missing process or voltage: 100A @ 40%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p07-duty-936335ecf08f",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "message": "Duty cycle entry missing process or voltage: 75A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p07-duty-bc381b8e4deb",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "message": "Duty cycle entry missing process or voltage: 200A @ 25%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p07-duty-8e9486f4be0f",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "message": "Duty cycle entry missing process or voltage: 115A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p07-duty-cont-f369cb89fc62",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "message": "Duty cycle entry missing process or voltage: 75A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p07-duty-cont-28dae7c8bde2",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "message": "Duty cycle entry missing process or voltage: 115A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p07-duty-5b2b457890d7",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "message": "Duty cycle entry missing process or voltage: 125A @ 40%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p07-duty-7b9a6a9a9a3e",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "message": "Duty cycle entry missing process or voltage: 90A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p07-duty-aa666bb2cb12",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "message": "Duty cycle entry missing process or voltage: 175A @ 30%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p07-duty-b0b888c88f61",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "message": "Duty cycle entry missing process or voltage: 105A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p07-duty-cont-69f59c273b6e",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "message": "Duty cycle entry missing process or voltage: 90A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p07-duty-cont-1253e9373e78",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "message": "Duty cycle entry missing process or voltage: 105A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p07-duty-2b38b49535de",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "message": "Duty cycle entry missing process or voltage: 80A @ 40%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p07-duty-bc1fcfa0c853",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "message": "Duty cycle entry missing process or voltage: 60A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p07-duty-b62880b0cef9",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "message": "Duty cycle entry missing process or voltage: 175A @ 25%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p07-duty-69a9a52df60d",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "message": "Duty cycle entry missing process or voltage: 100A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p07-duty-cont-39fa9ec190ee",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "message": "Duty cycle entry missing process or voltage: 60A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p07-duty-cont-ad5736686512",
+      "source": "owner-manual.pdf",
+      "page": 7,
+      "message": "Duty cycle entry missing process or voltage: 100A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p19-duty-cont-28dae7c8bde2",
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "message": "Duty cycle entry missing process or voltage: 115A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p19-duty-cont-f369cb89fc62",
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "message": "Duty cycle entry missing process or voltage: 75A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p23-duty-cont-f369cb89fc62",
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "message": "Duty cycle entry missing process or voltage: 75A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p23-duty-cont-28dae7c8bde2",
+      "source": "owner-manual.pdf",
+      "page": 23,
+      "message": "Duty cycle entry missing process or voltage: 115A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p29-duty-cont-ad5736686512",
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "message": "Duty cycle entry missing process or voltage: 100A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p29-duty-cont-39fa9ec190ee",
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "message": "Duty cycle entry missing process or voltage: 60A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p29-duty-cont-1253e9373e78",
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "message": "Duty cycle entry missing process or voltage: 105A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p29-duty-cont-69f59c273b6e",
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "message": "Duty cycle entry missing process or voltage: 90A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p29-duty-cont-1253e9373e78",
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "message": "Duty cycle entry missing process or voltage: 105A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p29-duty-cont-69f59c273b6e",
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "message": "Duty cycle entry missing process or voltage: 90A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duty_cycle_incomplete",
+      "id": "owner-manual-p29-duty-cont-39fa9ec190ee",
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "message": "Duty cycle entry missing process or voltage: 60A @ 100%"
+    },
+    {
+      "severity": "warning",
+      "category": "duplicate_duty_cycle",
+      "message": "Duplicate duty cycle entries for None|None|75|100",
+      "count": 4
+    },
+    {
+      "severity": "warning",
+      "category": "duplicate_duty_cycle",
+      "message": "Duplicate duty cycle entries for None|None|115|100",
+      "count": 4
+    },
+    {
+      "severity": "warning",
+      "category": "duplicate_duty_cycle",
+      "message": "Duplicate duty cycle entries for None|None|90|100",
+      "count": 3
+    },
+    {
+      "severity": "warning",
+      "category": "duplicate_duty_cycle",
+      "message": "Duplicate duty cycle entries for None|None|105|100",
+      "count": 3
+    },
+    {
+      "severity": "warning",
+      "category": "duplicate_duty_cycle",
+      "message": "Duplicate duty cycle entries for None|None|60|100",
+      "count": 3
+    },
+    {
+      "severity": "warning",
+      "category": "duplicate_duty_cycle",
+      "message": "Duplicate duty cycle entries for None|None|100|100",
+      "count": 3
+    },
+    {
+      "severity": "warning",
+      "category": "duplicate_duty_cycle",
+      "message": "Duplicate duty cycle entries for mig|120|100|40",
+      "count": 2
+    },
+    {
+      "severity": "warning",
+      "category": "duplicate_duty_cycle",
+      "message": "Duplicate duty cycle entries for mig|120|75|100",
+      "count": 4
+    },
+    {
+      "severity": "warning",
+      "category": "duplicate_duty_cycle",
+      "message": "Duplicate duty cycle entries for mig|120|115|100",
+      "count": 3
+    },
+    {
+      "severity": "warning",
+      "category": "duplicate_duty_cycle",
+      "message": "Duplicate duty cycle entries for mig|120|90|100",
+      "count": 2
+    },
+    {
+      "severity": "warning",
+      "category": "duplicate_duty_cycle",
+      "message": "Duplicate duty cycle entries for mig|120|105|100",
+      "count": 2
+    },
+    {
+      "severity": "warning",
+      "category": "duplicate_duty_cycle",
+      "message": "Duplicate duty cycle entries for mig|120|60|100",
+      "count": 2
+    },
+    {
+      "severity": "warning",
+      "category": "duplicate_duty_cycle",
+      "message": "Duplicate duty cycle entries for mig|120|100|100",
+      "count": 2
+    },
+    {
+      "severity": "warning",
+      "category": "duplicate_duty_cycle",
+      "message": "Duplicate duty cycle entries for mig|240|115|100",
+      "count": 3
+    },
+    {
+      "severity": "warning",
+      "category": "duplicate_duty_cycle",
+      "message": "Duplicate duty cycle entries for tig|240|105|100",
+      "count": 3
+    },
+    {
+      "severity": "warning",
+      "category": "duplicate_duty_cycle",
+      "message": "Duplicate duty cycle entries for tig|120|90|100",
+      "count": 2
+    },
+    {
+      "severity": "warning",
+      "category": "duplicate_duty_cycle",
+      "message": "Duplicate duty cycle entries for stick|120|60|100",
+      "count": 2
+    },
+    {
+      "severity": "warning",
+      "category": "duplicate_duty_cycle",
+      "message": "Duplicate duty cycle entries for stick|240|100|100",
+      "count": 2
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p08-polarity-777761559f62",
+      "source": "owner-manual.pdf",
+      "page": 8,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p08-polarity-bbf01f4b04d6",
+      "source": "owner-manual.pdf",
+      "page": 8,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p08-polarity-71fdcf473f02",
+      "source": "owner-manual.pdf",
+      "page": 8,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p09-polarity-c91783d664c8",
+      "source": "owner-manual.pdf",
+      "page": 9,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p09-polarity-bbf01f4b04d6",
+      "source": "owner-manual.pdf",
+      "page": 9,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p09-polarity-91a842771b8f",
+      "source": "owner-manual.pdf",
+      "page": 9,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p13-polarity-846c2bdcb17a",
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p13-polarity-b6184461d82a",
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p13-polarity-e2d8d3482935",
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p13-polarity-a9882d91ac38",
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p13-polarity-a748bfeac08a",
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p13-polarity-226a3285957e",
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p13-polarity-ea6d4ca8465c",
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p13-polarity-d93ffb1b5bd7",
+      "source": "owner-manual.pdf",
+      "page": 13,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p14-polarity-1009b30bcfb4",
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p14-polarity-3308c36d04ed",
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p14-polarity-d2594b19fdea",
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p14-polarity-a9882d91ac38",
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p14-polarity-f34f8ae3c697",
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p14-polarity-c0e12aacf7a1",
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p14-polarity-d93ffb1b5bd7",
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p14-polarity-4c923bcf933a",
+      "source": "owner-manual.pdf",
+      "page": 14,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p16-polarity-282e74530380",
+      "source": "owner-manual.pdf",
+      "page": 16,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p16-polarity-8c027e339cee",
+      "source": "owner-manual.pdf",
+      "page": 16,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p17-polarity-859dbf14ee18",
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p17-polarity-0287998c0af3",
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p17-polarity-7b0551962112",
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p17-polarity-a9882d91ac38",
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p17-polarity-bbf01f4b04d6",
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p17-polarity-4c923bcf933a",
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p17-polarity-b5f88946c988",
+      "source": "owner-manual.pdf",
+      "page": 17,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p19-polarity-6d52d913e851",
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p19-polarity-cdd6a0a604d2",
+      "source": "owner-manual.pdf",
+      "page": 19,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p20-polarity-795a8bfbe690",
+      "source": "owner-manual.pdf",
+      "page": 20,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p20-polarity-4ac01f76474c",
+      "source": "owner-manual.pdf",
+      "page": 20,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p24-polarity-a9882d91ac38",
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p24-polarity-a748bfeac08a",
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p24-polarity-896305163f6c",
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p24-polarity-19fb41a64bc9",
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p24-polarity-4345837ea455",
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p24-polarity-4c8585963394",
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p24-polarity-2d563c1f907e",
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p24-polarity-e20be9e1a4a5",
+      "source": "owner-manual.pdf",
+      "page": 24,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p25-polarity-15a86741ee20",
+      "source": "owner-manual.pdf",
+      "page": 25,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p25-polarity-2de144da1e86",
+      "source": "owner-manual.pdf",
+      "page": 25,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p27-polarity-9cb609c5e496",
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p27-polarity-a9882d91ac38",
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p27-polarity-f34f8ae3c697",
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p27-polarity-3eab9ce620cc",
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p27-polarity-0ac4d008f153",
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p27-polarity-15a86741ee20",
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p27-polarity-9dada93abf6f",
+      "source": "owner-manual.pdf",
+      "page": 27,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p29-polarity-6d52d913e851",
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p29-polarity-1d365fc3af24",
+      "source": "owner-manual.pdf",
+      "page": 29,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p30-polarity-795a8bfbe690",
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p30-polarity-fec2e630eefb",
+      "source": "owner-manual.pdf",
+      "page": 30,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p32-polarity-25946330b495",
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p32-polarity-5539dbe9df29",
+      "source": "owner-manual.pdf",
+      "page": 32,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p35-polarity-e2487d70be26",
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p35-polarity-508d3e444694",
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p35-polarity-f89c053edf19",
+      "source": "owner-manual.pdf",
+      "page": 35,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p37-polarity-1bb96bd41e7b",
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p37-polarity-24f19eda8396",
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p37-polarity-d7d170b74b22",
+      "source": "owner-manual.pdf",
+      "page": 37,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p42-polarity-74e336417282",
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p42-polarity-7104dedf691c",
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p42-polarity-c629cbb53ed0",
+      "source": "owner-manual.pdf",
+      "page": 42,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p43-polarity-0e7507a1e697",
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p43-polarity-718e61bdcb96",
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p43-polarity-9281757641ff",
+      "source": "owner-manual.pdf",
+      "page": 43,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p46-polarity-3adbea55889e",
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "warning",
+      "category": "polarity_needs_review",
+      "id": "owner-manual-p46-polarity-cd3253e3ff33",
+      "source": "owner-manual.pdf",
+      "page": 46,
+      "message": "Polarity entry incomplete \u2014 verify sockets and type"
+    },
+    {
+      "severity": "info",
+      "category": "multimodal_required",
+      "id": "selection-chart-p01-settings-img",
+      "source": "selection-chart.pdf",
+      "page": 1,
+      "message": "Settings/chart requires runtime vision: process_selection_chart"
+    }
+  ]
+}
