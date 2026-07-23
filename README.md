@@ -1,12 +1,43 @@
 # WeldPilot
 
-WeldPilot is a setup and troubleshooting copilot for the [Vulcan OmniPro 220](https://www.harborfreight.com/omnipro-220-industrial-multiprocess-welder-with-120240v-input-57812.html) multiprocess welder (Harbor Freight item 57812). You ask it real questions ("what's the duty cycle at 200 A?", "which socket does the TIG torch go in?", "my flux-core welds are porous, where do I start?") and it answers from the machine's own manual, with page citations, interactive diagrams and calculators, and a diagnostic loop that narrows down faults one question at a time.
+**A setup and troubleshooting copilot for the [Vulcan OmniPro 220](https://www.harborfreight.com/omnipro-220-industrial-multiprocess-welder-with-120240v-input-57812.html) multiprocess welder — grounded in the machine's own manual, with page citations, interactive diagrams, and a diagnostic loop that narrows down faults one question at a time.**
 
-It's built on the Anthropic Claude Agent SDK. The manual is extracted ahead of time into a typed knowledge base, so the whole thing runs locally with just an API key. There's no vector database, no ingestion step to wait on, and no server-side state beyond the request you're making.
+You ask it real questions — *"what's the duty cycle at 200 A?"*, *"which socket does the TIG torch go in?"*, *"my flux-core welds are porous, where do I start?"* — and it answers from the manual, cites the page, and renders a calculator or diagram when text alone won't do.
 
-I built this for the Prox founding-engineer challenge. The rest of this README explains what's inside and how to run it.
+It's built on the Anthropic Claude Agent SDK. The manual is extracted ahead of time into a typed knowledge base, so the whole thing runs locally with just an API key: no vector database, no ingestion step to wait on, and no server-side state beyond the request you're making.
+
+Built for the Prox founding-engineer challenge.
 
 ![Vulcan OmniPro 220](public/product.webp)
+
+## At a glance
+
+| | |
+|---|---|
+| **Stack** | Next.js 15 (App Router), TypeScript, Claude Agent SDK, Tailwind |
+| **Setup** | One API key. No database, Docker, or Python needed to run |
+| **Retrieval** | Typed knowledge graph (~1,540 items) + BM25, extracted from the PDFs |
+| **Tools** | 11 deterministic MCP tools; safe ones pre-fetched before the model runs |
+| **Grounding** | Every answer validated against citations/tools before it renders |
+| **Deterministic eval** | 47/52 cases (90.4%) · tool regression 20/20 · retrieval 7/7 |
+| **Tests** | 249 passing, 1 skipped (live integration) |
+| **Live check** | 12/12 real queries · ~20–25 s single-tool, up to ~50 s multi-tool · ~$0.03/query |
+
+## Contents
+
+- [Running it](#running-it)
+- [How a request flows](#how-a-request-flows)
+- [The agent and its tools](#the-agent-and-its-tools)
+- [Clarification and scope](#clarification-and-scope)
+- [Grounding and safety](#grounding-and-safety)
+- [Diagnosis](#diagnosis)
+- [Artifacts](#artifacts)
+- [The knowledge base](#the-knowledge-base)
+- [Evaluation](#evaluation)
+- [Project layout](#project-layout)
+- [Configuration](#configuration)
+- [Commands](#commands)
+- [Known limitations](#known-limitations)
 
 ## Running it
 
@@ -82,7 +113,9 @@ All of this is deterministic and instant, and the grounding engine reuses the sa
 
 ## Grounding and safety
 
-Every response passes through `groundResponse()` (`lib/grounding/engine.ts`) before display. It checks that factual claims trace to a citation or tool output, scores coverage, catches polarity/voltage/process contradictions, validates the stated configuration against the machine graph, and blocks genuinely dangerous procedures (energized interior work, bypassing interlocks) outright. The result carries one of six statuses — `grounded`, `grounded_with_uncertainty`, `clarification_required`, `conflicting_sources`, `insufficient_manual_evidence`, `blocked_for_safety` — plus a "how WeldPilot reached this" breakdown of the facts, observations, and hypotheses behind the answer. Adversarial cases live in `tests/grounding/adversarial.test.ts`.
+Every response passes through `groundResponse()` (`lib/grounding/engine.ts`) before display. It checks that factual claims trace to a citation or tool output, scores coverage, catches polarity/voltage/process contradictions, validates the stated configuration against the machine graph, and blocks genuinely dangerous procedures (energized interior work, bypassing interlocks) outright.
+
+The result carries one of six statuses — `grounded`, `grounded_with_uncertainty`, `clarification_required`, `conflicting_sources`, `insufficient_manual_evidence`, `blocked_for_safety` — plus a "how WeldPilot reached this" breakdown of the facts, observations, and hypotheses behind the answer. Adversarial cases live in `tests/grounding/adversarial.test.ts`.
 
 ## Diagnosis
 
@@ -110,9 +143,18 @@ The deterministic suite is the reproducible one and doesn't touch the API:
 npm run eval
 ```
 
-On the current build that's 47 of 52 cases passing (90.4%), with the tool-handler regression suite at 20/20. Aggregate scores: citation correctness 98.1%, factual coverage 97.4%, unsupported-claim rate 7.3%, artifact selection 100%, clarification quality 100%, safety compliance 98.1%, retrieval recall 95.2%, diagnostic ranking 99.0%. The five failing cases are specific and listed in `data/generated/evaluation-report.md` (a TIG-torch connection fact, an ambiguity-detection case, a weld-diagnosis figure citation, a stick-welding PPE case, and one multi-turn question-ordering case). A separate retrieval benchmark (`npm run evaluate:retrieval`) passes 7/7.
+On the current build that's **47 of 52 cases passing (90.4%)**, with the tool-handler regression suite at 20/20. Aggregate scores:
 
-The unit and integration tests (`npm test`) are at 246 passing, 1 skipped (the live-agent integration test, which needs a key).
+| Metric | Score | | Metric | Score |
+|--------|-------|---|--------|-------|
+| Citation correctness | 98.1% | | Clarification quality | 100% |
+| Factual coverage | 97.4% | | Safety compliance | 98.1% |
+| Unsupported-claim rate | 7.3% | | Retrieval recall | 95.2% |
+| Artifact selection | 100% | | Diagnostic ranking | 99.0% |
+
+The five failing cases are specific and listed in `data/generated/evaluation-report.md` (a TIG-torch connection fact, an ambiguity-detection case, a weld-diagnosis figure citation, a stick-welding PPE case, and one multi-turn question-ordering case). A separate retrieval benchmark (`npm run evaluate:retrieval`) passes 7/7.
+
+The unit and integration tests (`npm test`) are at **249 passing, 1 skipped** (the live-agent integration test, which needs a key).
 
 There's also a bounded live check against the real Agent SDK:
 
@@ -120,7 +162,7 @@ There's also a bounded live check against the real Agent SDK:
 npm run validate:live      # ≤ 12 real queries, costs a few cents each
 ```
 
-It exercises the full path — retrieval, tools, grounding, artifacts, safety — on twelve representative queries and writes a per-case report to `data/generated/live-validation-report.md`. Recent runs pass 11–12 of 12; because it's live, output varies between runs. The one that occasionally slips is a multi-turn diagnosis where the model sometimes returns its hypothesis list in a shape the schema rejects and the response falls back to a generic answer (see limitations). Latency runs roughly 20–25 s for single-tool answers and up to ~50 s for the multi-tool settings and diagnosis paths, at about $0.03 per query on average.
+It exercises the full path — retrieval, tools, grounding, artifacts, safety — on twelve representative queries and writes a per-case report to `data/generated/live-validation-report.md`. The latest run passes **12/12** with no parse fallbacks. Latency runs roughly 20–25 s for single-tool answers and up to ~50 s for the multi-tool settings and diagnosis paths, at about $0.03 per query on average. Because it's live, exact timings and wording vary between runs.
 
 ## Project layout
 
@@ -177,7 +219,6 @@ Optional overrides: `WELDPILOT_MODEL` and `WELDPILOT_VISION_MODEL` (both default
 
 - The deterministic eval sits at 90.4%; the five failing cases are enumerated in the report.
 - Some genuinely ambiguous prompts get answered directly instead of prompting for clarification.
-- The multi-turn diagnosis path occasionally has the model return its hypothesis list in a non-schema shape, which currently discards the structured answer and falls back to a generic one. Repairing that sub-field instead of rejecting the whole response is the next fix.
 - Photo analysis is advisory; the grounding layer flags overconfidence when manual evidence is thin.
 - It's a single machine (the OmniPro 220), English only, and the placeholder mode returns scripted samples rather than live reasoning.
 - The repo carries ~19 MB of committed manual assets, the trade-off for zero-setup runs.
