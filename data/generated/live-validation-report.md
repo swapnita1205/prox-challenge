@@ -1,32 +1,32 @@
 # WeldPilot Live Agent Validation Report
 
-Generated: 2026-07-23T02:17:19.382Z
+Generated: 2026-07-23T02:44:48.233Z
 Queries executed: **12** (budget ≤ 12)
-Pass: **11/12**
+Pass: **12/12**
 
 ## Aggregate measured metrics
 
 | Metric | Value |
 |--------|-------|
 | Live queries | 12 |
-| Case pass rate | 11/12 (91.7%) |
-| Avg end-to-end latency | 22880 ms |
+| Case pass rate | 12/12 (100.0%) |
+| Avg end-to-end latency | 23817 ms |
 | Median end-to-end latency | 21038 ms |
-| P90 end-to-end latency | 48868 ms |
+| P90 end-to-end latency | 48191 ms |
 | Max end-to-end latency | 53410 ms |
-| Avg time to first token | 11547 ms |
-| Avg model invocations / query | 3.8 |
-| Avg tool calls / query | 1.5 |
-| Uncached input tokens (SDK `input_tokens`) | 210 |
-| Cache creation input tokens | 41690 |
-| Cache read input tokens | 105999 |
-| Effective prompt tokens (uncached + cache create + cache read) | 147899 |
-| Total output tokens (SDK) | 12569 |
-| Total cost (SDK `total_cost_usd`) | $0.3936 |
-| Avg cost / query | $0.0328 |
+| Avg time to first token | 10587 ms |
+| Avg model invocations / query | 4.2 |
+| Avg tool calls / query | 1.7 |
+| Uncached input tokens (SDK `input_tokens`) | 234 |
+| Cache creation input tokens | 45923 |
+| Cache read input tokens | 122602 |
+| Effective prompt tokens (uncached + cache create + cache read) | 168759 |
+| Total output tokens (SDK) | 13105 |
+| Total cost (SDK `total_cost_usd`) | $0.4226 |
+| Avg cost / query | $0.0352 |
 | Runs with tool calls | 9/12 |
-| Structured parse OK (no fallback) | 11/12 |
-| Parse fallbacks | 1 |
+| Structured parse OK (no fallback) | 12/12 |
+| Parse fallbacks | 0 |
 | Valid ArtifactSpec when present | 12/12 |
 
 ### Token accounting note
@@ -36,7 +36,7 @@ SDK `input_tokens` is **uncached input only**. Prompt volume is dominated by `ca
 ## Capability checklist (observed)
 
 - Uses tools rather than memory alone: **9/12 runs recorded tool_use**
-- Preserves structured output: **11/12 without parse fallback**
+- Preserves structured output: **12/12 without parse fallback**
 - Valid ArtifactSpec objects: **12/12**
 - Streaming: each run collected ordered SSE-equivalent events ending in `done` or `error`
 - Clarification / OOS / unsafe: see per-case rows below
@@ -404,43 +404,41 @@ asdf asdf asdf
 - stream terminated
 - asked clarification / narrowed scope
 
-### FAIL — `live-multi-turn-porosity-1`
+### PASS — `live-multi-turn-porosity-1`
 
 **Category:** multi_turn_troubleshooting
 **Query:** I'm getting pinholes / porosity in my self-shielded flux-core beads. What should I check first?
 
 | Field | Value |
 |-------|-------|
-| Latency | 48868 ms (SDK duration 48013 ms) |
-| TTFT | 19914 ms |
+| Latency | 48191 ms (SDK duration 46709 ms) |
+| TTFT | 14730 ms |
 | Model | claude-haiku-4-5-20251001 |
-| Model invocations / turns | 5 / 3 |
-| Tool calls | start_diagnostic_session, StructuredOutput |
-| Tool / retrieval / safety / artifact ms | 33 / 33 / 0 / 0 |
-| Tool arguments | `start_diagnostic_session`: {"sessionId":"porosity-flux-001","primarySymptom":"porosity pinholes in self-shielded flux-core welds","symptoms":"[\"porosity\", \"pinholes in bead\"]"}<br>`StructuredOutput`: {"answer":"Porosity in self-shielded flux-core usually comes down to three things: wrong polarity, contaminated base metal or wire, or welding in too much wind. Since self-shielded flux-core runs electrode negative (DCEN), a lot of people accidentally leave it set to electrode positive from running MIG and that'll give you porosity every time. The manual calls out incorrect polarity, dirty workpiece, and gun distance as the top causes—along with drafts blowing away the flux shielding. Check your polarity first, then make sure you're working on clean metal (grind off any rust, mill scale, or paint), and if you're outside or near a fan, try to block the breeze.","citations":[{"source":"owner-manual.pdf","page":37,"section":"Wire Weld – Porosity","excerpt":"Porosity Wire Weld – Porosity pinholes gas pockets porous cavities holes in bead Incorrect polarity insufficient shielding gas (MIG only) dirty workpiece or welding wire inconsistent travel speed CTWD too long."},{"source":"owner-manual.pdf","page":43,"section":"Porosity in the Weld Metal","excerpt":"Porosity in the Weld Metal porosity pinholes gas pockets porous cavities holes in bead the weld metal Shielding gas bottle is empty. Not enough or too much shielding gas. Dirty workpiece. Gun is being used too far away from workpiece. Polarity is incorrect for the application"}],"clarifyingQuestion":"What polarity are you running right now—electrode positive or negative? (Self-shielded flux-core needs DCEN / electrode negative.)","artifact":null,"safetyNotices":[],"confidence":"high","intent":"troubleshooting","suggestedActions":["Verify polarity is set to DCEN (electrode negative) for self-shielded flux-core","Clean the workpiece—remove rust, mill scale, paint, or oil","Check if welding in a draft or wind; shield the work area if needed","Verify contact-tip-to-work distance is not excessive (typically 3/8\" to 3/4\")"],"diagnosticState":{"sessionId":"porosity-flux-001","primarySymptom":"porosity pinholes in self-shielded flux-core welds","hypotheses":[{"id":"hyp-polarity","description":"Incorrect polarity (DCEP instead of DCEN)","confidence":"high","reason":"Most common mistake with self-shielded flux-core; manual lists polarity as top cause"},{"id":"hyp-contamination","description":"Dirty workpiece or wire (rust, oil, mill scale, paint)","confidence":"medium-high","reason":"Manual lists dirty workpiece as common porosity cause"},{"id":"hyp-wind","description":"Excessive wind or draft disrupting flux shielding","confidence":"medium","reason":"Can affect even self-shielded processes; gun distance noted in manual"}],"nextCheck":"polarity"}} |
-| Citations | owner-manual.pdf p.43; owner-manual.pdf p.37; owner-manual.pdf p.43; owner-manual.pdf p.37; owner-manual.pdf p.37; owner-manual.pdf p.7; owner-manual.pdf p.13; owner-manual.pdf p.13; owner-manual.pdf p.13; owner-manual.pdf p.22; owner-manual.pdf p.12 |
+| Model invocations / turns | 7 / 4 |
+| Tool calls | start_diagnostic_session, update_diagnostic_session, StructuredOutput |
+| Tool / retrieval / safety / artifact ms | 87 / 78 / 0 / 0 |
+| Tool arguments | `start_diagnostic_session`: {"sessionId":"porosity-flux-001","primarySymptom":"porosity in self-shielded flux-core welds","symptoms":["porosity","pinholes"]}<br>`update_diagnostic_session`: {"sessionId":"porosity-flux-001","ruledOutHypothesisIds":["fault-shielding-gas-bottle-is-empty-","fault-not-enough-or-too-much-shielding-gas-"],"evidenceSummary":"User confirmed self-shielded flux-core (gasless), so shielding gas hypotheses do not apply","questionRationale":"Self-shielded flux-core requires DCEN polarity. Incorrect polarity is the most common cause of porosity in flux-core welding."}<br>`StructuredOutput`: {"answer":"Check polarity first — self-shielded flux-core absolutely requires DC electrode negative (DCEN), and running it backward is the most common cause of porosity. Next most likely culprits are a dirty workpiece (mill scale, rust, paint, oil) and holding the gun too far from the work. Also make sure your wire isn't contaminated or rusty.","intent":"troubleshooting","clarifyingQuestion":"Is your machine currently set to DC electrode negative (DCEN)? On the OmniPro 220, that means the MIG gun connects to the negative (-) socket.","confidence":"high","citations":[{"source":"owner-manual.pdf","page":43,"section":"Porosity in the Weld Metal","excerpt":"Polarity is incorrect for the application."},{"source":"owner-manual.pdf","page":37,"section":"Wire Weld – Porosity","excerpt":"Incorrect polarity insufficient shielding gas (MIG only) dirty workpiece or welding wire inconsistent travel speed CTWD too long."}],"safetyNotices":["Wear proper welding PPE including helmet, gloves, and protective clothing","Ensure adequate ventilation when welding"],"suggestedActions":["Verify polarity is set to DCEN (electrode negative) for self-shielded flux-core","Clean workpiece thoroughly - remove rust, mill scale, paint, and oil","Check contact tip to work distance (CTWD) - keep gun closer to workpiece","Inspect flux-core wire for contamination or rust"],"diagnosticState":{"sessionId":"porosity-flux-001","topHypotheses":[{"id":"fault-polarity-is-incorrect-for-the-application-","label":"Polarity is incorrect for the application","likelihood":"high"},{"id":"fault-dirty-workpiece-","label":"Dirty workpiece","likelihood":"high"},{"id":"fault-gun-is-being-used-too-far-away-from-workpiece-","label":"Gun is being used too far away from workpiece","likelihood":"medium"}],"nextCheck":"Verify polarity setting (DCEN required for self-shielded flux-core)"}} |
+| Citations | owner-manual.pdf p.43; owner-manual.pdf p.37; owner-manual.pdf p.43; owner-manual.pdf p.43; owner-manual.pdf p.37; owner-manual.pdf p.37; owner-manual.pdf p.7; owner-manual.pdf p.13; owner-manual.pdf p.13; owner-manual.pdf p.13; owner-manual.pdf p.22; owner-manual.pdf p.12 |
 | Artifact type | weld-defect-comparison (valid=true) |
-| Grounding | grounded_with_uncertainty (allowed=true) |
-| Confidence | low |
+| Grounding | clarification_required (allowed=true) |
+| Confidence | high |
 | Safety outcome | allowed |
-| Parse fallback | true (schema:diagnosticState.hypotheses.0.label; schema:diagnosticState.hypotheses.0.posterior; schema:diagnosticState.hypotheses.1.label; schema:diagnosticState.hypotheses.1.posterior; schema:diagnosticState.hypotheses.2.label; schema:diagnosticState.hypotheses.2.posterior; structured_recovery_fallback) |
-| Tokens uncached in / out | 26 / 2362 |
-| Tokens cache create / read | 5369 / 13687 |
-| Effective prompt tokens | 19082 |
-| Cost | $0.0619 |
-| Clarifying question | — |
-| Stream events | progress → progress → progress → progress → text_delta → text_delta → text_delta → text_delta → text_delta → text_delta → artifact → evidence → grounding → text_delta → done |
+| Parse fallback | false (diagnostic_hypotheses_coerced) |
+| Tokens uncached in / out | 34 / 2181 |
+| Tokens cache create / read | 8066 / 18697 |
+| Effective prompt tokens | 26797 |
+| Cost | $0.0708 |
+| Clarifying question | Is your machine currently set to DC electrode negative (DCEN)? On the OmniPro 220, that means the MIG gun connects to the negative (-) socket. |
+| Stream events | progress → progress → progress → progress → text_delta → text_delta → text_delta → text_delta → text_delta → text_delta → text_delta → text_delta → text_delta → text_delta → text_delta → text_delta → text_delta → artifact → evidence → grounding → state_update → done |
 
-**Answer preview:** I could not verify a structured answer against the manual. Please rephrase your question with the welding process, input voltage, and symptom or setup step. Manual evidence for this is thin — worth double-checking against your owner's manual. (This answer was reconstructed from p
+**Answer preview:** Check polarity first — self-shielded flux-core absolutely requires DC electrode negative (DCEN), and running it backward is the most common cause of porosity. Next most likely culprits are a dirty workpiece (mill scale, rust, paint, oil) and holding the gun too far from the work.
 
 **Checks passed:**
 - completed without runner error
 - stream terminated
-- used tools (start_diagnostic_session, StructuredOutput)
+- used tools (start_diagnostic_session, update_diagnostic_session, StructuredOutput)
 - artifact schema valid
-
-**Failures:**
-- expected clarification question
+- asked clarification / narrowed scope
 
 ### PASS — `live-multi-turn-porosity-2`
 
@@ -449,32 +447,32 @@ asdf asdf asdf
 
 | Field | Value |
 |-------|-------|
-| Latency | 21151 ms (SDK duration 20189 ms) |
-| TTFT | 20401 ms |
+| Latency | 33066 ms (SDK duration 32269 ms) |
+| TTFT | 14064 ms |
 | Model | claude-haiku-4-5-20251001 |
-| Model invocations / turns | 3 / 2 |
-| Tool calls | search_manual |
-| Tool / retrieval / safety / artifact ms | 165 / 165 / 0 / 0 |
-| Tool arguments | `search_manual`: {"query":"flux core porosity stickout contact tip distance"} |
-| Citations | owner-manual.pdf p.13; owner-manual.pdf p.7; owner-manual.pdf p.13; selection-chart.pdf p.1; owner-manual.pdf p.13; owner-manual.pdf p.12; owner-manual.pdf p.42; owner-manual.pdf p.43 |
-| Artifact type | weld-defect-comparison (valid=true) |
-| Grounding | grounded_with_uncertainty (allowed=true) |
-| Confidence | medium |
+| Model invocations / turns | 5 / 3 |
+| Tool calls | update_diagnostic_session, StructuredOutput |
+| Tool / retrieval / safety / artifact ms | 44 / 44 / 0 / 0 |
+| Tool arguments | `update_diagnostic_session`: {"sessionId":"flux-troubleshoot","ruledOutHypothesisIds":["fault-polarity-is-incorrect-for-the-application-"],"evidenceSummary":"User confirmed DCEN polarity which is correct for gasless flux core per page 13. Wire is clean. Stickout is 3/4 inch which is excessive (should be 3/8-1/2 inch). Workpiece cleanliness not yet confirmed.","questionRationale":"Excessive stickout (3/4\") is likely causing issues - should be reduced to 3/8-1/2\". Need to know if workpiece is clean and what specific weld defect is occurring."}<br>`StructuredOutput`: {"intent":"troubleshooting","answer":"Your DCEN polarity is correct for gasless flux core—that checks out. The problem is your 3/4 inch stickout; for flux core you want 3/8 to 1/2 inch max. That much stickout gives poor gas coverage from the flux and makes the arc unstable. \n\nShorten your stickout to about 1/2 inch and you should see immediate improvement. What specific weld defect are you getting—porosity, spatter, poor penetration?","clarifyingQuestion":"What weld defect are you seeing, and did you clean the mill scale and rust off the workpiece before welding?","artifact":null,"citations":[{"source":"owner-manual.pdf","page":13,"section":"Wire Setup for Flux-Cored (gasless) welding","excerpt":"16. DCEN Direct Current Electrode Negative Wire Setup for Flux-Cored (gasless) welding: Plug Ground Clamp Cable into Positive ( + ) Socket. Plug Wire Feed Power Cable into Negative ( – ) Socket."}],"safetyNotices":[],"confidence":"high","suggestedActions":["Reduce stickout to 3/8–1/2 inch","Verify workpiece is clean and free of mill scale, rust, paint, or oil","Check wire feed speed and voltage settings for 1/8 inch mild steel"]} |
+| Citations | owner-manual.pdf p.13; owner-manual.pdf p.13; owner-manual.pdf p.7; owner-manual.pdf p.13; selection-chart.pdf p.1; owner-manual.pdf p.13; owner-manual.pdf p.12; owner-manual.pdf p.42; owner-manual.pdf p.43; owner-manual.pdf p.6; owner-manual.pdf p.14 |
+| Artifact type | polarity-diagram (valid=true) |
+| Grounding | clarification_required (allowed=true) |
+| Confidence | high |
 | Safety outcome | allowed |
-| Parse fallback | false (max_turns_salvage) |
-| Tokens uncached in / out | 10 / 792 |
-| Tokens cache create / read | 2148 / 3162 |
-| Effective prompt tokens | 5320 |
-| Cost | $0.0230 |
-| Clarifying question | — |
-| Stream events | progress → progress → progress → progress → text_delta → text_delta → text_delta → text_delta → text_delta → text_delta → text_delta → artifact → evidence → grounding → done |
+| Parse fallback | false |
+| Tokens uncached in / out | 26 / 1509 |
+| Tokens cache create / read | 3684 / 14755 |
+| Effective prompt tokens | 18465 |
+| Cost | $0.0432 |
+| Clarifying question | What weld defect are you seeing, and did you clean the mill scale and rust off the workpiece before welding? |
+| Stream events | progress → progress → progress → progress → text_delta → text_delta → text_delta → text_delta → text_delta → text_delta → text_delta → text_delta → text_delta → text_delta → text_delta → artifact → evidence → grounding → done |
 
-**Answer preview:** Here's the best-supported guidance I have from the OmniPro 220 manual (p.13, p.7, p.1, p.12) for "It's gasless flux core on 1/8 mild steel, DCEN, and the wire looks clean. Stickout is about 3/4 inch.". Open the workspace artifact and citations for the specifics — and feel free to
+**Answer preview:** Your DCEN polarity is correct for gasless flux core—that checks out. The problem is your 3/4 inch stickout; for flux core you want 3/8 to 1/2 inch max. That much stickout gives poor gas coverage from the flux and makes the arc unstable. Shorten your stickout to about 1/2 inch and
 
 **Checks passed:**
 - completed without runner error
 - stream terminated
-- used tools (search_manual)
+- used tools (update_diagnostic_session, StructuredOutput)
 - artifact schema valid
 
 ## Notes

@@ -1,11 +1,12 @@
 import {
   AgentResponseSchema,
+  DiagnosticStateSchema,
   type AgentIntent,
   type AgentResponse,
 } from "@/lib/agent/schemas";
 import { normalizeArtifactSpec, validateArtifactSpec } from "@/lib/artifacts/registry";
 import type { AgentContext } from "@/lib/agent/context";
-import type { Citation } from "@/lib/schemas/conversation";
+import { HypothesisSchema, type Citation, type Hypothesis } from "@/lib/schemas/conversation";
 
 export interface ParseResult {
   response: AgentResponse;
@@ -64,6 +65,136 @@ function buildFallbackResponse(
 }
 
 /**
+ * Qualitative confidence words the model sometimes uses in place of a numeric
+ * posterior. Mapped to representative probabilities so a hypothesis list stays
+ * usable rather than being rejected wholesale.
+ */
+const CONFIDENCE_WORD_TO_POSTERIOR: Record<string, number> = {
+  "very high": 0.9,
+  high: 0.8,
+  "medium-high": 0.65,
+  "moderate-high": 0.65,
+  medium: 0.5,
+  moderate: 0.5,
+  "medium-low": 0.35,
+  low: 0.2,
+  "very low": 0.1,
+};
+
+function toPosterior(value: unknown): number | null {
+  if (typeof value === "number" && Number.isFinite(value)) {
+    const n = value > 1 ? value / 100 : value;
+    return Math.max(0, Math.min(1, n));
+  }
+  if (typeof value === "string") {
+    const key = value.trim().toLowerCase();
+    if (key in CONFIDENCE_WORD_TO_POSTERIOR) return CONFIDENCE_WORD_TO_POSTERIOR[key]!;
+    const num = Number(key.replace(/[%\s]/g, ""));
+    if (Number.isFinite(num)) {
+      const n = num > 1 ? num / 100 : num;
+      return Math.max(0, Math.min(1, n));
+    }
+  }
+  return null;
+}
+
+function slugId(label: string): string {
+  const base = label
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 48);
+  return `hyp-${base || "cause"}`;
+}
+
+/**
+ * Coerce a single hypothesis into the schema shape. The model occasionally
+ * emits `description`/`confidence`/`reason` (or `likelihood`) instead of the
+ * expected `label`/`posterior`/`evidence`; recover those rather than letting
+ * one malformed entry reject the entire response. Returns null only when there
+ * is no usable label to show.
+ */
+function coerceHypothesis(raw: unknown): Hypothesis | null {
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) return null;
+  const o = raw as Record<string, unknown>;
+
+  const label = [o.label, o.description, o.name, o.hypothesis, o.cause].find(
+    (v): v is string => typeof v === "string" && v.trim().length > 0,
+  );
+  if (!label) return null;
+
+  const posterior =
+    toPosterior(o.posterior) ??
+    toPosterior(o.confidence) ??
+    toPosterior(o.likelihood) ??
+    toPosterior(o.probability) ??
+    0.5;
+
+  const id = typeof o.id === "string" && o.id.trim() ? o.id : slugId(label);
+
+  let evidence: string[] = [];
+  if (Array.isArray(o.evidence)) {
+    evidence = o.evidence.filter((e): e is string => typeof e === "string");
+  } else if (typeof o.evidence === "string" && o.evidence.trim()) {
+    evidence = [o.evidence];
+  } else if (typeof o.reason === "string" && o.reason.trim()) {
+    evidence = [o.reason];
+  }
+
+  const ruledOut = typeof o.ruledOut === "boolean" ? o.ruledOut : undefined;
+
+  return {
+    id,
+    label,
+    posterior,
+    evidence,
+    ...(ruledOut !== undefined ? { ruledOut } : {}),
+  };
+}
+
+/**
+ * Repair a `diagnosticState` before Zod so a malformed hypothesis list does not
+ * discard an otherwise valid answer (with citations, artifact, and a clarifying
+ * question). Mirrors the artifact handling: coerce what we can, drop only the
+ * sub-object if it still cannot be validated.
+ */
+function coerceDiagnosticState(value: unknown, notes: string[]): unknown {
+  if (value == null) return value;
+  if (typeof value !== "object" || Array.isArray(value)) {
+    notes.push("diagnostic_state_dropped_invalid");
+    return null;
+  }
+
+  const ds = { ...(value as Record<string, unknown>) };
+
+  // Accept `topHypotheses` as an alias the model sometimes uses.
+  const rawHyps = Array.isArray(ds.hypotheses)
+    ? (ds.hypotheses as unknown[])
+    : Array.isArray(ds.topHypotheses)
+      ? (ds.topHypotheses as unknown[])
+      : null;
+
+  if (rawHyps) {
+    const coerced = rawHyps
+      .map(coerceHypothesis)
+      .filter((h): h is Hypothesis => h !== null);
+    const changed =
+      coerced.length !== rawHyps.length ||
+      !Array.isArray((value as Record<string, unknown>).hypotheses) ||
+      rawHyps.some((h) => !HypothesisSchema.safeParse(h).success);
+    ds.hypotheses = coerced;
+    delete ds.topHypotheses;
+    if (changed) notes.push("diagnostic_hypotheses_coerced");
+  }
+
+  const result = DiagnosticStateSchema.safeParse(ds);
+  if (result.success) return result.data;
+
+  notes.push("diagnostic_state_dropped_invalid");
+  return null;
+}
+
+/**
  * Normalize legacy/partial artifact shapes before Zod, so a bad artifact
  * does not discard an otherwise valid answer.
  */
@@ -86,6 +217,10 @@ function coerceAgentPayload(
       obj.artifact = null;
       notes.push("artifact_dropped_invalid");
     }
+  }
+
+  if (obj.diagnosticState != null) {
+    obj.diagnosticState = coerceDiagnosticState(obj.diagnosticState, notes);
   }
 
   if (!Array.isArray(obj.citations)) obj.citations = [];
