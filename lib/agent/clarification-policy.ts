@@ -40,6 +40,18 @@ const MATERIAL_PATTERN =
   /\b(steel|aluminum|aluminium|stainless|titanium|copper|brass|bronze|chrome[- ]?moly|cast iron|nickel|magnesium|inconel|monel|iron|metal|alloy)\b/i;
 const THICKNESS_PATTERN = /\d+(?:\/\d+)?\s*(?:"|in\b|inch(?:es)?\b|mm\b)/i;
 
+/**
+ * Other welder brands WeldPilot has no documentation for. Mirrors the
+ * grounding-layer brand list in @/lib/grounding/claims.ts so the runner can
+ * declare scope *before* the model runs — otherwise a settings-value request
+ * about another brand (e.g. "voltage settings for a Lincoln 140") short-
+ * circuits into a material/thickness clarification and never reaches the
+ * out-of-scope check.
+ */
+const FOREIGN_BRAND_PATTERN = /\b(?:lincoln|miller|hobart|esab|fronius|hypertherm)\b/i;
+/** References to the one machine WeldPilot actually documents. */
+const OWN_MACHINE_PATTERN = /\b(?:omnipro|vulcan|harbor freight|57812)\b/i;
+
 /** User asks to do something unsafe — block, do not ask a clarifying question. */
 const SAFETY_REQUEST_PATTERN =
   /\bbypass\b[^.!?]*\b(?:interlock|safety|door)\b|\b(?:interlock|safety|door)\b[^.!?]*\bbypass\b|\blive electrical work\b|\bdangerous maintenance\b|\bwork(?:ing)? on[^.!?]*\b(?:main |control )?pcb\b[^.!?]*\b(?:powered|energized|plugged in|live)\b|\b(?:energized|live voltage)[^.!?]*\b(?:pcb|interior|panel)\b/i;
@@ -61,6 +73,16 @@ const CONFIGURE_PROCESS_PATTERN = /\bconfigure\b/i;
 const SETTINGS_VALUE_PATTERN =
   /\b(?:what|which)\s+(?:settings?|voltage|amperage|wire speed)\b[^.!?]*\bshould i use\b/i;
 const SETTINGS_KEYWORD_PATTERN = /\bsettings?\b|\bwire speed\b|\bwfs\b/i;
+
+/**
+ * True when the request is about a different welder brand and does not also
+ * reference the Vulcan OmniPro 220. WeldPilot has documentation for exactly
+ * one machine, so these must be answered with an explicit scope limitation
+ * rather than machine-specific guidance or a clarifying question.
+ */
+export function isOutOfScopeMachine(message: string): boolean {
+  return FOREIGN_BRAND_PATTERN.test(message) && !OWN_MACHINE_PATTERN.test(message);
+}
 
 /** Determine which of the three clarification levels a request falls into. */
 export function clarificationLevel(input: ClarificationPolicyInput): ClarificationLevel {
@@ -219,6 +241,30 @@ export function buildConfigurationClarificationResponse(
       fields.includes("process")
         ? ["Reply with MIG, Flux-Core, TIG, or Stick"]
         : ["Reply with material and thickness"],
+    diagnosticState: null,
+  };
+}
+
+/**
+ * Explicit scope limitation for questions about other welder brands.
+ * States plainly that WeldPilot only covers the Vulcan OmniPro 220 and
+ * offers to help with that machine instead — never invents specs for the
+ * unsupported machine, never asks a clarifying question that implies it can.
+ */
+export function buildOutOfScopeMachineResponse(intent: AgentIntent): AgentResponse {
+  return {
+    intent,
+    answer: [
+      "I can only help with the Vulcan OmniPro 220 — that's the only welder I have documentation for, so I can't give you settings or setup steps for another machine.",
+      "",
+      "If you're working with an OmniPro 220, tell me the process, material, and thickness and I'll pull the documented settings. Otherwise, check that machine's own owner's manual for its recommended values.",
+    ].join("\n"),
+    clarifyingQuestion: null,
+    artifact: null,
+    citations: [],
+    safetyNotices: [],
+    confidence: "low",
+    suggestedActions: ["Ask about the Vulcan OmniPro 220 instead"],
     diagnosticState: null,
   };
 }

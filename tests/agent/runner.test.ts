@@ -309,4 +309,35 @@ describe("runWeldPilotAgent (mocked Claude)", () => {
       expect(errorEvent.message).toMatch(/try again/i);
     }
   });
+
+  it("declares scope for another welder brand before the model runs (no material/thickness clarification)", async () => {
+    // Claude must never be invoked — out-of-scope is a deterministic pre-LLM decision.
+    const neverCalled: AgentQueryFn = () => {
+      throw new Error("Claude should not be called for out-of-scope machine questions");
+    };
+
+    const events = [];
+    for await (const event of runWeldPilotAgent({
+      mode: "settings",
+      message: "What are the recommended voltage settings for a Lincoln Electric 140 MIG welder?",
+      queryFn: neverCalled,
+      apiKey: "test-api-key",
+    })) {
+      events.push(event);
+    }
+
+    expect(events.some((e) => e.type === "error")).toBe(false);
+    expect(events.some((e) => e.type === "done")).toBe(true);
+
+    const text = events
+      .filter((e) => e.type === "text_delta")
+      .map((e) => (e.type === "text_delta" ? e.delta : ""))
+      .join("");
+
+    // Explicit scope statement, not a material/thickness clarification.
+    expect(text).toMatch(/omnipro 220/i);
+    expect(text).not.toMatch(/what material and thickness are you working with/i);
+    // Never invents settings numbers for the unsupported machine.
+    expect(text).not.toMatch(/\d+\s*(?:V|amps?|IPM)\b/i);
+  });
 });

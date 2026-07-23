@@ -3,8 +3,10 @@ import {
   buildClarifyingQuestion,
   buildConfigurationClarificationAnswer,
   buildConfigurationClarificationResponse,
+  buildOutOfScopeMachineResponse,
   buildSafetyBlockedResponse,
   clarificationLevel,
+  isOutOfScopeMachine,
   missingFieldReasons,
   optionalFollowUp,
   requiredMissingFields,
@@ -204,5 +206,40 @@ describe("ClarificationPolicy — safety-critical requests", () => {
     expect(response.answer).not.toMatch(/grounding status/i);
     expect(response.answer).not.toMatch(/internal routing/i);
     expect(response.clarifyingQuestion).toBeNull();
+  });
+});
+
+describe("ClarificationPolicy — other welder brands (out of scope)", () => {
+  const foreignBrandMessages = [
+    "What are the recommended voltage settings for a Lincoln Electric 140 MIG welder?",
+    "How do I set up a Miller 211 for aluminum?",
+    "Wire speed for my Hobart Handler 210?",
+    "ESAB Rebel settings for stainless",
+  ];
+
+  it.each(foreignBrandMessages)("flags %j as out of scope", (message) => {
+    expect(isOutOfScopeMachine(message)).toBe(true);
+  });
+
+  it("does NOT flag a question that also references the OmniPro 220", () => {
+    expect(
+      isOutOfScopeMachine("I'm switching from a Lincoln to the Vulcan OmniPro 220 — how do I set it up?"),
+    ).toBe(false);
+  });
+
+  it("does NOT flag a normal OmniPro 220 settings question", () => {
+    expect(isOutOfScopeMachine("What voltage should I use for 1/8 inch mild steel MIG?")).toBe(false);
+  });
+
+  it("builds an explicit scope limitation, not a clarifying question or invented specs", () => {
+    const response = buildOutOfScopeMachineResponse("settings");
+    expect(response.answer).toMatch(/only.*(help|documentation).*(vulcan )?omnipro 220/i);
+    // Never asks for material/thickness as if it could then answer for the other machine.
+    expect(response.answer).not.toMatch(/what material and thickness are you working with/i);
+    // Never invents settings numbers for the unsupported machine.
+    expect(response.answer).not.toMatch(/\d+\s*(?:V|amps?|IPM)\b/i);
+    expect(response.clarifyingQuestion).toBeNull();
+    expect(response.citations).toEqual([]);
+    expect(response.confidence).toBe("low");
   });
 });

@@ -2,8 +2,10 @@ import { query, type Options, type Query, type SDKMessage } from "@anthropic-ai/
 import { classifyIntent, immediateClarificationQuestion } from "@/lib/agent/intent";
 import {
   buildConfigurationClarificationResponse,
+  buildOutOfScopeMachineResponse,
   buildSafetyBlockedResponse,
   clarificationLevel,
+  isOutOfScopeMachine,
   missingFieldReasons,
   optionalFollowUp,
   requiredMissingFields,
@@ -189,12 +191,17 @@ function buildStreamEvents(args: {
   // (via the separate "grounding" stream event below), never prepended to
   // the chat answer itself.
   let displayText: string;
-  if (!grounding.allowedToShow) {
+  if (!grounding.allowedToShow && grounding.status === "blocked_for_safety") {
+    // Genuine safety block: never echo the model's answer — substitute a firm
+    // refusal built from the blockers.
     displayText =
       "I can't walk you through that safely.\n\n" +
       grounding.blockers.map((b) => `- ${b}`).join("\n") +
       "\n\nCheck the safety and maintenance sections of owner-manual.pdf, or have a qualified technician handle this step.";
   } else {
+    // Includes the out-of-scope case (allowedToShow=false, non-safety status):
+    // the response's own answer is a vetted, deterministic scope message, so
+    // show it rather than a safety-worded refusal.
     displayText = formatAnswerWithExtras(parsed.response);
   }
 
@@ -251,6 +258,7 @@ function preferToolArtifact(
 
 type EarlyPolicyDecision =
   | { kind: "safety"; response: AgentResponse }
+  | { kind: "out_of_scope"; response: AgentResponse }
   | { kind: "configuration"; response: AgentResponse; fields: ConfigurationField[] };
 
 function genericEmptyInputResponse(intent: AgentIntent, question: string): AgentResponse {
@@ -292,6 +300,13 @@ function earlyPolicyDecision(
 
   if (level === "safety") {
     return { kind: "safety", response: buildSafetyBlockedResponse() };
+  }
+
+  // Another welder brand with no OmniPro 220 reference: declare scope before
+  // any configuration clarification, otherwise a settings-value request would
+  // ask for material/thickness and never acknowledge the machine mismatch.
+  if (isOutOfScopeMachine(message)) {
+    return { kind: "out_of_scope", response: buildOutOfScopeMachineResponse(intent) };
   }
 
   if (level === "configuration") {
@@ -416,6 +431,60 @@ function finishWithConfigurationClarification(args: {
 } {
   const parsed = { response: args.response, recovered: false, recoveryNotes: [] as string[] };
   const grounding = configurationClarificationGrounding(args.message, args.fields);
+  return {
+    parsed,
+    grounding,
+    events: buildStreamEvents({ parsed, grounding, machineState: args.machineState }),
+  };
+}
+
+/**
+ * Deterministic "insufficient_manual_evidence" grounding for questions about
+ * other welder brands. Shown to the user (not blocked) with an explicit scope
+ * limitation — WeldPilot has documentation for exactly one machine.
+ */
+function outOfScopeGrounding(userMessage: string): GroundingResult {
+  const limitation = "WeldPilot only has documentation for the Vulcan OmniPro 220.";
+  return {
+    status: "insufficient_manual_evidence",
+    coverage: {
+      claimsMade: 0,
+      directEvidence: 0,
+      indirectEvidence: 0,
+      calculatedEvidence: 0,
+      unsupportedClaims: 0,
+      coverageScore: 0,
+    },
+    howReached: {
+      manualFactsUsed: [],
+      userObservations: [userMessage.slice(0, 200)],
+      hypothesesConsidered: [],
+      contradictionsFound: [limitation],
+      confidenceLimitations: [limitation],
+    },
+    // Listed as a blocker so telemetry's safetyOutcome resolves to "blocked"
+    // (an out-of-scope request is refused, not answered), while the chat still
+    // renders the response's own explicit scope message.
+    blockers: [limitation],
+    warnings: [limitation],
+    claims: [],
+    statusMessage: `${STATUS_LABELS.insufficient_manual_evidence} — ${limitation}`,
+    allowedToShow: false,
+    citations: [],
+  };
+}
+
+function finishWithOutOfScope(args: {
+  response: AgentResponse;
+  message: string;
+  machineState?: MachineState;
+}): {
+  parsed: ReturnType<typeof parseAgentResponse>;
+  grounding: GroundingResult;
+  events: StreamEvent[];
+} {
+  const parsed = { response: args.response, recovered: false, recoveryNotes: [] as string[] };
+  const grounding = outOfScopeGrounding(args.message);
   return {
     parsed,
     grounding,
@@ -558,12 +627,14 @@ export async function* runWeldPilotAgent(
     const finished =
       earlyDecision.kind === "safety"
         ? finishWithSafetyBlock({ response: earlyDecision.response, message, machineState })
-        : finishWithConfigurationClarification({
-            response: earlyDecision.response,
-            message,
-            machineState,
-            fields: earlyDecision.fields,
-          });
+        : earlyDecision.kind === "out_of_scope"
+          ? finishWithOutOfScope({ response: earlyDecision.response, message, machineState })
+          : finishWithConfigurationClarification({
+              response: earlyDecision.response,
+              message,
+              machineState,
+              fields: earlyDecision.fields,
+            });
     for (const event of finished.events) yield event;
     return;
   }
@@ -741,18 +812,24 @@ export async function runWeldPilotAgentInstrumented(
   const routingMs = Date.now() - routingStart;
   if (earlyDecision) {
     const recoveryNote =
-      earlyDecision.kind === "safety" ? "deterministic_safety_block" : "deterministic_clarification";
+      earlyDecision.kind === "safety"
+        ? "deterministic_safety_block"
+        : earlyDecision.kind === "out_of_scope"
+          ? "deterministic_out_of_scope"
+          : "deterministic_clarification";
     events.push({ type: "progress", message: "Preparing your answer", icon: "reasoning" });
     const renderStart = Date.now();
     const finished =
       earlyDecision.kind === "safety"
         ? finishWithSafetyBlock({ response: earlyDecision.response, message, machineState })
-        : finishWithConfigurationClarification({
-            response: earlyDecision.response,
-            message,
-            machineState,
-            fields: earlyDecision.fields,
-          });
+        : earlyDecision.kind === "out_of_scope"
+          ? finishWithOutOfScope({ response: earlyDecision.response, message, machineState })
+          : finishWithConfigurationClarification({
+              response: earlyDecision.response,
+              message,
+              machineState,
+              fields: earlyDecision.fields,
+            });
     renderingMs = Date.now() - renderStart;
     events.push(...finished.events);
     response = finished.parsed.response;

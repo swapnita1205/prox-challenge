@@ -305,7 +305,7 @@ Every assistant response passes `groundResponse()` (`lib/grounding/engine.ts`) b
 
 UI: `GroundingBanner`, `HowReachedPanel` in evidence drawer; status strip shows active safety warnings.
 
-Adversarial tests: `tests/grounding/adversarial.test.ts` (8 cases).
+Adversarial tests: `tests/grounding/adversarial.test.ts` (12 cases).
 
 ---
 
@@ -320,17 +320,20 @@ is ever called:
 |-------|----------|----------|
 | **Information** | "Show me the front panel", "What does the duty cycle mean?" | Answered immediately (manual image/diagram surfaced); at most one polite, non-blocking follow-up appended to the answer — never blocks. |
 | **Configuration** | "What settings should I use?", "Which cable goes where?", "Configure MIG" | Asks for only the minimum missing detail (process, then material/thickness) in plain conversational language — no recommendation is generated until that's known. Deterministic and instant (no model call). |
+| **Out-of-scope machine** | "Voltage settings for a Lincoln 140", "Set up a Miller 211" | Answered with an explicit scope limitation ("I can only help with the Vulcan OmniPro 220…") — never a clarifying question that implies otherwise, never invented specs. Deterministic and instant, ahead of the configuration check so a foreign-brand *settings* question can't be absorbed into a material/thickness clarification. |
 | **Safety-critical** | "Bypass safety", "Live electrical work" | Blocked immediately with a clear refusal — deterministic and instant. |
 
 Key functions: `clarificationLevel()`, `requiredMissingFields()`, `shouldRequireClarification()`,
-`optionalFollowUp()`. `lib/agent/runner-core.ts` uses these to short-circuit configuration/safety
-requests before the model runs, and `lib/grounding/engine.ts` delegates its own missing-parameter
-check to the same policy so a pure information request (e.g. "show me the wire feed mechanism")
-is never mislabeled as needing clarification just because its wording overlaps with setup
-vocabulary.
+`isOutOfScopeMachine()`, `optionalFollowUp()`. `lib/agent/runner-core.ts` uses these to
+short-circuit out-of-scope/configuration/safety requests before the model runs, and
+`lib/grounding/engine.ts` delegates its own missing-parameter check to the same policy so a pure
+information request (e.g. "show me the wire feed mechanism") is never mislabeled as needing
+clarification just because its wording overlaps with setup vocabulary.
 
 Tests: `tests/agent/clarification-policy.test.ts` (front panel, wiring diagram, wire feed
-mechanism, polarity, settings, duty cycle, ambiguous cable routing, safety request).
+mechanism, polarity, settings, duty cycle, ambiguous cable routing, other-brand out-of-scope,
+safety request); `tests/agent/runner.test.ts` (foreign-brand question answered with a scope
+limitation before the model runs).
 
 ---
 
@@ -388,7 +391,7 @@ out of the assistant message text").
 
 **Retrieval benchmark** (`npm run evaluate:retrieval`): **7/7** challenge-style queries passed; corpus **1,540** items.
 
-**Unit/integration tests** (`npm test`): **232 passed**, 1 skipped (live agent integration).
+**Unit/integration tests** (`npm test`): **246 passed**, 1 skipped (live agent integration).
 
 Reports: `data/generated/evaluation-report.json`, `data/generated/retrieval-evaluation-report.json`.
 

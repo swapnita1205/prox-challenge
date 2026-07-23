@@ -4,6 +4,7 @@ import {
   createContext,
   useCallback,
   useContext,
+  useEffect,
   useMemo,
   useRef,
   useState,
@@ -51,12 +52,17 @@ export function GarageModeProvider({ children }: { children: ReactNode }) {
   const [active, setActive] = useState(false);
   const [stepIndex, setStepIndex] = useState(0);
   const [completedStepIds, setCompletedStepIds] = useState<string[]>([]);
-  const [voiceEnabled, setVoiceEnabledState] = useState(() => {
-    if (typeof window === "undefined") return true;
-    return window.localStorage.getItem(STORAGE_KEY) !== "off";
-  });
+  // Default to the server-safe value so the initial client render matches the
+  // SSR output (no hydration mismatch), then reconcile with the persisted
+  // preference after mount.
+  const [voiceEnabled, setVoiceEnabledState] = useState(true);
   const [voiceSubmitting, setVoiceSubmitting] = useState(false);
   const lastSubmittedRef = useRef<string | null>(null);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    setVoiceEnabledState(window.localStorage.getItem(STORAGE_KEY) !== "off");
+  }, []);
 
   const procedure = useMemo(
     () => (active ? extractProcedureFromArtifacts(artifacts) : null),
