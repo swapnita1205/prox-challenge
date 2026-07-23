@@ -1,6 +1,6 @@
 # WeldPilot Evaluation Report
 
-Generated: 2026-07-22T23:54:35.767Z
+Generated: 2026-07-23T02:16:29.432Z
 Mode: **deterministic** (deterministic checks; LLM-as-judge not required)
 
 ## Summary
