@@ -445,23 +445,67 @@ function attachOptionalFollowUp(
   return { ...response, answer: `${response.answer}\n\n${followUp}` };
 }
 
-/** When the SDK hits max turns, salvage a grounded answer from tool evidence. */
-function salvageFromToolContext(
+/** True for SDK failures that are just the turn budget running out — as
+ * opposed to genuine infrastructure failures (bad API key, network). These
+ * are always recoverable into a grounded answer and must never surface the
+ * raw SDK error string to the user. */
+function isMaxTurnsError(errorKind: string | null, errorText: string): boolean {
+  return (
+    errorKind === "error_max_turns" ||
+    /maximum number of turns/i.test(errorText)
+  );
+}
+
+/**
+ * When the SDK stops before emitting clean structured output (almost always
+ * the per-intent turn cap), always produce a graceful, grounded response —
+ * the raw SDK error is never shown to the user. Prefers, in order:
+ *   1. any usable partial answer the model already produced,
+ *   2. the manual evidence gathered by pre-fetch / tools (citations + artifact),
+ *   3. a friendly, honest retry prompt (never a guess, never a raw error).
+ */
+function buildMaxTurnsResponse(
   ctx: AgentContext,
   intent: AgentIntent,
   message: string,
-): AgentResponse | null {
-  if (ctx.citations.length === 0 && ctx.artifacts.length === 0) return null;
-  const pages = [...new Set(ctx.citations.map((c) => `p.${c.page}`))].slice(0, 4);
-  const artifact = ctx.artifacts[ctx.artifacts.length - 1] ?? null;
+  rawOutput: string,
+): AgentResponse {
+  // 1. Recover a real partial answer if the model produced usable structured text.
+  if (rawOutput.trim()) {
+    const parsed = parseAgentResponse(rawOutput, ctx, intent);
+    if (!parsed.recovered && parsed.response.answer.trim()) {
+      preferToolArtifact(parsed, ctx);
+      return parsed.response;
+    }
+  }
+
+  // 2. Evidence-based salvage from gathered citations / artifacts.
+  if (ctx.citations.length > 0 || ctx.artifacts.length > 0) {
+    const pages = [...new Set(ctx.citations.map((c) => `p.${c.page}`))].slice(0, 4);
+    const pageRef = pages.length ? ` (${pages.join(", ")})` : "";
+    return {
+      intent,
+      answer: `Here's the best-supported guidance I have from the OmniPro 220 manual${pageRef} for "${message.slice(0, 120)}". Open the workspace artifact and citations for the specifics — and feel free to ask a more focused follow-up.`,
+      clarifyingQuestion: null,
+      artifact: ctx.artifacts[ctx.artifacts.length - 1] ?? null,
+      citations: ctx.citations.slice(0, 8),
+      safetyNotices: [],
+      confidence: "medium",
+      suggestedActions: ctx.toolSummaries.slice(-3),
+      diagnosticState: null,
+    };
+  }
+
+  // 3. Nothing gathered — honest retry prompt. Never leak the raw SDK error.
   return {
     intent,
-    answer: `Based on the manual evidence retrieved (${pages.join(", ") || "tool results"}), here is the best supported guidance for: "${message.slice(0, 120)}". See the workspace artifact and citations for details.`,
+    answer:
+      "I couldn't finish working through that one in time. Try asking again, or add a detail or two — the welding process, input voltage, or material and thickness — so I can zero in faster. I keep every answer grounded in the OmniPro 220 manual, so I'd rather ask again than guess.",
     clarifyingQuestion: null,
-    artifact,
-    citations: ctx.citations.slice(0, 8),
+    artifact: null,
+    citations: [],
     safetyNotices: [],
-    confidence: "medium",
+    confidence: "low",
     suggestedActions: ctx.toolSummaries.slice(-3),
     diagnosticState: null,
   };
@@ -556,6 +600,7 @@ export async function* runWeldPilotAgent(
   let rawOutput = "";
   let lastToolStatus = "";
   let runError: string | null = null;
+  let runErrorKind: string | null = null;
 
   const q = queryFn({ prompt: userPrompt, options });
 
@@ -583,16 +628,28 @@ export async function* runWeldPilotAgent(
             "result" in msg && typeof msg.result === "string"
               ? msg.result
               : "Agent run failed";
+          runErrorKind = msg.subtype ?? null;
         }
       }
     }
+  } catch (err) {
+    // The Agent SDK reports a hit turn cap by throwing (e.g. "Claude Code
+    // returned an error result: Reached maximum number of turns (N)"), not by
+    // yielding an error result message — so this catch is what actually keeps
+    // that raw string from reaching the SSE route and the user.
+    runError = err instanceof Error ? err.message : "Agent run failed";
   } finally {
     q.close();
   }
 
   if (runError) {
-    const salvaged = salvageFromToolContext(ctx, intent, message);
-    if (salvaged) {
+    const recoverable =
+      isMaxTurnsError(runErrorKind, runError) ||
+      ctx.citations.length > 0 ||
+      ctx.artifacts.length > 0;
+
+    if (recoverable) {
+      const salvaged = buildMaxTurnsResponse(ctx, intent, message, rawOutput);
       const finished = finishWithResponse({
         response: salvaged,
         message,
@@ -602,7 +659,14 @@ export async function* runWeldPilotAgent(
       for (const event of finished.events) yield event;
       return;
     }
-    yield { type: "error", message: runError };
+
+    // Genuine infrastructure failure with nothing to salvage — surface a
+    // clean, user-facing message, never the raw SDK/internal error string.
+    yield {
+      type: "error",
+      message:
+        "WeldPilot hit a problem reaching the reasoning service. Please try again in a moment.",
+    };
     return;
   }
 
@@ -650,6 +714,7 @@ export async function runWeldPilotAgentInstrumented(
 
   const events: StreamEvent[] = [];
   let error: string | null = null;
+  let errorKind: string | null = null;
   let grounding: InstrumentedAgentResult["grounding"] = null;
   let response: InstrumentedAgentResult["response"] = null;
   let artifact: InstrumentedAgentResult["artifact"] = null;
@@ -842,13 +907,14 @@ export async function runWeldPilotAgentInstrumented(
             "result" in msg && typeof msg.result === "string"
               ? msg.result
               : "Agent run failed";
-          events.push({ type: "error", message: error });
+          errorKind = msg.subtype ?? null;
+          // Do not push the raw error event here — the post-loop recovery
+          // block decides whether to salvage a grounded answer instead.
         }
       }
     }
   } catch (err) {
     error = err instanceof Error ? err.message : "Agent run failed";
-    events.push({ type: "error", message: error });
   } finally {
     q.close();
   }
@@ -887,8 +953,13 @@ export async function runWeldPilotAgentInstrumented(
     events.push(...buildStreamEvents({ parsed, grounding, machineState }));
     renderingMs = Date.now() - renderStart;
   } else {
-    const salvaged = salvageFromToolContext(ctx, intent, message);
-    if (salvaged) {
+    const recoverable =
+      isMaxTurnsError(errorKind, error) ||
+      ctx.citations.length > 0 ||
+      ctx.artifacts.length > 0;
+
+    if (recoverable) {
+      const salvaged = buildMaxTurnsResponse(ctx, intent, message, rawOutput);
       recoveryNotes.push("max_turns_salvage");
       const renderStart = Date.now();
       const finished = finishWithResponse({
@@ -907,6 +978,14 @@ export async function runWeldPilotAgentInstrumented(
       groundingMs = 0;
       error = null;
       events.push(...finished.events);
+    } else {
+      // Genuine infrastructure failure with nothing to salvage — clean,
+      // user-facing message rather than the raw SDK/internal error string.
+      events.push({
+        type: "error",
+        message:
+          "WeldPilot hit a problem reaching the reasoning service. Please try again in a moment.",
+      });
     }
   }
 

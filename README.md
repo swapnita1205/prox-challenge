@@ -159,7 +159,12 @@ Tool regression: **20/20** handler cases pass (`npm run eval`).
 
 `lib/agent/prefetch.ts` runs the subset of the tools above that are safely resolvable from the
 message/machine state alone — deterministically, in parallel, and *before* the Claude Agent SDK
-query starts. This turns the common request shape from
+query starts. Depending on intent this covers `search_manual`, `calculate_duty_cycle`,
+`find_settings`, `query_machine_graph` (required setup steps for a known process), and — for
+polarity/socket/cable questions — the manual-cited **polarity + cable-routing diagrams** built
+straight from documented polarity data. Pre-registering those diagrams is what lets a TIG setup
+question resolve in 2–3 turns (~25 s) instead of spending extra turns on `get_figure` /
+`generate_artifact_spec` (~55 s before). This turns the common request shape from
 `Claude → tool → Claude → tool → Claude → ... → StructuredOutput` into
 `deterministic router → parallel pre-fetch → one Claude reasoning turn → deterministic artifact
 render → response`, without changing what evidence is used or how grounding/safety evaluate it
@@ -547,7 +552,8 @@ All commands tested from `prox-challenge/`:
 6. **English only** — manual and UI are English.
 7. **Single machine** — hard-coded to Vulcan OmniPro 220 / item 57812.
 8. **Repo size** — ~19 MB committed assets (trade-off for zero-ingest judge setup).
-9. **Live latency** — measured avg **~32 s** / max **~53 s** end-to-end on a 12-query live validation (`npm run validate:live`); diagnose remains the slow path.
+9. **Live latency** — single-tool answers (duty cycle, TIG polarity, out-of-scope) run **~20–30 s**; multi-tool settings and diagnose paths run **~45–65 s**. Setup/polarity questions were cut from ~55 s to ~25 s by pre-fetching the polarity + cable-routing diagrams (see "Deterministic pre-fetch"). The multi-tool diagnose/settings paths remain the slow end and are largely bound by per-turn model latency.
+10. **Turn-cap salvage** — if a request exceeds its per-intent turn cap, the response degrades to a grounded, evidence-backed salvage answer (or an honest retry prompt) — the raw SDK error is never shown. This is deterministic and covered by tests, but a salvaged answer is more generic than a fully-reasoned one.
 
 ---
 

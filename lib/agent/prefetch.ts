@@ -17,19 +17,25 @@
  * for the model to resolve dynamically via the normal MCP tools, so this
  * is a pure latency optimization with no effect on what gets answered.
  */
-import type { AgentContext } from "@/lib/agent/context";
+import { addArtifact, type AgentContext } from "@/lib/agent/context";
 import {
   handleCalculateDutyCycle,
   handleFindSettings,
+  handleQueryMachineGraph,
   handleSearchManual,
 } from "@/lib/agent/tools/handlers";
+import { INGEST_PROCESS_MAP } from "@/lib/knowledge/canonical";
+import { validateArtifactSpec } from "@/lib/artifacts/registry";
+import { buildCableRouting, buildPolarityDiagram } from "@/lib/setup/build-pack";
+import { getPolarityForProcess } from "@/lib/setup/documented-polarity";
+import type { SetupProcess } from "@/lib/setup/schemas";
 import type { AgentIntent } from "@/lib/agent/schemas";
 import type { MachineState } from "@/lib/schemas/conversation";
 import { extractQueryDimensions } from "@/lib/retrieval/dimensions";
 
 export interface PrefetchPhase {
   tool: string;
-  category: "retrieval" | "graph" | "settings" | "duty_cycle";
+  category: "retrieval" | "graph" | "settings" | "duty_cycle" | "artifact";
   startMs: number;
   endMs: number;
   durationMs: number;
@@ -52,6 +58,16 @@ const SEARCH_INTENTS: ReadonlySet<AgentIntent> = new Set([
 ]);
 
 const VALID_PROCESSES = new Set(["mig", "tig", "stick", "flux"]);
+
+/** Setup questions about how cables connect — where the documented polarity /
+ * socket data can answer directly and render a diagram without a live tool
+ * round trip. */
+const POLARITY_QUESTION =
+  /\b(polarity|dcep|dcen|socket|cable|ground clamp|electrode|positive|negative)\b/i;
+
+function toSetupProcess(process: "mig" | "tig" | "stick" | "flux"): SetupProcess {
+  return process === "mig" ? "mig-solid" : process;
+}
 
 function resolveProcess(
   dims: ReturnType<typeof extractQueryDimensions>,
@@ -96,6 +112,55 @@ export async function runDeterministicPrefetch(
       category: "retrieval",
       resultText: textOf(handleSearchManual(ctx, { query: message, limit: 5 })),
     }));
+  }
+
+  // Setup questions almost always need the process's required-setup steps
+  // (ports, cables, polarity, prerequisites). When the process is confidently
+  // resolvable, resolve those steps deterministically so the model's common
+  // case is a single reasoning turn instead of a graph round trip — this both
+  // trims latency and keeps the turn budget clear of avoidable thrashing.
+  if (intent === "setup") {
+    const process = resolveProcess(dims, machineState);
+    const processId = process ? INGEST_PROCESS_MAP[process] : undefined;
+    if (processId) {
+      tasks.push(() => ({
+        tool: "query_machine_graph",
+        category: "graph",
+        resultText: textOf(
+          handleQueryMachineGraph(ctx, {
+            queryType: "required_setup",
+            processId,
+          }),
+        ),
+      }));
+    }
+
+    // Polarity / socket / cable questions are answerable from documented,
+    // manual-cited polarity data — build the polarity + cable-routing diagrams
+    // deterministically so the model doesn't spend turns on get_figure /
+    // generate_artifact_spec just to draw what we can already render.
+    if (process && POLARITY_QUESTION.test(message)) {
+      const setupProcess = toSetupProcess(process);
+      tasks.push(() => {
+        const polarityArtifact = validateArtifactSpec(buildPolarityDiagram(setupProcess));
+        const routingArtifact = validateArtifactSpec(buildCableRouting(setupProcess));
+        if (polarityArtifact) addArtifact(ctx, polarityArtifact);
+        if (routingArtifact) addArtifact(ctx, routingArtifact);
+        const pol = getPolarityForProcess(setupProcess);
+        return {
+          tool: "polarity_diagram",
+          category: "artifact",
+          resultText: JSON.stringify({
+            process: setupProcess,
+            polarityType: pol.polarityType,
+            groundSocket: pol.groundSocket,
+            electrodeSocket: pol.electrodeSocket,
+            citations: pol.citations,
+            note: "Polarity and cable-routing diagrams already registered — reuse them; do not call get_figure or generate_artifact_spec for polarity.",
+          }),
+        };
+      });
+    }
   }
 
   if (intent === "calculation") {

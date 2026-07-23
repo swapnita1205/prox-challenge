@@ -70,6 +70,52 @@ describe("runDeterministicPrefetch", () => {
     expect(ctx.citations.length).toBeGreaterThan(0);
   });
 
+  it("pre-resolves required_setup via the machine graph for setup intent when the process is known", async () => {
+    const outcome = await runDeterministicPrefetch(
+      ctx,
+      "setup",
+      "What polarity setup do I need for TIG welding? Which socket does the ground clamp go in?",
+    );
+
+    const tools = outcome.results.map((r) => r.tool);
+    expect(tools).toContain("search_manual");
+    expect(tools).toContain("query_machine_graph");
+    // The graph result gives the model the setup steps up front, so the
+    // common case resolves without an extra live tool round trip.
+    expect(ctx.toolSummaries.some((s) => s.includes("required_setup"))).toBe(true);
+
+    // Polarity/socket questions also get manual-cited polarity + cable-routing
+    // diagrams built deterministically — no get_figure / generate_artifact_spec
+    // turn needed.
+    expect(tools).toContain("polarity_diagram");
+    expect(ctx.artifacts.some((a) => a.type === "polarity-diagram")).toBe(true);
+    expect(ctx.artifacts.some((a) => a.type === "cable-routing-diagram")).toBe(true);
+  });
+
+  it("does not build polarity diagrams for non-polarity setup questions", async () => {
+    const outcome = await runDeterministicPrefetch(
+      ctx,
+      "setup",
+      "How do I load the wire spool for TIG?",
+    );
+
+    const tools = outcome.results.map((r) => r.tool);
+    expect(tools).not.toContain("polarity_diagram");
+    expect(ctx.artifacts.some((a) => a.type === "polarity-diagram")).toBe(false);
+  });
+
+  it("skips the setup graph pre-fetch when no process can be resolved", async () => {
+    const outcome = await runDeterministicPrefetch(
+      ctx,
+      "setup",
+      "How do I get this thing set up to weld?",
+    );
+
+    const tools = outcome.results.map((r) => r.tool);
+    expect(tools).toContain("search_manual");
+    expect(tools).not.toContain("query_machine_graph");
+  });
+
   it("does not run search_manual for calculation/settings intents (they use focused deterministic tools instead)", async () => {
     const outcome = await runDeterministicPrefetch(
       ctx,

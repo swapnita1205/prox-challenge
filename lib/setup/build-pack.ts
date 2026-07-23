@@ -6,7 +6,7 @@ import { processToSlug } from "@/lib/setup/schemas";
 import { validateSetupInputs } from "@/lib/setup/validate";
 import { buildSettingsConfiguratorArtifact, resolveSettings } from "@/lib/settings";
 
-function buildPolarityDiagram(process: SetupProcess): ArtifactSpec {
+export function buildPolarityDiagram(process: SetupProcess): ArtifactSpec {
   const pol = getPolarityForProcess(process);
   return {
     type: "polarity-diagram",
@@ -26,7 +26,7 @@ function buildPolarityDiagram(process: SetupProcess): ArtifactSpec {
   };
 }
 
-function buildCableRouting(process: SetupProcess): ArtifactSpec {
+export function buildCableRouting(process: SetupProcess): ArtifactSpec {
   const pol = getPolarityForProcess(process);
   const routes =
     process === "mig-solid" || process === "flux"

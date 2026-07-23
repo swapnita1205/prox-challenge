@@ -113,14 +113,20 @@ export function maxTurnsForIntent(intent: AgentIntent): number {
     case "safety_critical":
       return 3;
     case "settings":
+      // Left at 4: find_settings is pre-fetched, so the common case is one
+      // reasoning turn. A higher cap only invited multi-tool thrashing.
       return 4;
     case "part_identification":
     case "manual_question":
       return 4;
     case "setup":
-      return 5;
+      // Raised from 5: setup genuinely needs a couple of tool turns and used
+      // to hit the old cap and error. Pre-fetch (search + required_setup graph
+      // + polarity/cable diagrams) now resolves the common case in 2–3 turns,
+      // so 6 is headroom, not thrash room; any overflow salvages gracefully.
+      return 6;
     case "visual_diagnosis":
-      return 5;
+      return 6;
     case "troubleshooting":
       return 6;
     default:

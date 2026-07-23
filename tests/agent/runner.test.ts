@@ -190,4 +190,123 @@ describe("runWeldPilotAgent (mocked Claude)", () => {
       .join("");
     expect(text).toContain("could not verify a structured answer");
   });
+
+  function maxTurnsResult(uuidTail: string): SDKMessage[] {
+    return [
+      {
+        type: "result",
+        subtype: "error_max_turns",
+        is_error: true,
+        duration_ms: 50,
+        duration_api_ms: 40,
+        num_turns: 5,
+        result: "Reached maximum number of turns (5)",
+        stop_reason: null,
+        total_cost_usd: 0,
+        usage: {
+          input_tokens: 5,
+          output_tokens: 10,
+          cache_creation_input_tokens: 0,
+          cache_read_input_tokens: 0,
+        },
+        modelUsage: {},
+        permission_denials: [],
+        uuid: `00000000-0000-4000-8000-0000000000${uuidTail}`,
+        session_id: "00000000-0000-4000-8000-0000000000aa",
+      },
+    ] as unknown as SDKMessage[];
+  }
+
+  it("never leaks the raw max-turns error — salvages a grounded answer", async () => {
+    const events = [];
+    for await (const event of runWeldPilotAgent({
+      mode: "setup",
+      message:
+        "What polarity setup do I need for TIG welding? Which socket does the ground clamp go in?",
+      queryFn: mockQuery(maxTurnsResult("10")),
+      apiKey: "test-api-key",
+    })) {
+      events.push(event);
+    }
+
+    // No raw error event, and the answer must never surface the SDK's
+    // "maximum number of turns" string to the user.
+    expect(events.some((e) => e.type === "error")).toBe(false);
+    expect(events.some((e) => e.type === "done")).toBe(true);
+    const text = events
+      .filter((e) => e.type === "text_delta")
+      .map((e) => (e.type === "text_delta" ? e.delta : ""))
+      .join("");
+    expect(text.length).toBeGreaterThan(0);
+    expect(text).not.toMatch(/maximum number of turns/i);
+    expect(text).not.toMatch(/claude code returned an error/i);
+    // Setup pre-fetch gathers manual evidence, so salvage is evidence-backed.
+    expect(events.some((e) => e.type === "evidence")).toBe(true);
+  });
+
+  it("max-turns with no gathered evidence degrades to an honest retry prompt", async () => {
+    const events = [];
+    for await (const event of runWeldPilotAgent({
+      mode: "manual",
+      // Calculation intent with no resolvable process/voltage/amps → no
+      // pre-fetch runs, so the context has no citations or artifacts.
+      message: "how long can i weld before it overheats",
+      queryFn: mockQuery(maxTurnsResult("11")),
+      apiKey: "test-api-key",
+    })) {
+      events.push(event);
+    }
+
+    expect(events.some((e) => e.type === "error")).toBe(false);
+    expect(events.some((e) => e.type === "done")).toBe(true);
+    const text = events
+      .filter((e) => e.type === "text_delta")
+      .map((e) => (e.type === "text_delta" ? e.delta : ""))
+      .join("");
+    expect(text).not.toMatch(/maximum number of turns/i);
+    expect(text).toMatch(/couldn't finish/i);
+  });
+
+  it("surfaces a clean message (not the raw error) for genuine failures", async () => {
+    const messages = [
+      {
+        type: "result",
+        subtype: "error_during_execution",
+        is_error: true,
+        duration_ms: 20,
+        duration_api_ms: 10,
+        num_turns: 1,
+        result: "Internal SDK explosion: stack trace 0xdeadbeef",
+        stop_reason: null,
+        total_cost_usd: 0,
+        usage: {
+          input_tokens: 1,
+          output_tokens: 0,
+          cache_creation_input_tokens: 0,
+          cache_read_input_tokens: 0,
+        },
+        modelUsage: {},
+        permission_denials: [],
+        uuid: "00000000-0000-4000-8000-0000000000cc",
+        session_id: "00000000-0000-4000-8000-0000000000dd",
+      },
+    ] as unknown as SDKMessage[];
+
+    const events = [];
+    for await (const event of runWeldPilotAgent({
+      mode: "manual",
+      message: "how long can i weld before it overheats",
+      queryFn: mockQuery(messages),
+      apiKey: "test-api-key",
+    })) {
+      events.push(event);
+    }
+
+    const errorEvent = events.find((e) => e.type === "error");
+    expect(errorEvent).toBeDefined();
+    if (errorEvent?.type === "error") {
+      expect(errorEvent.message).not.toMatch(/stack trace|0xdeadbeef/i);
+      expect(errorEvent.message).toMatch(/try again/i);
+    }
+  });
 });
